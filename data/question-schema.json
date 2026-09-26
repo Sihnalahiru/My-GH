@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.1.0",
+  "question_record": {
+    "question_id": "TRACK-SOURCE_TYPE-Q###",
+    "track": "GROUND_HANDLING | AIRCRAFT_MAINTENANCE",
+    "source_type": "OFFICIAL_SAMPLE | SOURCE_BASED_PRACTICE | PREDICTED_PRACTICE",
+    "question_type": "DIRECT | NUMERICAL | TRUE_FALSE | SCENARIO | PROCEDURE | VISUAL | TERMINOLOGY | DISTINCTION | EXCEPTION | MATCHING",
+    "category": "controlled category",
+    "fact_id": "verified fact identifier",
+    "source": {
+      "source_id": "registered source",
+      "source_pdf": "source filename",
+      "physical_page": "positive integer",
+      "printed_page": "integer | null",
+      "source_reference": "specific reference | null"
+    },
+    "question": {
+      "english": "exam question",
+      "sinhala": "learner meaning",
+      "japanese": "Japanese exam/recognition wording | empty when not source-supported"
+    },
+    "choices": [
+      {
+        "choice_id": "stable ID",
+        "english": "choice",
+        "sinhala": "meaning",
+        "japanese": "optional source-supported wording"
+      }
+    ],
+    "correct_choice_id": "one choice_id",
+    "explanation": {
+      "english": "source-supported explanation",
+      "sinhala": "accurate explanation",
+      "japanese": "optional"
+    },
+    "japanese_terms": [
+      "verified glossary term_id"
+    ],
+    "visual_id": "verified visual_id | null",
+    "exam_distinction": "source-supported distinction | null",
+    "audio_block_ids": [
+      "audio IDs | empty until BUILD-08"
+    ],
+    "official": "boolean",
+    "immutable": "boolean",
+    "label": "required exact label for generated practice",
+    "status": "DRAFT | REVIEW_REQUIRED | PENDING_SOURCE_VERIFICATION | BLOCKED | VERIFIED"
+  }
+}

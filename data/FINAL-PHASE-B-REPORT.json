@@ -1,0 +1,25 @@
+{
+  "phase": "FINAL-PHASE-B",
+  "status": "VERIFIED",
+  "title": "Official Illustration Extraction + Exact Topic Mapping",
+  "source_pdfs": [
+    "GHtext【1.Safety and Quality】.REV2.pdf",
+    "GHtext【2.Airport Ground Handling】.REV2.1.pdf"
+  ],
+  "extracted_visual_assets": 114,
+  "gh01_assets": 42,
+  "gh02_assets": 72,
+  "asset_storage_mb": 24.65,
+  "mapping_rule": "Each asset is linked to the audited physical PDF page and to the verified topic(s) covered on that page. Multiple topic IDs are retained when a page contains multiple verified subtopics; no unsupported single-topic inference is used.",
+  "ui_integration": [
+    "Study detail displays the first mapped official visual for the topic.",
+    "Visual Library displays all extracted official visuals with source/page/topic metadata.",
+    "Service worker precaches the visual manifest and extracted official assets."
+  ],
+  "qa": "FINAL-PHASE-B-VALIDATION.json = VERIFIED",
+  "remaining_final_phase_items": [
+    "Audio blocks/recordings remain pending.",
+    "Full source-content population remains in progress beyond the current verified seed records.",
+    "Device-level mobile Safari/Chrome install/offline/live GitHub Pages QA still required."
+  ]
+}

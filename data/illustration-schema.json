@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.1.0",
+  "visual_record": {
+    "visual_id": "page-qualified unique ID",
+    "source_id": "registered official source",
+    "track": "GROUND_HANDLING | AIRCRAFT_MAINTENANCE",
+    "physical_page": "integer",
+    "printed_page": "integer | null",
+    "figure": "official figure/table/image identifier",
+    "topic_id": "exact mapped topic",
+    "subtopic_id": "string | null",
+    "asset_path": "production asset path | null until extraction",
+    "source_asset": "source provenance reference | null",
+    "display_context": "TOPIC | VISUAL_LIBRARY | QUESTION",
+    "relationship_status": "VERIFIED | PENDING — VISUAL RELATIONSHIP VERIFICATION REQUIRED",
+    "visual_status": "VERIFIED | VISUAL_PIXEL_PENDING | RELATIONSHIP_PENDING | NOT_APPLICABLE | BLOCKED",
+    "visual_question_eligible": "boolean"
+  }
+}

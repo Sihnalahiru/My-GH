@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "dashboard": {
+    "title": "SSW Airport Ground Handling Exam",
+    "progress": {
+      "total": "number",
+      "completed": "number",
+      "remaining": "number",
+      "percentage": "number"
+    },
+    "quick_actions": "route-linked action records",
+    "study_tracks": [
+      "GROUND_HANDLING",
+      "AIRCRAFT_MAINTENANCE"
+    ],
+    "recent_activity": "user progress records",
+    "recommended_next": "nullable recommendation model",
+    "navigation": "route-linked navigation records"
+  },
+  "routes": [
+    "home",
+    "study",
+    "mcq",
+    "official-samples",
+    "visual-library",
+    "glossary",
+    "search",
+    "progress",
+    "real-exam",
+    "settings"
+  ]
+}

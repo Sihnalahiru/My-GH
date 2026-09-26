@@ -1,0 +1,24 @@
+{
+  "build": "BUILD-13",
+  "title": "PWA / Offline",
+  "status": "VERIFIED",
+  "errors": [],
+  "checks": {
+    "manifest_present": true,
+    "service_worker_present": true,
+    "manifest_name": true,
+    "manifest_start_url": true,
+    "manifest_scope": true,
+    "manifest_standalone": true,
+    "service_worker_install": true,
+    "service_worker_activate": true,
+    "service_worker_fetch": true,
+    "external_assets_not_forced_into_cache": true
+  },
+  "cache_strategy": {
+    "app_shell": "precache same-origin core application shell",
+    "same_origin_runtime": "cache-first after first successful fetch",
+    "external_official_assets": "online-first; not fabricated or bundled by this build",
+    "learner_progress": "local runtime storage; independent of official source data"
+  }
+}

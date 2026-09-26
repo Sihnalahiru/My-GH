@@ -1,0 +1,86 @@
+{
+  "build": "BUILD-14",
+  "title": "Automated Validator",
+  "status": "VERIFIED",
+  "errors": [],
+  "warnings": [],
+  "results": {
+    "data_layer": {
+      "required": 21,
+      "missing": []
+    },
+    "engine_modules": {
+      "required": 10,
+      "missing": []
+    },
+    "layer_validators": {
+      "required": 12,
+      "missing": []
+    },
+    "ui_shell_deferred_until_ui_integration": {
+      "expected_later": 5,
+      "missing": []
+    },
+    "json_parse": {
+      "data/sources.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/curriculum.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/chapters.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/topics.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/study.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/illustrations.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/image-map.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/glossary.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/questions.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/answers.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/licenses/assets.json": {
+        "parsed": true,
+        "root_type": "object"
+      },
+      "data/audio.json": {
+        "parsed": true,
+        "root_type": "object"
+      }
+    },
+    "source_asset_duplication": {
+      "count": 0,
+      "files": []
+    },
+    "promotion_gate": {
+      "rule": "No unsupported or unverified source-derived content may be promoted.",
+      "empty_layers_allowed": true,
+      "pending_layers": []
+    }
+  },
+  "note": "BUILD-14 validates the current architecture. UI shell files are intentionally deferred until the UI integration stage and therefore are warnings, not failures.",
+  "source_integrity_rule": "Official JAEA source material remains the source of truth; missing/unsupported data stays pending rather than being invented."
+}

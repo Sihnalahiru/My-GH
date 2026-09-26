@@ -1,0 +1,17 @@
+{
+  "phase": "FINAL-PHASE-D",
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    "PENDING_AUDIO recordings for all 3 language variants; no human/native recordings verified yet."
+  ],
+  "coverage": {
+    "ground_handling_topics": 55,
+    "topics_with_verified_study": 55,
+    "missing_topics": [],
+    "study_records": 104,
+    "questions": 110,
+    "glossary_terms": 56,
+    "audio_blocks": 104
+  }
+}

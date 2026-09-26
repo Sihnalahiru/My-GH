@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "audio_blocks": 104,
+  "variant_contract": "variants.ja/en/si",
+  "normalized_variants": true,
+  "engine_validation_errors": 0,
+  "pending_variants": 312,
+  "controls": [
+    "masterEnabled",
+    "channel:ja",
+    "channel:en",
+    "channel:si",
+    "autoPlay",
+    "autoQueue",
+    "fallbackAllowed",
+    "volume",
+    "rate",
+    "stop"
+  ],
+  "persisted_settings_key": "ssw-gh-audio-settings-v1",
+  "default_settings": {
+    "masterEnabled": true,
+    "channels": {
+      "ja": true,
+      "en": true,
+      "si": true
+    },
+    "autoPlay": false,
+    "autoQueue": false,
+    "volume": 1,
+    "rate": 0.92,
+    "fallbackAllowed": true
+  },
+  "queue_uses_variants": true,
+  "fallback_uses_variants": true,
+  "note": "Human/native recordings remain pending; browser voice remains fallback only."
+}

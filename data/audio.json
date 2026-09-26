@@ -1,0 +1,4479 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.3.0",
+  "status": "SOURCE_BACKED_AUDIO_BLOCKS_PENDING_RECORDINGS",
+  "audio_blocks": [
+    {
+      "audio_block_id": "AUD-GH01-F001",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F001",
+      "source_id": "GH-01",
+      "source_page": 6,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "航空会社の安全 / 乗客の命を預かる",
+        "en": "The airline must bring passengers and cargo safely to their destination; the source emphasizes the responsibility of carrying passengers’ lives.",
+        "si": "ගුවන් සමාගම මගීන් සහ භාණ්ඩ ආරක්ෂිතව ගමනාන්තයට රැගෙන යා යුතු අතර, මගී ජීවිත පිළිබඳ විශාල වගකීමක් දරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "航空会社の安全 / 乗客の命を預かる",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The airline must bring passengers and cargo safely to their destination; the source emphasizes the responsibility of carrying passengers’ lives.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ගුවන් සමාගම මගීන් සහ භාණ්ඩ ආරක්ෂිතව ගමනාන්තයට රැගෙන යා යුතු අතර, මගී ජීවිත පිළිබඳ විශාල වගකීමක් දරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F001",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F002",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F002",
+      "source_id": "GH-01",
+      "source_page": 6,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "安全運航の目的",
+        "en": "Preventing aircraft accidents is the most important aspect of airline safety.",
+        "si": "ගුවන්යානා අනතුරු වැළැක්වීම ගුවන් සමාගමේ ආරක්ෂාවේ මූලික හා වැදගත්ම අරමුණයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "安全運航の目的",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Preventing aircraft accidents is the most important aspect of airline safety.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ගුවන්යානා අනතුරු වැළැක්වීම ගුවන් සමාගමේ ආරක්ෂාවේ මූලික හා වැදගත්ම අරමුණයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F002",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F003",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F003",
+      "source_id": "GH-01",
+      "source_page": 6,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "航空機事故の影響",
+        "en": "The source lists loss of life/injury, social anxiety, accident-response costs and effects on company management as consequences of aircraft accidents.",
+        "si": "ගුවන්යානා අනතුරු මඟින් ජීවිත හානි/තුවාල, සමාජ කනස්සල්ල, අනතුරු කළමනාකරණ වියදම් සහ සමාගම් කළමනාකරණයට බලපෑම් ඇති විය හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "航空機事故の影響",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source lists loss of life/injury, social anxiety, accident-response costs and effects on company management as consequences of aircraft accidents.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ගුවන්යානා අනතුරු මඟින් ජීවිත හානි/තුවාල, සමාජ කනස්සල්ල, අනතුරු කළමනාකරණ වියදම් සහ සමාගම් කළමනාකරණයට බලපෑම් ඇති විය හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F003",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F004",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F004",
+      "source_id": "GH-01",
+      "source_page": 7,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "航空機の運航が最優先",
+        "en": "In the restricted area, aircraft operation always has the highest priority and vehicles must not obstruct aircraft operations.",
+        "si": "සීමිත ප්‍රදේශය තුළ ගුවන්යානා මෙහෙයුමට සෑමවිටම ඉහළම ප්‍රමුඛතාවය හිමි වන අතර වාහන මඟින් එය බාධා නොකළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "航空機の運航が最優先",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "In the restricted area, aircraft operation always has the highest priority and vehicles must not obstruct aircraft operations.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "සීමිත ප්‍රදේශය තුළ ගුවන්යානා මෙහෙයුමට සෑමවිටම ඉහළම ප්‍රමුඛතාවය හිමි වන අතර වාහන මඟින් එය බාධා නොකළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F004",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F005",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F005",
+      "source_id": "GH-01",
+      "source_page": 8,
+      "content_type": "STUDY",
+      "audio_type": "VISUAL",
+      "content": {
+        "ja": "ボーイング777-200型機の操縦席から見える範囲",
+        "en": "The source illustrates limited cockpit visibility on a Boeing 777-200, including blind areas close to the aircraft.",
+        "si": "Boeing 777-200 cockpit එකෙන් ගුවන්යානයට ඉතා ආසන්න ප්‍රදේශ සම්පූර්ණයෙන් දැකිය නොහැකි බව source එක පෙන්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ボーイング777-200型機の操縦席から見える範囲",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source illustrates limited cockpit visibility on a Boeing 777-200, including blind areas close to the aircraft.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Boeing 777-200 cockpit එකෙන් ගුවන්යානයට ඉතා ආසන්න ප්‍රදේශ සම්පූර්ණයෙන් දැකිය නොහැකි බව source එක පෙන්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F005",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F006",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F006",
+      "source_id": "GH-01",
+      "source_page": 8,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ウォッチ作業 / ウォッチマン",
+        "en": "Watch work monitors and guides aircraft movement through signals coordinated with crew, maintenance, marshaller, tug and drivers.",
+        "si": "Watchman විසින් crew, maintenance, marshaller, tug operator සහ drivers සමඟ signals භාවිතයෙන් ගුවන්යානා ගමන් කිරීම නිරීක්ෂණය හා මඟපෙන්වීම කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ウォッチ作業 / ウォッチマン",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Watch work monitors and guides aircraft movement through signals coordinated with crew, maintenance, marshaller, tug and drivers.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Watchman විසින් crew, maintenance, marshaller, tug operator සහ drivers සමඟ signals භාවිතයෙන් ගුවන්යානා ගමන් කිරීම නිරීක්ෂණය හා මඟපෙන්වීම කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F006",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F007",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F007",
+      "source_id": "GH-01",
+      "source_page": 9,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "出発発見の着眼点",
+        "en": "The source gives seven departure-recognition points, including the anti-collision light, engine start, PBB separation, vehicle status, tug rotating light, chock removal and watchman all-clear.",
+        "si": "ගුවන්යානය පිටත්වීමට සූදානම් බව හඳුනාගැනීමට anti-collision light, engine start, PBB separation, vehicle status, tug light, chocks සහ watchman all-clear වැනි කරුණු බලයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "出発発見の着眼点",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source gives seven departure-recognition points, including the anti-collision light, engine start, PBB separation, vehicle status, tug rotating light, chock removal and watchman all-clear.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ගුවන්යානය පිටත්වීමට සූදානම් බව හඳුනාගැනීමට anti-collision light, engine start, PBB separation, vehicle status, tug light, chocks සහ watchman all-clear වැනි කරුණු බලයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F007",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F008",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F008",
+      "source_id": "GH-01",
+      "source_page": 10,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "インテーク（吸気）側の危険",
+        "en": "The front/inlet side of a jet engine is extremely dangerous because air is drawn into the engine.",
+        "si": "Jet engine එකේ ඉදිරිපස inlet පැත්ත ඉතා අනතුරුදායකය, මන්ද වාතය එම පැත්තෙන් engine එකට ඇදගනී."
+      },
+      "variants": {
+        "ja": {
+          "text": "インテーク（吸気）側の危険",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The front/inlet side of a jet engine is extremely dangerous because air is drawn into the engine.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Jet engine එකේ ඉදිරිපස inlet පැත්ත ඉතා අනතුරුදායකය, මන්ද වාතය එම පැත්තෙන් engine එකට ඇදගනී.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F008",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F009",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F009",
+      "source_id": "GH-01",
+      "source_page": 10,
+      "content_type": "STUDY",
+      "audio_type": "VISUAL",
+      "content": {
+        "ja": "エンジン危険区域 / EXHAUST HAZARD AREA / INLET HAZARD AREA",
+        "en": "Figure 4 gives source-specific hazard-area dimensions for a Boeing 777-200 engine, including 175 ft (53.4 m), 45°, 15 ft (4.6 m) and 5 ft (1.5 m).",
+        "si": "Boeing 777-200 engine hazard figure එකේ 175 ft (53.4 m), 45°, 15 ft (4.6 m), 5 ft (1.5 m) වැනි source-specific මාන දක්වා ඇත."
+      },
+      "variants": {
+        "ja": {
+          "text": "エンジン危険区域 / EXHAUST HAZARD AREA / INLET HAZARD AREA",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Figure 4 gives source-specific hazard-area dimensions for a Boeing 777-200 engine, including 175 ft (53.4 m), 45°, 15 ft (4.6 m) and 5 ft (1.5 m).",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Boeing 777-200 engine hazard figure එකේ 175 ft (53.4 m), 45°, 15 ft (4.6 m), 5 ft (1.5 m) වැනි source-specific මාන දක්වා ඇත.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F009",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F010",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F010",
+      "source_id": "GH-01",
+      "source_page": 10,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "危険物輸送 / 航空法",
+        "en": "Dangerous goods transport by air is controlled by aviation rules; prohibited articles are subject to specified exceptions and controls.",
+        "si": "ගුවන් මඟින් dangerous goods ප්‍රවාහනය aviation rules යටතේ පාලනය වන අතර ඇතැම් භාණ්ඩ නීතිමය පාලනයන්ට යටත් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "危険物輸送 / 航空法",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Dangerous goods transport by air is controlled by aviation rules; prohibited articles are subject to specified exceptions and controls.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ගුවන් මඟින් dangerous goods ප්‍රවාහනය aviation rules යටතේ පාලනය වන අතර ඇතැම් භාණ්ඩ නීතිමය පාලනයන්ට යටත් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F010",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F011",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F011",
+      "source_id": "GH-01",
+      "source_page": 11,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ウエイト・アンド・バランス",
+        "en": "Excess weight can increase takeoff/landing speed and distance, reduce range, increase fuel consumption and adversely affect performance.",
+        "si": "අධික බර නිසා takeoff/landing speed සහ distance වැඩිවීම, range අඩුවීම, fuel consumption වැඩිවීම සහ performance අඩුවීම සිදුවිය හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "ウエイト・アンド・バランス",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Excess weight can increase takeoff/landing speed and distance, reduce range, increase fuel consumption and adversely affect performance.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "අධික බර නිසා takeoff/landing speed සහ distance වැඩිවීම, range අඩුවීම, fuel consumption වැඩිවීම සහ performance අඩුවීම සිදුවිය හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F011",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F012",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F012",
+      "source_id": "GH-01",
+      "source_page": 11,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "重量を正確に把握",
+        "en": "Weight must be accurately known and must not exceed the prescribed limit; the source links this to aviation regulations.",
+        "si": "බර නිවැරදිව හඳුනාගෙන නියමිත සීමාව ඉක්මවා නොයන බව තහවුරු කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "重量を正確に把握",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Weight must be accurately known and must not exceed the prescribed limit; the source links this to aviation regulations.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "බර නිවැරදිව හඳුනාගෙන නියමිත සීමාව ඉක්මවා නොයන බව තහවුරු කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F012",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F013",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F013",
+      "source_id": "GH-01",
+      "source_page": 11,
+      "content_type": "STUDY",
+      "audio_type": "VISUAL",
+      "content": {
+        "ja": "総重量 / ペイロード",
+        "en": "The source figure separates aircraft empty/self weight and payload components such as movable equipment, crew, fuel, water and revenue load.",
+        "si": "Source figure එක aircraft empty/self weight සහ payload ලෙස movable equipment, crew, fuel, water, revenue load වෙන්කර දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "総重量 / ペイロード",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source figure separates aircraft empty/self weight and payload components such as movable equipment, crew, fuel, water and revenue load.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source figure එක aircraft empty/self weight සහ payload ලෙස movable equipment, crew, fuel, water, revenue load වෙන්කර දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F013",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F014",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F014",
+      "source_id": "GH-01",
+      "source_page": 12,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "航空保安 / 保安検査",
+        "en": "Passenger, baggage and checked baggage security screening is performed to prevent hijacking, aircraft bombing and other unlawful acts.",
+        "si": "Hijacking, aircraft bombing සහ වෙනත් නීතිවිරෝධී ක්‍රියා වැළැක්වීමට passengers, baggage සහ checked baggage security screening සිදු කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "航空保安 / 保安検査",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Passenger, baggage and checked baggage security screening is performed to prevent hijacking, aircraft bombing and other unlawful acts.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Hijacking, aircraft bombing සහ වෙනත් නීතිවිරෝධී ක්‍රියා වැළැක්වීමට passengers, baggage සහ checked baggage security screening සිදු කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F014",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F015",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F015",
+      "source_id": "GH-01",
+      "source_page": 12,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭乗者数の不一致",
+        "en": "A discrepancy between processed passengers and passengers actually boarded must be handled according to the applicable rules.",
+        "si": "Check-in කළ මගීන් ගණන සහ ඇත්තටම aircraft එකට ගොඩවූ ගණන අතර වෙනසක් තිබේ නම් නියමිත නීති අනුව ක්‍රියා කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭乗者数の不一致",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "A discrepancy between processed passengers and passengers actually boarded must be handled according to the applicable rules.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Check-in කළ මගීන් ගණන සහ ඇත්තටම aircraft එකට ගොඩවූ ගණන අතර වෙනසක් තිබේ නම් නියමිත නීති අනුව ක්‍රියා කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F015",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F016",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F016",
+      "source_id": "GH-01",
+      "source_page": 12,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "IDカード / 制限区域",
+        "en": "A standard ID card must not be lent or transferred, must be displayed visibly and must be presented when requested.",
+        "si": "Restricted area ID card එක වෙනත් අයෙකුට ණයට හෝ transfer නොකළ යුතු අතර පැහැදිලිව පෙන්වා අවශ්‍ය විට ඉදිරිපත් කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "IDカード / 制限区域",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "A standard ID card must not be lent or transferred, must be displayed visibly and must be presented when requested.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Restricted area ID card එක වෙනත් අයෙකුට ණයට හෝ transfer නොකළ යුතු අතර පැහැදිලිව පෙන්වා අවශ්‍ය විට ඉදිරිපත් කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F016",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F017",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F017",
+      "source_id": "GH-01",
+      "source_page": 12,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "不審者 / 工具",
+        "en": "Suspicious persons near an aircraft must be reported; tools and prohibited items must not be brought into the cabin contrary to security rules.",
+        "si": "Aircraft එක අසල සැකසහිත පුද්ගලයෙකු සිටී නම් report කළ යුතු අතර prohibited tools cabin එකට ගෙන නොයා යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "不審者 / 工具",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Suspicious persons near an aircraft must be reported; tools and prohibited items must not be brought into the cabin contrary to security rules.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Aircraft එක අසල සැකසහිත පුද්ගලයෙකු සිටී නම් report කළ යුතු අතර prohibited tools cabin එකට ගෙන නොයා යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F017",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F018",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F018",
+      "source_id": "GH-01",
+      "source_page": 13,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "規定の遵守 / 安全第一",
+        "en": "Aircraft-operation and ramp-safety regulations must be strictly followed for safety.",
+        "si": "Aircraft operation සහ ramp safety regulations ආරක්ෂාව සඳහා දැඩිව අනුගමනය කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "規定の遵守 / 安全第一",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Aircraft-operation and ramp-safety regulations must be strictly followed for safety.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Aircraft operation සහ ramp safety regulations ආරක්ෂාව සඳහා දැඩිව අනුගමනය කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F018",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F019",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F019",
+      "source_id": "GH-01",
+      "source_page": 13,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "天候 / 強風・雷・台風・降雪",
+        "en": "Strong wind, lightning, typhoon and snowfall can affect ramp work; if work becomes dangerous, operations may be suspended and workers should evacuate to a safe place.",
+        "si": "තද සුළං, අකුණු, typhoon සහ හිමපතනය ramp work එකට බලපායි; අවදානමක් නම් වැඩ නවතා ආරක්ෂිත ස්ථානයකට යා යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "天候 / 強風・雷・台風・降雪",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Strong wind, lightning, typhoon and snowfall can affect ramp work; if work becomes dangerous, operations may be suspended and workers should evacuate to a safe place.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "තද සුළං, අකුණු, typhoon සහ හිමපතනය ramp work එකට බලපායි; අවදානමක් නම් වැඩ නවතා ආරක්ෂිත ස්ථානයකට යා යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F019",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F020",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F020",
+      "source_id": "GH-01",
+      "source_page": 13,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "熱中症予防",
+        "en": "The source includes water, salt and rest as heatstroke-prevention measures.",
+        "si": "Heatstroke වැළැක්වීමට ජලය, ලුණු සහ විවේකය වැනි පියවර භාවිතා කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "熱中症予防",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source includes water, salt and rest as heatstroke-prevention measures.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Heatstroke වැළැක්වීමට ජලය, ලුණු සහ විවේකය වැනි පියවර භාවිතා කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F020",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F021",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F021",
+      "source_id": "GH-01",
+      "source_page": 13,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "作業員の服装 / 保護具",
+        "en": "Protective clothing includes appropriate helmet/chinstrap use, gloves and other PPE; clothing must be properly secured and shoelaces tied.",
+        "si": "Helmet/chinstrap, gloves සහ අනෙකුත් PPE නිවැරදිව භාවිතා කළ යුතු අතර ඇඳුම් හා shoe laces ආරක්ෂිතව සකස් කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "作業員の服装 / 保護具",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Protective clothing includes appropriate helmet/chinstrap use, gloves and other PPE; clothing must be properly secured and shoelaces tied.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Helmet/chinstrap, gloves සහ අනෙකුත් PPE නිවැරදිව භාවිතා කළ යුතු අතර ඇඳුම් හා shoe laces ආරක්ෂිතව සකස් කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F021",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F022",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F022",
+      "source_id": "GH-01",
+      "source_page": 14,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "耳栓 / イヤーマフ / 聴覚保護具",
+        "en": "Earplugs and earmuffs are hearing-protection equipment used to prevent noise-induced hearing loss.",
+        "si": "Earplugs සහ earmuffs noise-induced hearing loss වැළැක්වීමට භාවිතා කරන hearing-protection equipment වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "耳栓 / イヤーマフ / 聴覚保護具",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Earplugs and earmuffs are hearing-protection equipment used to prevent noise-induced hearing loss.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Earplugs සහ earmuffs noise-induced hearing loss වැළැක්වීමට භාවිතා කරන hearing-protection equipment වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F022",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F023",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F023",
+      "source_id": "GH-01",
+      "source_page": 14,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "車両運転者の要件",
+        "en": "Restricted-area drivers must understand the vehicle safety manual, receive required aviation-authority/company training, pass the required examination and hold the relevant vehicle permit/certification.",
+        "si": "Restricted area drivers සඳහා vehicle safety manual, required training, examination සහ vehicle permit/company certification අවශ්‍ය වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "車両運転者の要件",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Restricted-area drivers must understand the vehicle safety manual, receive required aviation-authority/company training, pass the required examination and hold the relevant vehicle permit/certification.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Restricted area drivers සඳහා vehicle safety manual, required training, examination සහ vehicle permit/company certification අවශ්‍ය වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F023",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F024",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F024",
+      "source_id": "GH-01",
+      "source_page": 14,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "航空機下の通過",
+        "en": "Vehicles/equipment generally must not pass under or be left under an aircraft; authorized passage must be done carefully.",
+        "si": "සාමාන්‍යයෙන් vehicle/equipment aircraft එක යටින් ගමන් කිරීම හෝ නවතා තැබීම නොකළ යුතු අතර අවසර ඇති විට ඉතා සැලකිල්ලෙන් කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "航空機下の通過",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Vehicles/equipment generally must not pass under or be left under an aircraft; authorized passage must be done carefully.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "සාමාන්‍යයෙන් vehicle/equipment aircraft එක යටින් ගමන් කිරීම හෝ නවතා තැබීම නොකළ යුතු අතර අවසර ඇති විට ඉතා සැලකිල්ලෙන් කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F024",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F025",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F025",
+      "source_id": "GH-01",
+      "source_page": 17,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "安全性・定時性・快適性",
+        "en": "The source identifies safety, punctuality and comfort as key air-transport quality indicators.",
+        "si": "Air transport quality සඳහා safety, punctuality සහ comfort ප්‍රධාන indicators ලෙස source එක දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "安全性・定時性・快適性",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source identifies safety, punctuality and comfort as key air-transport quality indicators.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Air transport quality සඳහා safety, punctuality සහ comfort ප්‍රධාන indicators ලෙස source එක දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F025",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F026",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F026",
+      "source_id": "GH-01",
+      "source_page": 17,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "航空輸送の品質",
+        "en": "Ground-handling mistakes can cause injury, aircraft/vehicle/equipment damage, cargo/baggage/mail damage or misrouting, affecting quality and punctuality.",
+        "si": "Ground handling වැරදි නිසා injury, aircraft/vehicle/equipment damage, cargo/baggage/mail damage හෝ misrouting සිදුවිය හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "航空輸送の品質",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Ground-handling mistakes can cause injury, aircraft/vehicle/equipment damage, cargo/baggage/mail damage or misrouting, affecting quality and punctuality.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Ground handling වැරදි නිසා injury, aircraft/vehicle/equipment damage, cargo/baggage/mail damage හෝ misrouting සිදුවිය හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F026",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F027",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F027",
+      "source_id": "GH-01",
+      "source_page": 18,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "迅速・確実・丁寧",
+        "en": "Work should be performed quickly, reliably and carefully while maintaining quality and passenger trust.",
+        "si": "වැඩ කඩිනමින්, නිවැරදිව සහ සැලකිල්ලෙන් කළ යුතු අතර passenger trust ආරක්ෂා කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "迅速・確実・丁寧",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Work should be performed quickly, reliably and carefully while maintaining quality and passenger trust.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "වැඩ කඩිනමින්, නිවැරදිව සහ සැලකිල්ලෙන් කළ යුතු අතර passenger trust ආරක්ෂා කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F027",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F028",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F028",
+      "source_id": "GH-01",
+      "source_page": 18,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "作業の基本的考え方",
+        "en": "The source gives eight principles covering safety/hygiene, rules/manners, posture/movements, communication, controlled speech/handling, avoiding unnecessary contact, traffic awareness and objective self-checking.",
+        "si": "Source එක safety/hygiene, rules/manners, posture, communication, controlled behavior, unnecessary-contact avoidance, traffic monitoring සහ self-checking ඇතුළු principles අටක් දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "作業の基本的考え方",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source gives eight principles covering safety/hygiene, rules/manners, posture/movements, communication, controlled speech/handling, avoiding unnecessary contact, traffic awareness and objective self-checking.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source එක safety/hygiene, rules/manners, posture, communication, controlled behavior, unnecessary-contact avoidance, traffic monitoring සහ self-checking ඇතුළු principles අටක් දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F028",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F029",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F029",
+      "source_id": "GH-01",
+      "source_page": 18,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "すべての作業は、確認の積み重ねである",
+        "en": "The source states that all work is an accumulation of confirmations/checks.",
+        "si": "සියලු වැඩ කටයුතු යනු තහවුරු කිරීම්/පරීක්ෂා කිරීම් එකතුවක් බව source එක අවධාරණය කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "すべての作業は、確認の積み重ねである",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source states that all work is an accumulation of confirmations/checks.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "සියලු වැඩ කටයුතු යනු තහවුරු කිරීම්/පරීක්ෂා කිරීම් එකතුවක් බව source එක අවධාරණය කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F029",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F030",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F030",
+      "source_id": "GH-01",
+      "source_page": 19,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ヒヤリ・ハット・レポート",
+        "en": "Near-miss/error reporting provides information that can help prevent accidents before an accident or incident occurs.",
+        "si": "Accident/incident එකකට පෙර සිදුවන errors පිළිබඳ information report කිරීම accidents වැළැක්වීමට උපකාරී වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "ヒヤリ・ハット・レポート",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Near-miss/error reporting provides information that can help prevent accidents before an accident or incident occurs.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Accident/incident එකකට පෙර සිදුවන errors පිළිබඳ information report කිරීම accidents වැළැක්වීමට උපකාරී වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F030",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F031",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F031",
+      "source_id": "GH-01",
+      "source_page": 19,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "報告しやすい職場",
+        "en": "The source identifies embarrassment and fear of punishment as barriers and emphasizes feedback and an open workplace atmosphere.",
+        "si": "ලැජ්ජාව සහ දඬුවම් ගැන බිය reporting වලට බාධා විය හැකි අතර feedback සහ open workplace atmosphere වැදගත් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "報告しやすい職場",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source identifies embarrassment and fear of punishment as barriers and emphasizes feedback and an open workplace atmosphere.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ලැජ්ජාව සහ දඬුවම් ගැන බිය reporting වලට බාධා විය හැකි අතර feedback සහ open workplace atmosphere වැදගත් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F031",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F032",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F032",
+      "source_id": "GH-01",
+      "source_page": 19,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "指差呼称 / ヨーシ",
+        "en": "Pointing and calling is used to increase concentration and visual confirmation for safety.",
+        "si": "指差呼称 ක්‍රමය concentration සහ visual confirmation වැඩි කර safety සඳහා භාවිතා කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "指差呼称 / ヨーシ",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Pointing and calling is used to increase concentration and visual confirmation for safety.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "指差呼称 ක්‍රමය concentration සහ visual confirmation වැඩි කර safety සඳහා භාවිතා කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F032",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F033",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F033",
+      "source_id": "GH-01",
+      "source_page": 20,
+      "content_type": "STUDY",
+      "audio_type": "VISUAL",
+      "content": {
+        "ja": "車両通路の指示標示",
+        "en": "Reference 1 defines markings such as stop line, direction of travel, pedestrian crossing ahead, priority ahead and other ramp-route indicators.",
+        "si": "Reference 1 හි stop line, direction-of-travel, pedestrian crossing ahead, priority ahead වැනි vehicle-route markings අර්ථ දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "車両通路の指示標示",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Reference 1 defines markings such as stop line, direction of travel, pedestrian crossing ahead, priority ahead and other ramp-route indicators.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Reference 1 හි stop line, direction-of-travel, pedestrian crossing ahead, priority ahead වැනි vehicle-route markings අර්ථ දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F033",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F034",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F034",
+      "source_id": "GH-01",
+      "source_page": 21,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "機材制限区域（ERA）",
+        "en": "Equipment Restraint Area (ERA) is the area where vehicles/equipment are prohibited when aircraft enter or leave a spot; it is inside the ESA.",
+        "si": "ERA යනු aircraft spot එකට ඇතුළු වන/පිටවන අවස්ථාවේ vehicles/equipment ඇතුළුවීම තහනම් ප්‍රදේශය වන අතර එය ESA ඇතුළත පිහිටයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "機材制限区域（ERA）",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Equipment Restraint Area (ERA) is the area where vehicles/equipment are prohibited when aircraft enter or leave a spot; it is inside the ESA.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ERA යනු aircraft spot එකට ඇතුළු වන/පිටවන අවස්ථාවේ vehicles/equipment ඇතුළුවීම තහනම් ප්‍රදේශය වන අතර එය ESA ඇතුළත පිහිටයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F034",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F035",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F035",
+      "source_id": "GH-01",
+      "source_page": 21,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "機材待機区域（ESA）",
+        "en": "Equipment Staging Area (ESA) is a standby area outside the ERA; the source states equipment may be staged there 30 minutes before spot-in and should leave promptly after work.",
+        "si": "ESA යනු ERA පිටත standby area එකකි; source එක spot-in එකට මිනිත්තු 30කට පෙර equipment stage කළ හැකි බවත් වැඩ අවසන් වූ පසු ඉක්මනින් ඉවත් විය යුතු බවත් දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "機材待機区域（ESA）",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Equipment Staging Area (ESA) is a standby area outside the ERA; the source states equipment may be staged there 30 minutes before spot-in and should leave promptly after work.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ESA යනු ERA පිටත standby area එකකි; source එක spot-in එකට මිනිත්තු 30කට පෙර equipment stage කළ හැකි බවත් වැඩ අවසන් වූ පසු ඉක්මනින් ඉවත් විය යුතු බවත් දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F035",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F036",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F036",
+      "source_id": "GH-01",
+      "source_page": 22,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "危険物の航空輸送 / 罰金",
+        "en": "Reference 2 states that non-compliant dangerous-goods air transport can be subject to a fine of up to ¥500,000.",
+        "si": "Dangerous goods නීති අනුගමනය නොකර ගුවන් මඟින් ප්‍රවාහනය කළහොත් උපරිම ¥500,000 දක්වා දඩයකට යටත් විය හැකි බව source එක දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "危険物の航空輸送 / 罰金",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Reference 2 states that non-compliant dangerous-goods air transport can be subject to a fine of up to ¥500,000.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Dangerous goods නීති අනුගමනය නොකර ගුවන් මඟින් ප්‍රවාහනය කළහොත් උපරිම ¥500,000 දක්වා දඩයකට යටත් විය හැකි බව source එක දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F036",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F037",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F037",
+      "source_id": "GH-01",
+      "source_page": 22,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "危険物申告 / ラベル / 包装",
+        "en": "The shipper and transport operator have responsibilities for dangerous goods; declaration, labels and appropriate packing are part of the control system.",
+        "si": "Dangerous goods සඳහා shipper සහ transport operator වගකීම් දරන අතර declaration, labels සහ නිවැරදි packing අවශ්‍ය වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "危険物申告 / ラベル / 包装",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The shipper and transport operator have responsibilities for dangerous goods; declaration, labels and appropriate packing are part of the control system.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Dangerous goods සඳහා shipper සහ transport operator වගකීම් දරන අතර declaration, labels සහ නිවැරදි packing අවශ්‍ය වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F037",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F038",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F038",
+      "source_id": "GH-01",
+      "source_page": 23,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "危険物の分類",
+        "en": "The source lists nine categories: explosives/pyrotechnics; high-pressure gases; flammable liquids; combustible substances; oxidizing substances; toxic/infectious; radioactive; corrosive; other hazardous articles.",
+        "si": "Source එක dangerous goods categories 9ක් දක්වයි: explosives/pyrotechnics, high-pressure gases, flammable liquids, combustible, oxidizing, toxic/infectious, radioactive, corrosive සහ other hazardous articles."
+      },
+      "variants": {
+        "ja": {
+          "text": "危険物の分類",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source lists nine categories: explosives/pyrotechnics; high-pressure gases; flammable liquids; combustible substances; oxidizing substances; toxic/infectious; radioactive; corrosive; other hazardous articles.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source එක dangerous goods categories 9ක් දක්වයි: explosives/pyrotechnics, high-pressure gases, flammable liquids, combustible, oxidizing, toxic/infectious, radioactive, corrosive සහ other hazardous articles.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F038",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F039",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F039",
+      "source_id": "GH-01",
+      "source_page": 23,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "引火性液体 / 引火点60℃以下",
+        "en": "The source defines flammable liquids in this reference as liquids with a flash point of 60°C or below.",
+        "si": "Source reference එකේ flammable liquid ලෙස flash point 60°C හෝ ඊට අඩු liquid දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "引火性液体 / 引火点60℃以下",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source defines flammable liquids in this reference as liquids with a flash point of 60°C or below.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source reference එකේ flammable liquid ලෙස flash point 60°C හෝ ඊට අඩු liquid දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F039",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F040",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F040",
+      "source_id": "GH-01",
+      "source_page": 24,
+      "content_type": "STUDY",
+      "audio_type": "VISUAL",
+      "content": {
+        "ja": "輸送方法を示すラベル",
+        "en": "The source shows labels indicating hazards or transport conditions, including cargo-aircraft-only, low-temperature liquid, isolate from heat, environmental, toxic, magnetic and lithium-battery labels.",
+        "si": "Dangerous goods labels මඟින් hazard හෝ transport condition පෙන්වයි; source එක cargo-aircraft-only, low-temperature, heat isolation, environmental, toxic, magnetic සහ lithium-battery labels පෙන්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "輸送方法を示すラベル",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source shows labels indicating hazards or transport conditions, including cargo-aircraft-only, low-temperature liquid, isolate from heat, environmental, toxic, magnetic and lithium-battery labels.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Dangerous goods labels මඟින් hazard හෝ transport condition පෙන්වයි; source එක cargo-aircraft-only, low-temperature, heat isolation, environmental, toxic, magnetic සහ lithium-battery labels පෙන්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F040",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F041",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F041",
+      "source_id": "GH-01",
+      "source_page": 24,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "容器 / UN規格容器",
+        "en": "Containers must meet specified shape, material and characteristics; the source gives a UN-specification container example.",
+        "si": "Dangerous goods containers සඳහා නියමිත shape, material සහ characteristics සපුරාලිය යුතු අතර UN specification container example එකක් source එකේ ඇත."
+      },
+      "variants": {
+        "ja": {
+          "text": "容器 / UN規格容器",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Containers must meet specified shape, material and characteristics; the source gives a UN-specification container example.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Dangerous goods containers සඳහා නියමිත shape, material සහ characteristics සපුරාලිය යුතු අතර UN specification container example එකක් source එකේ ඇත.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F041",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH01-F042",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH01-F042",
+      "source_id": "GH-01",
+      "source_page": 24,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "ガソリン / 5L",
+        "en": "The source gives a gasoline example using a jerrycan/steel/fixed-top container and states a passenger-aircraft example limit of 5 L.",
+        "si": "Source එක gasoline සඳහා jerrycan/steel/fixed-top container example එකක් සහ passenger-aircraft example එකක 5 L limit එකක් දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ガソリン / 5L",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source gives a gasoline example using a jerrycan/steel/fixed-top container and states a passenger-aircraft example limit of 5 L.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source එක gasoline සඳහා jerrycan/steel/fixed-top container example එකක් සහ passenger-aircraft example එකක 5 L limit එකක් දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH01-F042",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F001",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F001",
+      "source_id": "GH-02",
+      "source_page": 7,
+      "content_type": "STUDY",
+      "audio_type": "DEFINITION",
+      "content": {
+        "ja": "グランドハンドリングとは",
+        "en": "Ground handling covers the preparation and turnaround work needed for aircraft, including loading fuel and baggage, cabin cleaning and related services within limited turnaround time.",
+        "si": "Ground handling යනු aircraft එකට අවශ්‍ය fuel loading, baggage loading, cabin cleaning සහ turnaround කාලය තුළ සිදුකරන අනෙකුත් සේවා ඇතුළත් ක්‍රියාකාරකම් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "グランドハンドリングとは",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Ground handling covers the preparation and turnaround work needed for aircraft, including loading fuel and baggage, cabin cleaning and related services within limited turnaround time.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Ground handling යනු aircraft එකට අවශ්‍ය fuel loading, baggage loading, cabin cleaning සහ turnaround කාලය තුළ සිදුකරන අනෙකුත් සේවා ඇතුළත් ක්‍රියාකාරකම් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F001",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F002",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F002",
+      "source_id": "GH-02",
+      "source_page": 7,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "安全性・定時性・快適性",
+        "en": "Ground handling must support safe, on-time and comfortable transport to the destination.",
+        "si": "Ground handling මඟින් ආරක්ෂිත, නියමිත වේලාවට සහ සුවපහසු ගමනක් සඳහා සහාය විය යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "安全性・定時性・快適性",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Ground handling must support safe, on-time and comfortable transport to the destination.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Ground handling මඟින් ආරක්ෂිත, නියමිත වේලාවට සහ සුවපහසු ගමනක් සඳහා සහාය විය යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F002",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F003",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F003",
+      "source_id": "GH-02",
+      "source_page": 7,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "IATA Airport Handling Manual",
+        "en": "The text references the IATA Airport Handling Manual as a ground-handling reference.",
+        "si": "Ground handling reference එකක් ලෙස IATA Airport Handling Manual එක source එකේ සඳහන් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "IATA Airport Handling Manual",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The text references the IATA Airport Handling Manual as a ground-handling reference.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Ground handling reference එකක් ලෙස IATA Airport Handling Manual එක source එකේ සඳහන් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F003",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F004",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F004",
+      "source_id": "GH-02",
+      "source_page": 8,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "到着作業 / マーシャラー",
+        "en": "After arrival, the marshaller guides the aircraft to the stop position; after engine shutdown and an equipment-ready signal, ground equipment approaches.",
+        "si": "Arrival එකේදී marshaller aircraft එක stop position එකට guide කරයි; engines stop කර equipment-ready signal ලැබුණු පසු ground equipment aircraft එකට ළඟා වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "到着作業 / マーシャラー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After arrival, the marshaller guides the aircraft to the stop position; after engine shutdown and an equipment-ready signal, ground equipment approaches.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Arrival එකේදී marshaller aircraft එක stop position එකට guide කරයි; engines stop කර equipment-ready signal ලැබුණු පසු ground equipment aircraft එකට ළඟා වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F004",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F005",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F005",
+      "source_id": "GH-02",
+      "source_page": 9,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "FLT / EQT / FRM / TO / STA / STD / SPOT",
+        "en": "The source uses FLT for flight number, EQT for ship number, FRM/TO for origin/destination and STA/STD for scheduled arrival/departure time; SPOT identifies the stand/spot.",
+        "si": "Source එක FLT, EQT, FRM, TO, STA, STD සහ SPOT වැනි operational abbreviations භාවිතා කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "FLT / EQT / FRM / TO / STA / STD / SPOT",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source uses FLT for flight number, EQT for ship number, FRM/TO for origin/destination and STA/STD for scheduled arrival/departure time; SPOT identifies the stand/spot.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source එක FLT, EQT, FRM, TO, STA, STD සහ SPOT වැනි operational abbreviations භාවිතා කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F005",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F006",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F006",
+      "source_id": "GH-02",
+      "source_page": 10,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "インストラクション・シート / POS / ULD-ID / PCS / WGT / RMKS",
+        "en": "The Instruction Sheet contains loading position (POS), ULD number (ULD-ID), quantity (PCS), weight (WGT) and remarks for special/connecting loads (RMKS).",
+        "si": "Instruction Sheet එකේ POS, ULD-ID, PCS, WGT සහ special/connecting-load remarks සඳහා RMKS වැනි fields ඇත."
+      },
+      "variants": {
+        "ja": {
+          "text": "インストラクション・シート / POS / ULD-ID / PCS / WGT / RMKS",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The Instruction Sheet contains loading position (POS), ULD number (ULD-ID), quantity (PCS), weight (WGT) and remarks for special/connecting loads (RMKS).",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Instruction Sheet එකේ POS, ULD-ID, PCS, WGT සහ special/connecting-load remarks සඳහා RMKS වැනි fields ඇත.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F006",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F007",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F007",
+      "source_id": "GH-02",
+      "source_page": 10,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭載確認 / チェック・シート",
+        "en": "The Instruction Sheet often also serves as a loading confirmation check sheet and should be used according to the applicable rules.",
+        "si": "Instruction Sheet එක loading confirmation check sheet එකක් ලෙසද භාවිතා විය හැකි අතර applicable rules අනුව භාවිතා කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭載確認 / チェック・シート",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The Instruction Sheet often also serves as a loading confirmation check sheet and should be used according to the applicable rules.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Instruction Sheet එක loading confirmation check sheet එකක් ලෙසද භාවිතා විය හැකි අතර applicable rules අනුව භාවිතා කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F007",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F008",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F008",
+      "source_id": "GH-02",
+      "source_page": 11,
+      "content_type": "STUDY",
+      "audio_type": "VISUAL",
+      "content": {
+        "ja": "ULD（Unit Load Device）",
+        "en": "The source gives AKH, AKE and DQP as representative ULD examples with aircraft applicability shown in the figure.",
+        "si": "Source figure එක AKH, AKE සහ DQP representative ULD examples ලෙස දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ULD（Unit Load Device）",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source gives AKH, AKE and DQP as representative ULD examples with aircraft applicability shown in the figure.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source figure එක AKH, AKE සහ DQP representative ULD examples ලෙස දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F008",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F009",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F009",
+      "source_id": "GH-02",
+      "source_page": 11,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "ULD寸法 / 搭載可能機種",
+        "en": "The source figure gives AKH/AKE base size 60.4 × 61.5 in and DQP 60.4 × 96 in, with aircraft compatibility shown in the figure.",
+        "si": "Source figure එක AKH/AKE 60.4 × 61.5 in සහ DQP 60.4 × 96 in dimensions සහ compatible aircraft දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ULD寸法 / 搭載可能機種",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source figure gives AKH/AKE base size 60.4 × 61.5 in and DQP 60.4 × 96 in, with aircraft compatibility shown in the figure.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source figure එක AKH/AKE 60.4 × 61.5 in සහ DQP 60.4 × 96 in dimensions සහ compatible aircraft දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F009",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F010",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F010",
+      "source_id": "GH-02",
+      "source_page": 12,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "コンテナ室 / バルク貨物室",
+        "en": "Large passenger aircraft commonly have container compartments for ULDs and bulk cargo compartments for individual hand loading/unloading.",
+        "si": "විශාල passenger aircraft වල ULD සඳහා container compartment සහ individual loading/unloading සඳහා bulk cargo compartment වර්ග තිබිය හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "コンテナ室 / バルク貨物室",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Large passenger aircraft commonly have container compartments for ULDs and bulk cargo compartments for individual hand loading/unloading.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "විශාල passenger aircraft වල ULD සඳහා container compartment සහ individual loading/unloading සඳහා bulk cargo compartment වර්ග තිබිය හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F010",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F011",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F011",
+      "source_id": "GH-02",
+      "source_page": 12,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ハイリフト・ローダー / ベルト・ローダー",
+        "en": "High Lift Loaders are used for ULD loading/unloading; Belt Loaders are used for bulk-cargo loading/unloading.",
+        "si": "ULD loading/unloading සඳහා High Lift Loader ද, bulk cargo සඳහා Belt Loader ද භාවිතා කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ハイリフト・ローダー / ベルト・ローダー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "High Lift Loaders are used for ULD loading/unloading; Belt Loaders are used for bulk-cargo loading/unloading.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "ULD loading/unloading සඳහා High Lift Loader ද, bulk cargo සඳහා Belt Loader ද භාවිතා කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F011",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F012",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F012",
+      "source_id": "GH-02",
+      "source_page": 13,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "トーイング・トラクター（TT車）",
+        "en": "The Towing Tractor tows non-self-propelled wheeled equipment such as container dollies, pallet dollies and bulk carts.",
+        "si": "Towing Tractor (TT) එක container dolly, pallet dolly සහ bulk cart වැනි non-self-propelled equipment ඇදගෙන යයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "トーイング・トラクター（TT車）",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The Towing Tractor tows non-self-propelled wheeled equipment such as container dollies, pallet dollies and bulk carts.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Towing Tractor (TT) එක container dolly, pallet dolly සහ bulk cart වැනි non-self-propelled equipment ඇදගෙන යයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F012",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F013",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F013",
+      "source_id": "GH-02",
+      "source_page": 13,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ドーリー・カートの遠心力",
+        "en": "When a towed dolly/cart turns, centrifugal force can cause unexpected approach/movement, so workers must take care.",
+        "si": "Towed dolly/cart එකක් curve එකක හැරෙන විට centrifugal force නිසා අනපේක්ෂිතව ළඟාවිය හැකි බැවින් සේවකයන් සැලකිලිමත් විය යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "ドーリー・カートの遠心力",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "When a towed dolly/cart turns, centrifugal force can cause unexpected approach/movement, so workers must take care.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Towed dolly/cart එකක් curve එකක හැරෙන විට centrifugal force නිසා අනපේක්ෂිතව ළඟාවිය හැකි බැවින් සේවකයන් සැලකිලිමත් විය යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F013",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F014",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F014",
+      "source_id": "GH-02",
+      "source_page": 14,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "パレット・ドーリー / 96in×125in",
+        "en": "The source states that the pallet dolly transports pallets up to 96 × 125 inches.",
+        "si": "Pallet Dolly එක source එක අනුව උපරිම 96 × 125 inch pallet සඳහා භාවිතා වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "パレット・ドーリー / 96in×125in",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source states that the pallet dolly transports pallets up to 96 × 125 inches.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Pallet Dolly එක source එක අනුව උපරිම 96 × 125 inch pallet සඳහා භාවිතා වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F014",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F015",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F015",
+      "source_id": "GH-02",
+      "source_page": 15,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "ローダー幅 60.4in / 96in / 125in",
+        "en": "The source gives three loader-width types: 60.4 in, 96 in and 125 in.",
+        "si": "High Lift Loader width වර්ග 60.4 in, 96 in සහ 125 in ලෙස source එක දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ローダー幅 60.4in / 96in / 125in",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source gives three loader-width types: 60.4 in, 96 in and 125 in.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "High Lift Loader width වර්ග 60.4 in, 96 in සහ 125 in ලෙස source එක දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F015",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F016",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F016",
+      "source_id": "GH-02",
+      "source_page": 15,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ベルト・ローダーの安全",
+        "en": "Before starting a Belt Loader, confirm no worker is on or in a position to be caught by the belt; never ride the moving belt and avoid entanglement.",
+        "si": "Belt Loader start කිරීමට පෙර belt මත හෝ එයට හසුවිය හැකි ස්ථානයක worker කෙනෙක් නොමැති බව තහවුරු කළ යුතුය; moving belt මත නොනැගිය යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "ベルト・ローダーの安全",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Before starting a Belt Loader, confirm no worker is on or in a position to be caught by the belt; never ride the moving belt and avoid entanglement.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Belt Loader start කිරීමට පෙර belt මත හෝ එයට හසුවිය හැකි ස්ථානයක worker කෙනෙක් නොමැති බව තහවුරු කළ යුතුය; moving belt මත නොනැගිය යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F016",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F017",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F017",
+      "source_id": "GH-02",
+      "source_page": 16,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "事前準備 / ミーティング",
+        "en": "Before work, the responsible person, controller and workers confirm basic/loading information and conduct a meeting covering ULD quantity, special loads, bulk contents, transfer loads, equipment, roles and safety points.",
+        "si": "වැඩට පෙර basic/loading information තහවුරු කර ULD count, special loads, bulk contents, transfer loads, equipment, roles සහ safety points පිළිබඳ meeting එකක් කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "事前準備 / ミーティング",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Before work, the responsible person, controller and workers confirm basic/loading information and conduct a meeting covering ULD quantity, special loads, bulk contents, transfer loads, equipment, roles and safety points.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "වැඩට පෙර basic/loading information තහවුරු කර ULD count, special loads, bulk contents, transfer loads, equipment, roles සහ safety points පිළිබඳ meeting එකක් කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F017",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F018",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F018",
+      "source_id": "GH-02",
+      "source_page": 16,
+      "content_type": "STUDY",
+      "audio_type": "NUMERICAL",
+      "content": {
+        "ja": "到着の10～5分前",
+        "en": "All arrival preparation should be completed by 10–5 minutes before the arriving flight and equipment should wait at the spot.",
+        "si": "Arrival flight එක පැමිණීමට මිනිත්තු 10–5කට පෙර සියලු preparation අවසන් කර equipment spot එකේ standby කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "到着の10～5分前",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "All arrival preparation should be completed by 10–5 minutes before the arriving flight and equipment should wait at the spot.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Arrival flight එක පැමිණීමට මිනිත්තු 10–5කට පෙර සියලු preparation අවසන් කර equipment spot එකේ standby කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F018",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F019",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F019",
+      "source_id": "GH-02",
+      "source_page": 17,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "重量のあるパレット / 2名以上",
+        "en": "Heavy pallets are moved by two or more people, with coordinated communication.",
+        "si": "බර pallet එකක් පුද්ගලයන් දෙදෙනෙකු හෝ වැඩි ගණනක් සමඟ coordination කර move කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "重量のあるパレット / 2名以上",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Heavy pallets are moved by two or more people, with coordinated communication.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "බර pallet එකක් පුද්ගලයන් දෙදෙනෙකු හෝ වැඩි ගණනක් සමඟ coordination කර move කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F019",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F020",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F020",
+      "source_id": "GH-02",
+      "source_page": 17,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ULDドア・ロック / ULDタグ / ドーリーストッパー",
+        "en": "Before the Towing Tractor leaves, workers confirm ULD door locks/tags, dolly-stopper locks and the tractor-dolly connection.",
+        "si": "Towing Tractor එක ඉවත්වීමට පෙර ULD door locks/tags, dolly stopper locks සහ tractor-dolly connection පරීක්ෂා කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "ULDドア・ロック / ULDタグ / ドーリーストッパー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Before the Towing Tractor leaves, workers confirm ULD door locks/tags, dolly-stopper locks and the tractor-dolly connection.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Towing Tractor එක ඉවත්වීමට පෙර ULD door locks/tags, dolly stopper locks සහ tractor-dolly connection පරීක්ෂා කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F020",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F021",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F021",
+      "source_id": "GH-02",
+      "source_page": 17,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "翼下通過走行",
+        "en": "The source prohibits wing-under passage, with a specified exception for rear cargo-room ULD handling under the stated conditions.",
+        "si": "Source එක wing-under passage තහනම් කරන අතර rear cargo-room ULD handling සඳහා source-specified exception එකක් දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "翼下通過走行",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source prohibits wing-under passage, with a specified exception for rear cargo-room ULD handling under the stated conditions.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Source එක wing-under passage තහනම් කරන අතර rear cargo-room ULD handling සඳහා source-specified exception එකක් දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F021",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F022",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F022",
+      "source_id": "GH-02",
+      "source_page": 19,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "手荷物個数確認",
+        "en": "After baggage loading, loading-side and receiving-side workers confirm the count; if the count does not match, they recount.",
+        "si": "Baggage loading අවසන් වූ පසු loading-side සහ receiving-side workers count එක තහවුරු කළ යුතු අතර mismatch නම් නැවත count කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "手荷物個数確認",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After baggage loading, loading-side and receiving-side workers confirm the count; if the count does not match, they recount.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Baggage loading අවසන් වූ පසු loading-side සහ receiving-side workers count එක තහවුරු කළ යුතු අතර mismatch නම් නැවත count කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F022",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F023",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F023",
+      "source_id": "GH-02",
+      "source_page": 19,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "紛失・汚損・破損・誤搭載",
+        "en": "The source states that loss, soiling, damage and incorrect loading of baggage are not acceptable.",
+        "si": "Baggage loss, soiling, damage සහ incorrect loading පිළිගත නොහැකි බව source එක දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "紛失・汚損・破損・誤搭載",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source states that loss, soiling, damage and incorrect loading of baggage are not acceptable.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Baggage loss, soiling, damage සහ incorrect loading පිළිගත නොහැකි බව source එක දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F023",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F024",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F024",
+      "source_id": "GH-02",
+      "source_page": 19,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "指差呼称 / 積み残し",
+        "en": "After work, the cargo compartment, Belt Loader surroundings, ULDs and bulk carts are checked for remaining items and debris, using pointing and calling.",
+        "si": "වැඩ අවසානයේ cargo compartment, Belt Loader අවට, ULD සහ bulk cart ඇතුළත remaining items සහ debris පරීක්ෂා කර 指差呼称 භාවිතා කර තහවුරු කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "指差呼称 / 積み残し",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After work, the cargo compartment, Belt Loader surroundings, ULDs and bulk carts are checked for remaining items and debris, using pointing and calling.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "වැඩ අවසානයේ cargo compartment, Belt Loader අවට, ULD සහ bulk cart ඇතුළත remaining items සහ debris පරීක්ෂා කර 指差呼称 භාවිතා කර තහවුරු කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F024",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F025",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F025",
+      "source_id": "GH-02",
+      "source_page": 20,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "最小接続時間（MCT）",
+        "en": "MCT is the minimum time required for a connection and varies by airport and route combination, including domestic/international and airline combinations.",
+        "si": "MCT යනු connection එකකට අවශ්‍ය අවම කාලය වන අතර airport සහ domestic/international/airline combination අනුව වෙනස් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "最小接続時間（MCT）",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "MCT is the minimum time required for a connection and varies by airport and route combination, including domestic/international and airline combinations.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "MCT යනු connection එකකට අවශ්‍ය අවම කාලය වන අතර airport සහ domestic/international/airline combination අනුව වෙනස් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F025",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F026",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F026",
+      "source_id": "GH-02",
+      "source_page": 20,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "機移し作業 / 完了報告",
+        "en": "After baggage transfer, actual results are checked against shared flight, quantity, ship-number and parking information and reported promptly.",
+        "si": "Baggage transfer අවසන් වූ පසු flight, quantity, ship number සහ parking information සමඟ actual results compare කර ඉක්මනින් report කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "機移し作業 / 完了報告",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After baggage transfer, actual results are checked against shared flight, quantity, ship-number and parking information and reported promptly.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Baggage transfer අවසන් වූ පසු flight, quantity, ship number සහ parking information සමඟ actual results compare කර ඉක්මනින් report කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F026",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F027",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F027",
+      "source_id": "GH-02",
+      "source_page": 21,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ウォーター・サービス",
+        "en": "Water service replenishes the aircraft water tank for drinking and hand-washing water; destination, aircraft type and departure date affect the required amount.",
+        "si": "Water service මඟින් drinking සහ hand-washing සඳහා aircraft water tank එක පුරවයි; destination, aircraft type සහ departure date අනුව quantity වෙනස් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "ウォーター・サービス",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Water service replenishes the aircraft water tank for drinking and hand-washing water; destination, aircraft type and departure date affect the required amount.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Water service මඟින් drinking සහ hand-washing සඳහා aircraft water tank එක පුරවයි; destination, aircraft type සහ departure date අනුව quantity වෙනස් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F027",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F028",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F028",
+      "source_id": "GH-02",
+      "source_page": 21,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "給水バルブ / オーバーフロー・バルブ",
+        "en": "After water service, valves are closed, the hose is removed and the water inlet is checked for leakage.",
+        "si": "Water service අවසන් වූ පසු valves වසා hose එක ඉවත් කර water inlet එක leak නොවන බව තහවුරු කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "給水バルブ / オーバーフロー・バルブ",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After water service, valves are closed, the hose is removed and the water inlet is checked for leakage.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Water service අවසන් වූ පසු valves වසා hose එක ඉවත් කර water inlet එක leak නොවන බව තහවුරු කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F028",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F029",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F029",
+      "source_id": "GH-02",
+      "source_page": 23,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ラバトリー・サービス / ラバトリー・カー",
+        "en": "Lavatory service removes wastewater/waste from the aircraft tank and cleans the tank; the service vehicle is called a lavatory car.",
+        "si": "Lavatory service මඟින් aircraft wastewater tank එකෙන් waste ඉවත් කර tank එක clean කරයි; භාවිතා කරන vehicle එක lavatory car වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "ラバトリー・サービス / ラバトリー・カー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Lavatory service removes wastewater/waste from the aircraft tank and cleans the tank; the service vehicle is called a lavatory car.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Lavatory service මඟින් aircraft wastewater tank එකෙන් waste ඉවත් කර tank එක clean කරයි; භාවිතා කරන vehicle එක lavatory car වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F029",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F030",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F030",
+      "source_id": "GH-02",
+      "source_page": 24,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "機内空調サービス（低圧空気）",
+        "en": "The text includes ground-supplied low-pressure air service as an aircraft servicing function.",
+        "si": "Aircraft servicing යටතේ ground-supplied low-pressure air service ඇතුළත් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "機内空調サービス（低圧空気）",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The text includes ground-supplied low-pressure air service as an aircraft servicing function.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Aircraft servicing යටතේ ground-supplied low-pressure air service ඇතුළත් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F030",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F031",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F031",
+      "source_id": "GH-02",
+      "source_page": 25,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "地上電源供給作業 / GPU",
+        "en": "Ground power supply is provided using fixed or mobile GPU equipment.",
+        "si": "Ground power supply සඳහා fixed GPU හෝ mobile GPU භාවිතා කළ හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "地上電源供給作業 / GPU",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Ground power supply is provided using fixed or mobile GPU equipment.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Ground power supply සඳහා fixed GPU හෝ mobile GPU භාවිතා කළ හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F031",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F032",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F032",
+      "source_id": "GH-02",
+      "source_page": 26,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "手荷物仕分け作業",
+        "en": "Baggage sorting includes departure and arrival handling, with correct routing and transfer handling.",
+        "si": "Baggage sorting තුළ departure සහ arrival handling ඇතුළත් වන අතර නිවැරදි routing සහ transfer handling අවශ්‍ය වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "手荷物仕分け作業",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Baggage sorting includes departure and arrival handling, with correct routing and transfer handling.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Baggage sorting තුළ departure සහ arrival handling ඇතුළත් වන අතර නිවැරදි routing සහ transfer handling අවශ්‍ය වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F032",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F033",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F033",
+      "source_id": "GH-02",
+      "source_page": 30,
+      "content_type": "STUDY",
+      "audio_type": "DEFINITION",
+      "content": {
+        "ja": "通関",
+        "en": "Cargo customs handling distinguishes the applicable customs categories and follows the required customs process.",
+        "si": "Cargo customs handling සඳහා applicable customs category හඳුනාගෙන නියමිත customs process අනුගමනය කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "通関",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Cargo customs handling distinguishes the applicable customs categories and follows the required customs process.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Cargo customs handling සඳහා applicable customs category හඳුනාගෙන නියමිත customs process අනුගමනය කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F033",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F034",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F034",
+      "source_id": "GH-02",
+      "source_page": 31,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "機内清掃作業",
+        "en": "Cabin cleaning is performed in defined cleaning phases/categories and covers the cabin areas and equipment specified by the work procedure.",
+        "si": "Cabin cleaning defined phases/categories අනුව cabin areas සහ specified equipment clean කිරීම ඇතුළත් කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "機内清掃作業",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Cabin cleaning is performed in defined cleaning phases/categories and covers the cabin areas and equipment specified by the work procedure.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Cabin cleaning defined phases/categories අනුව cabin areas සහ specified equipment clean කිරීම ඇතුළත් කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F034",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F035",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F035",
+      "source_id": "GH-02",
+      "source_page": 34,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "客室用品",
+        "en": "Cabin-supply work covers handling, loading/unloading and control of passenger-cabin supplies according to the specified procedure.",
+        "si": "Cabin supplies සඳහා handling, loading/unloading සහ control specified procedure අනුව සිදු කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "客室用品",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Cabin-supply work covers handling, loading/unloading and control of passenger-cabin supplies according to the specified procedure.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Cabin supplies සඳහා handling, loading/unloading සහ control specified procedure අනුව සිදු කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F035",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F036",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F036",
+      "source_id": "GH-02",
+      "source_page": 34,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "キャビン・サービス・カー",
+        "en": "The Cabin Service Car is used as ground equipment for cabin-service work.",
+        "si": "Cabin Service Car එක cabin-service work සඳහා ground equipment ලෙස භාවිතා කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "キャビン・サービス・カー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The Cabin Service Car is used as ground equipment for cabin-service work.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Cabin Service Car එක cabin-service work සඳහා ground equipment ලෙස භාවිතා කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F036",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F037",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F037",
+      "source_id": "GH-02",
+      "source_page": 35,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "機体装着作業",
+        "en": "When connecting a transport/service vehicle to the aircraft, a guide person is used and the vehicle is positioned carefully to prevent aircraft damage and delay.",
+        "si": "Service/transport vehicle එක aircraft එකට connect කරන විට guide person කෙනෙකු යොදා aircraft damage සහ delay වැළැක්වීමට carefully position කළ යුතුය."
+      },
+      "variants": {
+        "ja": {
+          "text": "機体装着作業",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "When connecting a transport/service vehicle to the aircraft, a guide person is used and the vehicle is positioned carefully to prevent aircraft damage and delay.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Service/transport vehicle එක aircraft එකට connect කරන විට guide person කෙනෙකු යොදා aircraft damage සහ delay වැළැක්වීමට carefully position කළ යුතුය.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F037",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F038",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F038",
+      "source_id": "GH-02",
+      "source_page": 35,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "作業終了報告 / 最終確認",
+        "en": "After cabin work, the responsible person performs a final check and reports completion to the airline-side responsible person; doors are secured and the service vehicle departs.",
+        "si": "Cabin work අවසන් වූ පසු responsible person final check කර airline-side responsible person වෙත report කර door secure කර vehicle ඉවත් කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "作業終了報告 / 最終確認",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After cabin work, the responsible person performs a final check and reports completion to the airline-side responsible person; doors are secured and the service vehicle departs.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Cabin work අවසන් වූ පසු responsible person final check කර airline-side responsible person වෙත report කර door secure කර vehicle ඉවත් කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F038",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F039",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F039",
+      "source_id": "GH-02",
+      "source_page": 36,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "フード・ローダー",
+        "en": "Food loading uses food-service equipment and a loader positioned carefully at the aircraft.",
+        "si": "Food loading සඳහා food-service equipment සහ Food Loader භාවිතා කර aircraft එකට carefully position කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "フード・ローダー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Food loading uses food-service equipment and a loader positioned carefully at the aircraft.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Food loading සඳහා food-service equipment සහ Food Loader භාවිතා කර aircraft එකට carefully position කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F039",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F040",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F040",
+      "source_id": "GH-02",
+      "source_page": 36,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭載・取卸し作業 / 安全",
+        "en": "Food-service loading/unloading requires careful equipment positioning and final confirmation before completion.",
+        "si": "Food-service loading/unloading සඳහා equipment positioning සහ final confirmation safety සඳහා අවශ්‍ය වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭載・取卸し作業 / 安全",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Food-service loading/unloading requires careful equipment positioning and final confirmation before completion.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Food-service loading/unloading සඳහා equipment positioning සහ final confirmation safety සඳහා අවශ්‍ය වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F040",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F041",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F041",
+      "source_id": "GH-02",
+      "source_page": 39,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "給油作業 / 資格認定",
+        "en": "Fueling follows the airline manual; worker qualification is recognized by the airline or an authorized petroleum company, and final confirmation is by qualified airline maintenance staff.",
+        "si": "Fueling airline manual එක අනුව සිදු කළ යුතු අතර worker qualification airline හෝ authorized petroleum company මඟින් තහවුරු කරයි; final confirmation qualified airline maintenance staff විසින් කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "給油作業 / 資格認定",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Fueling follows the airline manual; worker qualification is recognized by the airline or an authorized petroleum company, and final confirmation is by qualified airline maintenance staff.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Fueling airline manual එක අනුව සිදු කළ යුතු අතර worker qualification airline හෝ authorized petroleum company මඟින් තහවුරු කරයි; final confirmation qualified airline maintenance staff විසින් කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F041",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F042",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F042",
+      "source_id": "GH-02",
+      "source_page": 40,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "燃料オーダー",
+        "en": "Fuel quantity is calculated considering weather, passenger count, cargo/mail/baggage load and alternate-airport requirements; the source describes destination + alternate + reserve fuel as the general structure.",
+        "si": "Fuel quantity සඳහා weather, passenger count, cargo/mail/baggage load සහ alternate airport වැනි කරුණු සලකා බලයි; source එක destination + alternate + reserve structure එක දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "燃料オーダー",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Fuel quantity is calculated considering weather, passenger count, cargo/mail/baggage load and alternate-airport requirements; the source describes destination + alternate + reserve fuel as the general structure.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Fuel quantity සඳහා weather, passenger count, cargo/mail/baggage load සහ alternate airport වැනි කරුණු සලකා බලයි; source එක destination + alternate + reserve structure එක දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F042",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F043",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F043",
+      "source_id": "GH-02",
+      "source_page": 40,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "フューエラー方式",
+        "en": "The Fueler method uses the Fueler vehicle’s pump to supply fuel where there is no hydrant; the source notes it is common at many regional airports.",
+        "si": "Hydrant නොමැති ස්ථානවල Fueler vehicle pump එකෙන් fuel supply කරන ක්‍රමය Fueler method වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "フューエラー方式",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The Fueler method uses the Fueler vehicle’s pump to supply fuel where there is no hydrant; the source notes it is common at many regional airports.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Hydrant නොමැති ස්ථානවල Fueler vehicle pump එකෙන් fuel supply කරන ක්‍රමය Fueler method වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F043",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F044",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F044",
+      "source_id": "GH-02",
+      "source_page": 40,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "ハイドラント方式",
+        "en": "The Hydrant method supplies aircraft from an airport fueling facility through underground piping.",
+        "si": "Hydrant method එකේ airport fueling facility එකෙන් underground piping හරහා aircraft එකට fuel supply කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "ハイドラント方式",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The Hydrant method supplies aircraft from an airport fueling facility through underground piping.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Hydrant method එකේ airport fueling facility එකෙන් underground piping හරහා aircraft එකට fuel supply කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F044",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F045",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F045",
+      "source_id": "GH-02",
+      "source_page": 41,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "静電気除去用アース",
+        "en": "The fueling procedure includes static-electricity grounding between the ground, Fueler/Servicer and aircraft.",
+        "si": "Fueling procedure එකේ static electricity ඉවත් කිරීම සඳහා ground, Fueler/Servicer සහ aircraft අතර grounding ඇතුළත් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "静電気除去用アース",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The fueling procedure includes static-electricity grounding between the ground, Fueler/Servicer and aircraft.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Fueling procedure එකේ static electricity ඉවත් කිරීම සඳහා ground, Fueler/Servicer සහ aircraft අතර grounding ඇතුළත් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F045",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F046",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F046",
+      "source_id": "GH-02",
+      "source_page": 41,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "燃料品質の確認",
+        "en": "Fuel quality is checked before fueling starts; the source places this before the normal start of fueling after passenger disembarkation confirmation.",
+        "si": "Fueling ආරම්භ කිරීමට පෙර fuel quality check එක සිදු කරන අතර සාමාන්‍යයෙන් passenger disembarkation completion තහවුරු කිරීමෙන් පසු fueling ආරම්භ කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "燃料品質の確認",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Fuel quality is checked before fueling starts; the source places this before the normal start of fueling after passenger disembarkation confirmation.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Fueling ආරම්භ කිරීමට පෙර fuel quality check එක සිදු කරන අතර සාමාන්‍යයෙන් passenger disembarkation completion තහවුරු කිරීමෙන් පසු fueling ආරම්භ කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F046",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F047",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F047",
+      "source_id": "GH-02",
+      "source_page": 41,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭載量の相互確認",
+        "en": "Fuel quantity is cross-checked between the airline maintenance representative and the cockpit indicator/Fueler totalizer.",
+        "si": "Fuel quantity එක airline maintenance representative සහ cockpit indicator/Fueler totalizer අතර cross-check කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭載量の相互確認",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Fuel quantity is cross-checked between the airline maintenance representative and the cockpit indicator/Fueler totalizer.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Fuel quantity එක airline maintenance representative සහ cockpit indicator/Fueler totalizer අතර cross-check කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F047",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F048",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F048",
+      "source_id": "GH-02",
+      "source_page": 42,
+      "content_type": "STUDY",
+      "audio_type": "DEFINITION",
+      "content": {
+        "ja": "旅客サービスとは",
+        "en": "Passenger service supports the journey from airport arrival through departure, arrival and connection to the destination.",
+        "si": "Passenger service මඟින් airport arrival සිට departure, arrival සහ connection දක්වා ගමනට support ලබා දෙයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "旅客サービスとは",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Passenger service supports the journey from airport arrival through departure, arrival and connection to the destination.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Passenger service මඟින් airport arrival සිට departure, arrival සහ connection දක්වා ගමනට support ලබා දෙයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F048",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F049",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F049",
+      "source_id": "GH-02",
+      "source_page": 42,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "チェックインカウンター業務",
+        "en": "International check-in includes ticket, passport and visa/electronic travel authorization checks; domestic check-in includes ticket and identification checks.",
+        "si": "International check-in සඳහා ticket, passport, visa/eTA වැනි documents ද domestic check-in සඳහා ticket සහ ID ද check කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "チェックインカウンター業務",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "International check-in includes ticket, passport and visa/electronic travel authorization checks; domestic check-in includes ticket and identification checks.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "International check-in සඳහා ticket, passport, visa/eTA වැනි documents ද domestic check-in සඳහා ticket සහ ID ද check කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F049",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F050",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F050",
+      "source_id": "GH-02",
+      "source_page": 42,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "予約情報と書類の照合",
+        "en": "Check-in includes matching reservation information with documents and carefully checking passport validity and destination-country entry conditions.",
+        "si": "Check-in එකේ reservation information සහ documents match කර passport validity සහ destination-country entry conditions පරීක්ෂා කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "予約情報と書類の照合",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Check-in includes matching reservation information with documents and carefully checking passport validity and destination-country entry conditions.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Check-in එකේ reservation information සහ documents match කර passport validity සහ destination-country entry conditions පරීක්ෂා කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F050",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F051",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F051",
+      "source_id": "GH-02",
+      "source_page": 43,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "自動チェックイン機 / SBD",
+        "en": "Self-service terminals can support check-in, seat changes, mileage registration, tag/receipt issuance and self-service baggage drop.",
+        "si": "Self-service terminals මඟින් check-in, seat change, mileage registration, tag/receipt issue සහ self-service baggage drop කළ හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "自動チェックイン機 / SBD",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Self-service terminals can support check-in, seat changes, mileage registration, tag/receipt issuance and self-service baggage drop.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Self-service terminals මඟින් check-in, seat change, mileage registration, tag/receipt issue සහ self-service baggage drop කළ හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F051",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F052",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F052",
+      "source_id": "GH-02",
+      "source_page": 43,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭乗開始前の準備 / ブリーフィング",
+        "en": "Before boarding, staff share information about passenger numbers, special assistance, transfers and aircraft preparation; facilities and cabin baggage are checked.",
+        "si": "Boarding පෙර passenger numbers, special assistance, transfers සහ aircraft preparation information share කර facilities සහ cabin baggage check කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭乗開始前の準備 / ブリーフィング",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Before boarding, staff share information about passenger numbers, special assistance, transfers and aircraft preparation; facilities and cabin baggage are checked.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Boarding පෙර passenger numbers, special assistance, transfers සහ aircraft preparation information share කර facilities සහ cabin baggage check කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F052",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F053",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F053",
+      "source_id": "GH-02",
+      "source_page": 43,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭乗案内 / ボーディング",
+        "en": "Boarding announcements include priority and class-based guidance and are conducted in Japanese and English in the source.",
+        "si": "Boarding announcements තුළ priority සහ class-based guidance ඇතුළත් වන අතර source එක Japanese සහ English භාවිතය දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭乗案内 / ボーディング",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Boarding announcements include priority and class-based guidance and are conducted in Japanese and English in the source.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Boarding announcements තුළ priority සහ class-based guidance ඇතුළත් වන අතර source එක Japanese සහ English භාවිතය දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F053",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F054",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F054",
+      "source_id": "GH-02",
+      "source_page": 44,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "搭乗拒否",
+        "en": "Boarding may be refused for safety reasons in cases such as misuse or severe intoxication.",
+        "si": "Safety සඳහා misuse හෝ severe intoxication වැනි අවස්ථාවල boarding refuse කළ හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "搭乗拒否",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Boarding may be refused for safety reasons in cases such as misuse or severe intoxication.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Safety සඳහා misuse හෝ severe intoxication වැනි අවස්ථාවල boarding refuse කළ හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F054",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F055",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F055",
+      "source_id": "GH-02",
+      "source_page": 44,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "最終報告 / ドアクローズ",
+        "en": "After all passengers are confirmed boarded, the final passenger count is reported to cabin crew/operations and the door is closed.",
+        "si": "සියලු passengers board කළ බව තහවුරු කළ පසු final count එක cabin crew/operations වෙත report කර door close කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "最終報告 / ドアクローズ",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "After all passengers are confirmed boarded, the final passenger count is reported to cabin crew/operations and the door is closed.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "සියලු passengers board කළ බව තහවුරු කළ පසු final count එක cabin crew/operations වෙත report කර door close කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F055",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F056",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F056",
+      "source_id": "GH-02",
+      "source_page": 44,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "バゲージクレーム / 手荷物トラブル",
+        "en": "Arrival service includes monitoring baggage return, organizing the baggage-claim area and handling lost/damaged baggage procedures.",
+        "si": "Arrival service තුළ baggage return monitoring, baggage-claim organization සහ lost/damaged baggage procedures ඇතුළත් වේ."
+      },
+      "variants": {
+        "ja": {
+          "text": "バゲージクレーム / 手荷物トラブル",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Arrival service includes monitoring baggage return, organizing the baggage-claim area and handling lost/damaged baggage procedures.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Arrival service තුළ baggage return monitoring, baggage-claim organization සහ lost/damaged baggage procedures ඇතුළත් වේ.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F056",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F057",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F057",
+      "source_id": "GH-02",
+      "source_page": 44,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "到着案内",
+        "en": "Arrival guidance can direct passengers toward immigration, exits and public transportation.",
+        "si": "Arrival guidance මඟින් passengers immigration, exits සහ public transportation වෙත direct කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "到着案内",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Arrival guidance can direct passengers toward immigration, exits and public transportation.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Arrival guidance මඟින් passengers immigration, exits සහ public transportation වෙත direct කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F057",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F058",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F058",
+      "source_id": "GH-02",
+      "source_page": 44,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "乗り継ぎ案内",
+        "en": "Passengers with limited connection time due to delays can be prioritized for smooth guidance.",
+        "si": "Delay නිසා connection time අඩු passengers ලා smooth transfer සඳහා priority guidance ලබා ගත හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "乗り継ぎ案内",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Passengers with limited connection time due to delays can be prioritized for smooth guidance.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Delay නිසා connection time අඩු passengers ලා smooth transfer සඳහා priority guidance ලබා ගත හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F058",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F059",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F059",
+      "source_id": "GH-02",
+      "source_page": 45,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "スペシャルアシスタンス",
+        "en": "Special assistance supports passengers needing consideration, including persons with disabilities, children and older passengers.",
+        "si": "Special assistance මඟින් disabilities ඇති persons, children සහ older passengers වැනි extra consideration අවශ්‍ය අයට support ලබා දෙයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "スペシャルアシスタンス",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Special assistance supports passengers needing consideration, including persons with disabilities, children and older passengers.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Special assistance මඟින් disabilities ඇති persons, children සහ older passengers වැනි extra consideration අවශ්‍ය අයට support ලබා දෙයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F059",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F060",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F060",
+      "source_id": "GH-02",
+      "source_page": 45,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "車椅子 / バッテリー / 危険物該当性",
+        "en": "Advance information includes wheelchair size and battery type, including whether a lithium-ion battery falls under dangerous-goods rules; staff are allocated accordingly.",
+        "si": "Wheelchair size සහ battery type, විශේෂයෙන් lithium-ion battery dangerous-goods rules යටතට වැටේද යන්න කලින් දැනගෙන staff allocate කරයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "車椅子 / バッテリー / 危険物該当性",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "Advance information includes wheelchair size and battery type, including whether a lithium-ion battery falls under dangerous-goods rules; staff are allocated accordingly.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Wheelchair size සහ battery type, විශේෂයෙන් lithium-ion battery dangerous-goods rules යටතට වැටේද යන්න කලින් දැනගෙන staff allocate කරයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F060",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F061",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F061",
+      "source_id": "GH-02",
+      "source_page": 45,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "イレギュラー対応",
+        "en": "For weather or equipment problems, passenger rebooking/transfer and hotel arrangements may be completed to reconstruct the passenger itinerary.",
+        "si": "Weather හෝ equipment problems නිසා passenger itinerary නැවත සැලසුම් කිරීමට rebooking/transfer සහ hotel arrangements සිදු කළ හැක."
+      },
+      "variants": {
+        "ja": {
+          "text": "イレギュラー対応",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "For weather or equipment problems, passenger rebooking/transfer and hotel arrangements may be completed to reconstruct the passenger itinerary.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Weather හෝ equipment problems නිසා passenger itinerary නැවත සැලසුම් කිරීමට rebooking/transfer සහ hotel arrangements සිදු කළ හැක.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F061",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    },
+    {
+      "audio_block_id": "AUD-GH02-F062",
+      "track": "GROUND_HANDLING",
+      "fact_id": "GH02-F062",
+      "source_id": "GH-02",
+      "source_page": 32,
+      "content_type": "STUDY",
+      "audio_type": "CORE_KNOWLEDGE",
+      "content": {
+        "ja": "フォークリフトの移動フォークの離隔距離",
+        "en": "The source states a 1.5 m clearance for moving forklift forks in the specified cargo-handling context.",
+        "si": "Specified cargo-handling context එකේ moving forklift forks සඳහා 1.5 m clearance එක source එක දක්වයි."
+      },
+      "variants": {
+        "ja": {
+          "text": "フォークリフトの移動フォークの離隔距離",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "en": {
+          "text": "The source states a 1.5 m clearance for moving forklift forks in the specified cargo-handling context.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        },
+        "si": {
+          "text": "Specified cargo-handling context එකේ moving forklift forks සඳහා 1.5 m clearance එක source එක දක්වයි.",
+          "audio_url": null,
+          "status": "PENDING_AUDIO",
+          "pronunciation_review": "PENDING_HUMAN_AUDIO_REVIEW"
+        }
+      },
+      "source_content_id": "GH02-F062",
+      "status": "PENDING_AUDIO",
+      "verification_status": "VERIFIED_SOURCE_CONTENT_PENDING_AUDIO",
+      "playback": {
+        "block_only": true,
+        "queue_allowed": true,
+        "stop_supported": true,
+        "fallback_allowed": true
+      }
+    }
+  ]
+}

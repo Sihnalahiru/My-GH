@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.1.0",
+  "curriculum_id": "SSW-AVIATION",
+  "status": "BUILD_02",
+  "tracks": [
+    {
+      "track_id": "GROUND_HANDLING",
+      "title": "Airport Ground Handling",
+      "source_ids": [
+        "GH-01",
+        "GH-02",
+        "GH-OFF-SAMPLE"
+      ]
+    },
+    {
+      "track_id": "AIRCRAFT_MAINTENANCE",
+      "title": "Aircraft Maintenance",
+      "source_ids": [
+        "AM-01",
+        "AM-02",
+        "AM-03",
+        "AM-OFF-SAMPLE"
+      ]
+    }
+  ]
+}

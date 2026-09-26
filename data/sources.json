@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.2.0",
+  "status": "MASTER_DATA_POPULATION",
+  "sources": [
+    {
+      "source_id": "GH-01",
+      "track": "GROUND_HANDLING",
+      "source_type": "OFFICIAL_SOURCE",
+      "title": "Safety & Quality",
+      "file_name": "GHtext【1.Safety and Quality】.REV2.pdf",
+      "revision": "REV2",
+      "physical_pages": 26,
+      "status": "VERIFIED"
+    },
+    {
+      "source_id": "GH-02",
+      "track": "GROUND_HANDLING",
+      "source_type": "OFFICIAL_SOURCE",
+      "title": "Airport Ground Handling",
+      "file_name": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+      "revision": "REV2.1",
+      "physical_pages": 52,
+      "status": "VERIFIED"
+    },
+    {
+      "source_id": "GH-OFF-SAMPLE",
+      "track": "GROUND_HANDLING",
+      "source_type": "OFFICIAL_SAMPLE",
+      "title": "Ground Handling Sample Questions",
+      "file_name": "GH_Sample Questions_2.pdf",
+      "physical_pages": 2,
+      "status": "VERIFIED",
+      "immutable": true
+    },
+    {
+      "source_id": "AM-01",
+      "track": "AIRCRAFT_MAINTENANCE",
+      "source_type": "OFFICIAL_SOURCE",
+      "title": "Basic Skills",
+      "file_name": "AMtext_1.basic skills.pdf",
+      "physical_pages": 26,
+      "status": "VERIFIED"
+    },
+    {
+      "source_id": "AM-02",
+      "track": "AIRCRAFT_MAINTENANCE",
+      "source_type": "OFFICIAL_SOURCE",
+      "title": "Occupational Safety and Maintenance Quality",
+      "file_name": "AMtext_2.Occupational Safety and Maintenance Quality.pdf",
+      "physical_pages": 20,
+      "status": "VERIFIED"
+    },
+    {
+      "source_id": "AM-03",
+      "track": "AIRCRAFT_MAINTENANCE",
+      "source_type": "OFFICIAL_SOURCE",
+      "title": "Airplane General",
+      "file_name": "AMtext_3.Airplane General.pdf",
+      "physical_pages": 24,
+      "status": "VERIFIED"
+    },
+    {
+      "source_id": "AM-OFF-SAMPLE",
+      "track": "AIRCRAFT_MAINTENANCE",
+      "source_type": "OFFICIAL_SAMPLE",
+      "title": "Aircraft Maintenance Sample Questions",
+      "file_name": "AM_Sample Questions.pdf",
+      "physical_pages": 1,
+      "status": "VERIFIED",
+      "immutable": true
+    }
+  ],
+  "secondary_sources": [
+    {
+      "source_id": "AUDIT-GUIDE",
+      "status": "SECONDARY_ONLY",
+      "promotion_rule": "Guide-only claims require independent official-source verification."
+    }
+  ]
+}

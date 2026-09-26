@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.1.0",
+  "term_record": {
+    "term_id": "unique ID",
+    "source_id": "registered source",
+    "track": "GROUND_HANDLING | AIRCRAFT_MAINTENANCE",
+    "source_page": "legacy/source page reference | null",
+    "physical_page": "positive integer",
+    "printed_page": "positive integer | null",
+    "japanese": "official source Japanese term",
+    "furigana": "source-provided furigana | empty",
+    "english": "source-supported English terminology/meaning",
+    "sinhala": "accurate learner explanation",
+    "aliases": [
+      "source-supported alias | empty"
+    ],
+    "abbreviation": "source-supported abbreviation | null",
+    "category": "controlled terminology category",
+    "context": "source-supported context | null",
+    "status": "VERIFIED | PENDING | TERM_REVIEW | SOURCE_REVIEW | BLOCKED",
+    "source_reference": "specific source reference | null"
+  }
+}

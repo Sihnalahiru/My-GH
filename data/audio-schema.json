@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.2.0",
+  "audio_block": {
+    "audio_block_id": "unique audio block ID",
+    "track": "GROUND_HANDLING | AIRCRAFT_MAINTENANCE",
+    "fact_id": "verified fact identifier",
+    "source_id": "registered source",
+    "source_page": "positive integer",
+    "content_type": "STUDY | QUESTION | EXPLANATION | VISUAL",
+    "audio_type": [
+      "DEFINITION",
+      "CORE_KNOWLEDGE",
+      "SAFETY",
+      "PROCEDURE",
+      "WARNING",
+      "EXAMPLE",
+      "DISTINCTION",
+      "TERM",
+      "EXAM_RECOGNITION",
+      "QUESTION",
+      "EXPLANATION",
+      "VISUAL_EXPLANATION",
+      "VISUAL",
+      "NUMERICAL"
+    ],
+    "content": {
+      "ja": "exact verified Japanese study content",
+      "en": "exact verified English study content",
+      "si": "accurate Sinhala explanation"
+    },
+    "playback": {
+      "block_only": true,
+      "queue_allowed": true,
+      "stop_supported": true
+    },
+    "source_content_id": "source study/question content ID",
+    "source_text_hash": "optional content hash",
+    "status": "NOT_REQUIRED | PENDING_AUDIO | GENERATED | RECORDED | REVIEW_REQUIRED | VERIFIED | BLOCKED",
+    "verification_status": "PENDING | VERIFIED",
+    "variants": {
+      "ja": "audio variant or null",
+      "en": "audio variant or null",
+      "si": "audio variant or null"
+    }
+  },
+  "audio_variant": {
+    "audio_id": "unique audio asset ID | null",
+    "language": "ja | en | si",
+    "text": "exact content spoken",
+    "audio_url": "verified asset URL/path | null",
+    "creator_type": "HUMAN_RECORDING | TTS | EXTERNAL_AUDIO | null",
+    "provider": "provider | null",
+    "source_text_hash": "hash of spoken content | null",
+    "status": "audio status",
+    "pronunciation_review": "review record | null"
+  }
+}

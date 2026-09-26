@@ -1,0 +1,2447 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.3.0",
+  "status": "EXTRACTED_OFFICIAL",
+  "illustrations": [
+    {
+      "illustration_id": "GH01-P01-V01",
+      "source_id": "GH-01",
+      "physical_page": 1,
+      "topic_ids": [
+        "GH01-T001",
+        "GH01-T002"
+      ],
+      "title": "Official extracted visual — GH-01 p.1 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p01_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        72.48,
+        293.88,
+        522.96,
+        593.88
+      ],
+      "embedded_width": 1273,
+      "embedded_height": 848,
+      "sha256": "4c854dbcf535fc242c18941963ed8474b08d50f1085305e8ba714035e7cfb69f"
+    },
+    {
+      "illustration_id": "GH01-P06-V01",
+      "source_id": "GH-01",
+      "physical_page": 6,
+      "topic_ids": [
+        "GH01-T001",
+        "GH01-T002"
+      ],
+      "title": "Official extracted visual — GH-01 p.6 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p06_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        365.76,
+        144.48,
+        537.12,
+        287.52
+      ],
+      "embedded_width": 714,
+      "embedded_height": 596,
+      "sha256": "359ef921b13412a6f7694280ecf9a7172f4792f98356cf28043de456532c6dcf"
+    },
+    {
+      "illustration_id": "GH01-P08-V01",
+      "source_id": "GH-01",
+      "physical_page": 8,
+      "topic_ids": [
+        "GH01-T003"
+      ],
+      "title": "Official extracted visual — GH-01 p.8 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p08_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        113.04,
+        105.6,
+        481.68,
+        342.96
+      ],
+      "embedded_width": 1536,
+      "embedded_height": 989,
+      "sha256": "7795c9ac8c9fa055d2861c78ba4066c6f7875af96ca969823db1fb573c014d2c"
+    },
+    {
+      "illustration_id": "GH01-P08-V02",
+      "source_id": "GH-01",
+      "physical_page": 8,
+      "topic_ids": [
+        "GH01-T003"
+      ],
+      "title": "Official extracted visual — GH-01 p.8 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p08_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        178.8,
+        256.8,
+        463.92,
+        311.28
+      ],
+      "embedded_width": 1188,
+      "embedded_height": 227,
+      "sha256": "dd089f37ae428d6c4fd80c1a2a7eac63aacc9a2958e82579f2cae907fc1858c9"
+    },
+    {
+      "illustration_id": "GH01-P09-V01",
+      "source_id": "GH-01",
+      "physical_page": 9,
+      "topic_ids": [
+        "GH01-T003"
+      ],
+      "title": "Official extracted visual — GH-01 p.9 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p09_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        127.2,
+        317.76,
+        376.8,
+        505.68
+      ],
+      "embedded_width": 1040,
+      "embedded_height": 783,
+      "sha256": "5113c42bf820ee4b5c64970df619fdba1a0c7d9b4a5b3f33f43396618ee65df3"
+    },
+    {
+      "illustration_id": "GH01-P11-V01",
+      "source_id": "GH-01",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH01-T006"
+      ],
+      "title": "Official extracted visual — GH-01 p.11 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p11_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        329.28,
+        118.08,
+        522.48,
+        261.24
+      ],
+      "embedded_width": 286,
+      "embedded_height": 212,
+      "sha256": "2e6e21dc60ba573b73c6bd9020dc69d0dbe6107a7d5b9cd5f5788c06064babe9"
+    },
+    {
+      "illustration_id": "GH01-P12-V01",
+      "source_id": "GH-01",
+      "physical_page": 12,
+      "topic_ids": [
+        "GH01-T007"
+      ],
+      "title": "Official extracted visual — GH-01 p.12 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p12_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        405.36,
+        121.92,
+        522.72,
+        246.96
+      ],
+      "embedded_width": 489,
+      "embedded_height": 521,
+      "sha256": "93bfb3b775a5f2d4c679f5e22e64a8cf8be3fc226ccbb77b5c6d68b6ff0b1961"
+    },
+    {
+      "illustration_id": "GH01-P13-V01",
+      "source_id": "GH-01",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH01-T008",
+        "GH01-T009",
+        "GH01-T010"
+      ],
+      "title": "Official extracted visual — GH-01 p.13 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p13_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        433.2,
+        522.24,
+        535.2,
+        665.52
+      ],
+      "embedded_width": 425,
+      "embedded_height": 597,
+      "sha256": "1cc5312220f287fa04d55c8ba4dc917816d9d730cf27e5a652a215f28f689fe8"
+    },
+    {
+      "illustration_id": "GH01-P13-V02",
+      "source_id": "GH-01",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH01-T008",
+        "GH01-T009",
+        "GH01-T010"
+      ],
+      "title": "Official extracted visual — GH-01 p.13 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p13_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        440.88,
+        220.56,
+        541.92,
+        302.64
+      ],
+      "embedded_width": 421,
+      "embedded_height": 342,
+      "sha256": "fbd9f26a7b14728857db38bb102277ba5743103cf874f7bd196897caf6cc7c65"
+    },
+    {
+      "illustration_id": "GH01-P13-V03",
+      "source_id": "GH-01",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH01-T008",
+        "GH01-T009",
+        "GH01-T010"
+      ],
+      "title": "Official extracted visual — GH-01 p.13 v03",
+      "asset_path": "assets/images/official/gh01/gh01_p13_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        442.56,
+        330.24,
+        523.44,
+        418.8
+      ],
+      "embedded_width": 337,
+      "embedded_height": 369,
+      "sha256": "f98b910d030520117fc34dcba6b8ea645f4fd978827fb988a5b671c1b08b5326"
+    },
+    {
+      "illustration_id": "GH01-P14-V01",
+      "source_id": "GH-01",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH01-T010",
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.14 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p14_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        375.84,
+        342.96,
+        524.4,
+        473.52
+      ],
+      "embedded_width": 619,
+      "embedded_height": 544,
+      "sha256": "3b5537d65fecfb2e861de3f6f932533a6e0a04ffcff8cba4b513cb19380a21af"
+    },
+    {
+      "illustration_id": "GH01-P14-V02",
+      "source_id": "GH-01",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH01-T010",
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.14 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p14_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        404.64,
+        125.28,
+        516.48,
+        237.12
+      ],
+      "embedded_width": 466,
+      "embedded_height": 466,
+      "sha256": "568162a934658534b013b1280fcd07de147544393e08d53e8fe251a4b2ea3a22"
+    },
+    {
+      "illustration_id": "GH01-P15-V01",
+      "source_id": "GH-01",
+      "physical_page": 15,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.15 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p15_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        397.2,
+        267.84,
+        515.76,
+        418.32
+      ],
+      "embedded_width": 494,
+      "embedded_height": 627,
+      "sha256": "28a6221fe59208c6f39e87cf24eea506c6cd2177b39ac837dbdcc33355c53efe"
+    },
+    {
+      "illustration_id": "GH01-P16-V01",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        360.72,
+        562.32,
+        510.0,
+        650.4
+      ],
+      "embedded_width": 622,
+      "embedded_height": 367,
+      "sha256": "76be62cd3810c71237b015bfb8af35c107a606d06aaf79284e7389a44c1262cc"
+    },
+    {
+      "illustration_id": "GH01-P16-V02",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        360.72,
+        462.96,
+        510.0,
+        551.04
+      ],
+      "embedded_width": 622,
+      "embedded_height": 367,
+      "sha256": "aab66ae2d5d773df6126310251dbff4262e50c61735141409e415caedf4ae4dd"
+    },
+    {
+      "illustration_id": "GH01-P16-V03",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v03",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        360.72,
+        264.72,
+        510.0,
+        352.56
+      ],
+      "embedded_width": 622,
+      "embedded_height": 366,
+      "sha256": "70f4ecac1fc195f10c795a8968fa94776d08f530023ca6bd63d93781f56b78ac"
+    },
+    {
+      "illustration_id": "GH01-P16-V04",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v04",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        360.72,
+        165.36,
+        510.0,
+        253.2
+      ],
+      "embedded_width": 622,
+      "embedded_height": 366,
+      "sha256": "ea4fc02b19233f1ffdc548993c099cf536d62b1834197304d6a299c983c36c04"
+    },
+    {
+      "illustration_id": "GH01-P16-V05",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v05",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        360.72,
+        363.84,
+        510.0,
+        451.68
+      ],
+      "embedded_width": 622,
+      "embedded_height": 366,
+      "sha256": "26e3d92e2665e8a1c41e457f21a3393fa79a380ffa2b35dd4560966563ece7ee"
+    },
+    {
+      "illustration_id": "GH01-P16-V06",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v06",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v06.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        84.0,
+        562.32,
+        188.16,
+        650.4
+      ],
+      "embedded_width": 434,
+      "embedded_height": 367,
+      "sha256": "be5735179ad3686306c35c9b738dd8fdf81a8fdb9e173c96ca3859972eb24737"
+    },
+    {
+      "illustration_id": "GH01-P16-V07",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v07",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v07.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        84.0,
+        462.96,
+        188.16,
+        551.04
+      ],
+      "embedded_width": 434,
+      "embedded_height": 367,
+      "sha256": "efbe87532695d0840535a9704ad6e93868b291e1e32308471042158b0df23c0c"
+    },
+    {
+      "illustration_id": "GH01-P16-V08",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v08",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v08.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        84.0,
+        264.72,
+        188.16,
+        352.56
+      ],
+      "embedded_width": 434,
+      "embedded_height": 366,
+      "sha256": "a59df4b89e35aa1f88428d726a64d1a4a4dc89605cab8358ef14529ffc81e9e4"
+    },
+    {
+      "illustration_id": "GH01-P16-V09",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v09",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v09.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        84.0,
+        363.84,
+        188.16,
+        451.68
+      ],
+      "embedded_width": 434,
+      "embedded_height": 366,
+      "sha256": "9c351c308943d643f8706a870085ec9579245ae07f00c0cf5afcd8b177ebc93f"
+    },
+    {
+      "illustration_id": "GH01-P16-V10",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ],
+      "title": "Official extracted visual — GH-01 p.16 v10",
+      "asset_path": "assets/images/official/gh01/gh01_p16_v10.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        84.0,
+        165.36,
+        188.16,
+        253.2
+      ],
+      "embedded_width": 434,
+      "embedded_height": 366,
+      "sha256": "50cb3186cf6895f0a2513dabd5a9b19e9f6373d406337a0144356bc50defd62d"
+    },
+    {
+      "illustration_id": "GH01-P17-V01",
+      "source_id": "GH-01",
+      "physical_page": 17,
+      "topic_ids": [
+        "GH01-T012"
+      ],
+      "title": "Official extracted visual — GH-01 p.17 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p17_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        430.56,
+        420.48,
+        514.32,
+        521.28
+      ],
+      "embedded_width": 349,
+      "embedded_height": 420,
+      "sha256": "b1f75b0c8e7c0460de9de676ff53eea809f4c3a192da59b5948172b023bef411"
+    },
+    {
+      "illustration_id": "GH01-P18-V01",
+      "source_id": "GH-01",
+      "physical_page": 18,
+      "topic_ids": [
+        "GH01-T013"
+      ],
+      "title": "Official extracted visual — GH-01 p.18 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p18_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        365.76,
+        102.24,
+        524.4,
+        260.88
+      ],
+      "embedded_width": 661,
+      "embedded_height": 661,
+      "sha256": "60efa47632a4a920e0a3b965ac7dcbac4c5c67beaa880fef77a5d6be85b93795"
+    },
+    {
+      "illustration_id": "GH01-P19-V01",
+      "source_id": "GH-01",
+      "physical_page": 19,
+      "topic_ids": [
+        "GH01-T014",
+        "GH01-T015"
+      ],
+      "title": "Official extracted visual — GH-01 p.19 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p19_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        391.92,
+        141.36,
+        515.28,
+        285.84
+      ],
+      "embedded_width": 514,
+      "embedded_height": 602,
+      "sha256": "f5e72b2d160379e9fc08978ebe4d122cf4e1c3de0bcebd4fd67fd52d9058386b"
+    },
+    {
+      "illustration_id": "GH01-P19-V02",
+      "source_id": "GH-01",
+      "physical_page": 19,
+      "topic_ids": [
+        "GH01-T014",
+        "GH01-T015"
+      ],
+      "title": "Official extracted visual — GH-01 p.19 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p19_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        401.04,
+        443.52,
+        524.4,
+        582.72
+      ],
+      "embedded_width": 514,
+      "embedded_height": 580,
+      "sha256": "97cc6c80a2d6ef6500776c551b01e3ad74f70992cc72499ede103790290db1db"
+    },
+    {
+      "illustration_id": "GH01-P20-V01",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ],
+      "title": "Official extracted visual — GH-01 p.20 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p20_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        283.44,
+        433.44,
+        520.56,
+        507.6
+      ],
+      "embedded_width": 988,
+      "embedded_height": 309,
+      "sha256": "6ef3e38458297c4136d615be509b8c34a9e28bac340a4ee45395950dd52c125f"
+    },
+    {
+      "illustration_id": "GH01-P20-V02",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ],
+      "title": "Official extracted visual — GH-01 p.20 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p20_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        282.48,
+        608.16,
+        520.8,
+        678.24
+      ],
+      "embedded_width": 993,
+      "embedded_height": 292,
+      "sha256": "34828ae907368522e5886319d2ac052e4a7fe13051eebdb66b9af781222c28dc"
+    },
+    {
+      "illustration_id": "GH01-P20-V03",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ],
+      "title": "Official extracted visual — GH-01 p.20 v03",
+      "asset_path": "assets/images/official/gh01/gh01_p20_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        283.44,
+        527.28,
+        519.6,
+        594.72
+      ],
+      "embedded_width": 984,
+      "embedded_height": 281,
+      "sha256": "1a64d22128169cc95371ecf5907cf41901d291a7030ecf4559b3e5057a1e748b"
+    },
+    {
+      "illustration_id": "GH01-P20-V04",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ],
+      "title": "Official extracted visual — GH-01 p.20 v04",
+      "asset_path": "assets/images/official/gh01/gh01_p20_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        282.48,
+        273.36,
+        519.6,
+        334.08
+      ],
+      "embedded_width": 988,
+      "embedded_height": 253,
+      "sha256": "170c96c230ea49bd7148ae051e712484a8ecf33d066c7e3060a643493300180d"
+    },
+    {
+      "illustration_id": "GH01-P20-V05",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ],
+      "title": "Official extracted visual — GH-01 p.20 v05",
+      "asset_path": "assets/images/official/gh01/gh01_p20_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        315.6,
+        346.56,
+        489.84,
+        415.44
+      ],
+      "embedded_width": 726,
+      "embedded_height": 287,
+      "sha256": "a1210c7072bce33c406578b6ea0639cdb2aad82d69372ee4c413fc93a88447be"
+    },
+    {
+      "illustration_id": "GH01-P20-V06",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ],
+      "title": "Official extracted visual — GH-01 p.20 v06",
+      "asset_path": "assets/images/official/gh01/gh01_p20_v06.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        340.8,
+        202.8,
+        432.48,
+        257.28
+      ],
+      "embedded_width": 382,
+      "embedded_height": 227,
+      "sha256": "70d1fd3312656bfecc7d7b6fd9b1eba48294ead81f7d59849eba2ca720c4b595"
+    },
+    {
+      "illustration_id": "GH01-P21-V01",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ],
+      "title": "Official extracted visual — GH-01 p.21 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p21_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        428.64,
+        422.16,
+        515.52,
+        506.88
+      ],
+      "embedded_width": 362,
+      "embedded_height": 353,
+      "sha256": "8047ffb62e3dedc5d64d5ab3f16ff9043cbc9f30445e14032b9c5b1e2e9a0df7"
+    },
+    {
+      "illustration_id": "GH01-P21-V02",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ],
+      "title": "Official extracted visual — GH-01 p.21 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p21_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        429.12,
+        277.44,
+        512.4,
+        364.8
+      ],
+      "embedded_width": 347,
+      "embedded_height": 364,
+      "sha256": "97bd59a494d5d67b0df3290a1471d6f3ea6d7fa2cb1e0f2f8c71e174291e7629"
+    },
+    {
+      "illustration_id": "GH01-P21-V03",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ],
+      "title": "Official extracted visual — GH-01 p.21 v03",
+      "asset_path": "assets/images/official/gh01/gh01_p21_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        423.12,
+        172.56,
+        512.4,
+        251.76
+      ],
+      "embedded_width": 372,
+      "embedded_height": 330,
+      "sha256": "a9dcee6da4efc82e5172cdb5e04fa03b7b3358e958ca57f95edf15f79b9f5001"
+    },
+    {
+      "illustration_id": "GH01-P21-V04",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ],
+      "title": "Official extracted visual — GH-01 p.21 v04",
+      "asset_path": "assets/images/official/gh01/gh01_p21_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        425.52,
+        565.44,
+        512.16,
+        638.16
+      ],
+      "embedded_width": 361,
+      "embedded_height": 303,
+      "sha256": "dfd5c05ee71055773f5e84f8ba312f70a013c8837b62e010bd1de8b5661154d8"
+    },
+    {
+      "illustration_id": "GH01-P21-V05",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ],
+      "title": "Official extracted visual — GH-01 p.21 v05",
+      "asset_path": "assets/images/official/gh01/gh01_p21_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        428.64,
+        666.72,
+        511.92,
+        736.08
+      ],
+      "embedded_width": 347,
+      "embedded_height": 289,
+      "sha256": "f7a6c3e0d1c4aa2db576bbbadfe5b650a323069426864da320ff2cc7a46b73a6"
+    },
+    {
+      "illustration_id": "GH01-P22-V01",
+      "source_id": "GH-01",
+      "physical_page": 22,
+      "topic_ids": [
+        "GH01-T020"
+      ],
+      "title": "Official extracted visual — GH-01 p.22 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p22_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        397.56,
+        292.2,
+        528.72,
+        366.0
+      ],
+      "embedded_width": 401,
+      "embedded_height": 226,
+      "sha256": "c44c6ed9de7d66e2fd540cc97f963b8cd3494058f3a736af7f14aedd9cc70d1c"
+    },
+    {
+      "illustration_id": "GH01-P24-V01",
+      "source_id": "GH-01",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH01-T019"
+      ],
+      "title": "Official extracted visual — GH-01 p.24 v01",
+      "asset_path": "assets/images/official/gh01/gh01_p24_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        222.96,
+        158.76,
+        371.52,
+        212.64
+      ],
+      "embedded_width": 361,
+      "embedded_height": 130,
+      "sha256": "e3776b515902f758367a9429e82698d70e0e52582a946cf5d30103cfebc8295b"
+    },
+    {
+      "illustration_id": "GH01-P24-V02",
+      "source_id": "GH-01",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH01-T019"
+      ],
+      "title": "Official extracted visual — GH-01 p.24 v02",
+      "asset_path": "assets/images/official/gh01/gh01_p24_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        72.84,
+        251.4,
+        220.8,
+        302.4
+      ],
+      "embedded_width": 350,
+      "embedded_height": 121,
+      "sha256": "c8d726e19ba350a219a4079a074d5e48e2f2517cf423038a10188ab9fb718162"
+    },
+    {
+      "illustration_id": "GH01-P24-V03",
+      "source_id": "GH-01",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH01-T019"
+      ],
+      "title": "Official extracted visual — GH-01 p.24 v03",
+      "asset_path": "assets/images/official/gh01/gh01_p24_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        395.28,
+        248.64,
+        505.92,
+        303.12
+      ],
+      "embedded_width": 461,
+      "embedded_height": 227,
+      "sha256": "fd9c143f089ce0639dd5ed50a9df07801d09d76161e5bfae6b5f16fe6bef9ca0"
+    },
+    {
+      "illustration_id": "GH02-P01-V01",
+      "source_id": "GH-02",
+      "physical_page": 1,
+      "topic_ids": [
+        "GH02-T021"
+      ],
+      "title": "Official extracted visual — GH-02 p.1 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p01_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        72.48,
+        293.04,
+        522.96,
+        702.72
+      ],
+      "embedded_width": 1063,
+      "embedded_height": 967,
+      "sha256": "7672e11086044302a5366b60a211d2ee053c3de08d963c982f2449334e060259"
+    },
+    {
+      "illustration_id": "GH02-P08-V01",
+      "source_id": "GH-02",
+      "physical_page": 8,
+      "topic_ids": [
+        "GH02-T021",
+        "GH02-T022"
+      ],
+      "title": "Official extracted visual — GH-02 p.8 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p08_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        76.44,
+        459.6,
+        518.64,
+        700.56
+      ],
+      "embedded_width": 1211,
+      "embedded_height": 660,
+      "sha256": "cdcf6ba6aded4ed64afdd62bb57665c2330de3a84c0cad9dbc8823229688b3bd"
+    },
+    {
+      "illustration_id": "GH02-P09-V01",
+      "source_id": "GH-02",
+      "physical_page": 9,
+      "topic_ids": [
+        "GH02-T024"
+      ],
+      "title": "Official extracted visual — GH-02 p.9 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p09_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        134.76,
+        461.16,
+        477.84,
+        751.44
+      ],
+      "embedded_width": 720,
+      "embedded_height": 609,
+      "sha256": "26be3894cf95e3ff3444ae9115cba3bb97c2f26a751b45112e29e670ce94cc08"
+    },
+    {
+      "illustration_id": "GH02-P11-V01",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        153.12,
+        310.8,
+        453.36,
+        516.48
+      ],
+      "embedded_width": 1251,
+      "embedded_height": 857,
+      "sha256": "9c5f4caee8d59e5caeac96cc30c92f562fcda8fce4d4eab480cad19c72893dff"
+    },
+    {
+      "illustration_id": "GH02-P11-V02",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        153.12,
+        529.68,
+        453.36,
+        707.04
+      ],
+      "embedded_width": 1251,
+      "embedded_height": 739,
+      "sha256": "e9d3c851dd56f0a38353177664bf584ec21118968fe09b8fdc117a05a536f7e4"
+    },
+    {
+      "illustration_id": "GH02-P11-V03",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        153.12,
+        186.24,
+        453.36,
+        297.6
+      ],
+      "embedded_width": 1251,
+      "embedded_height": 464,
+      "sha256": "7aa11b56fc34006903046d8cf72a9b37237996faedcdf45db8a3c90673d05b8c"
+    },
+    {
+      "illustration_id": "GH02-P11-V04",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v04",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        153.36,
+        116.4,
+        453.6,
+        173.04
+      ],
+      "embedded_width": 1251,
+      "embedded_height": 236,
+      "sha256": "f8e062dd1cd1e4d7ae70ae9f8d2b5f943b4a1949c8d538caf9100ac7d027277f"
+    },
+    {
+      "illustration_id": "GH02-P11-V05",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v05",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        456.96,
+        392.64,
+        541.44,
+        516.72
+      ],
+      "embedded_width": 352,
+      "embedded_height": 517,
+      "sha256": "03c9915c4f4ce593cef1d3144460b0158f69bb5ae929377b70ec7a87128be71d"
+    },
+    {
+      "illustration_id": "GH02-P11-V06",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v06",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v06.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        456.96,
+        600.72,
+        541.44,
+        707.28
+      ],
+      "embedded_width": 352,
+      "embedded_height": 444,
+      "sha256": "36a624d9fa031680ed3a1767f63f773a01c3273b9ad8e54eb04c69e68c18618f"
+    },
+    {
+      "illustration_id": "GH02-P11-V07",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v07",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v07.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        456.96,
+        310.8,
+        541.44,
+        377.28
+      ],
+      "embedded_width": 352,
+      "embedded_height": 277,
+      "sha256": "aa78dd1941d0a4e45a1438bb16bc5e223d6fb6dc81ab48bbe0ec595adc6b41bb"
+    },
+    {
+      "illustration_id": "GH02-P11-V08",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v08",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v08.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        456.96,
+        231.84,
+        541.44,
+        297.6
+      ],
+      "embedded_width": 352,
+      "embedded_height": 274,
+      "sha256": "7179a7e3e41c87b49339ef228ce163e719123a7a879938524e265470634858c7"
+    },
+    {
+      "illustration_id": "GH02-P11-V09",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ],
+      "title": "Official extracted visual — GH-02 p.11 v09",
+      "asset_path": "assets/images/official/gh02/gh02_p11_v09.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        456.96,
+        529.68,
+        541.44,
+        586.32
+      ],
+      "embedded_width": 352,
+      "embedded_height": 236,
+      "sha256": "e76d76a495db6787ad43078e1d4f2403a067796ff05d84f55593c28a990b6ba0"
+    },
+    {
+      "illustration_id": "GH02-P12-V01",
+      "source_id": "GH-02",
+      "physical_page": 12,
+      "topic_ids": [
+        "GH02-T029",
+        "GH02-T030"
+      ],
+      "title": "Official extracted visual — GH-02 p.12 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p12_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        109.56,
+        103.32,
+        471.72,
+        416.04
+      ],
+      "embedded_width": 710,
+      "embedded_height": 613,
+      "sha256": "2288df06158cca58763ab5e5105bc717195c8c967f176bfee5d3dc8e296f92a7"
+    },
+    {
+      "illustration_id": "GH02-P13-V01",
+      "source_id": "GH-02",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH02-T030"
+      ],
+      "title": "Official extracted visual — GH-02 p.13 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p13_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        63.6,
+        254.16,
+        266.4,
+        394.08
+      ],
+      "embedded_width": 845,
+      "embedded_height": 583,
+      "sha256": "847645ba7f02c4ba106076e924d4aa18aca3c6d00df812a946b1ab1f03d633c1"
+    },
+    {
+      "illustration_id": "GH02-P13-V02",
+      "source_id": "GH-02",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH02-T030"
+      ],
+      "title": "Official extracted visual — GH-02 p.13 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p13_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        63.6,
+        592.56,
+        266.4,
+        722.88
+      ],
+      "embedded_width": 845,
+      "embedded_height": 543,
+      "sha256": "ab8bc451c0ef7563d88c7ae16916312f860760927d045b8d896e774697f4be2d"
+    },
+    {
+      "illustration_id": "GH02-P14-V01",
+      "source_id": "GH-02",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH02-T031"
+      ],
+      "title": "Official extracted visual — GH-02 p.14 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p14_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        63.6,
+        580.56,
+        266.4,
+        745.92
+      ],
+      "embedded_width": 845,
+      "embedded_height": 689,
+      "sha256": "9dad07ce9661fe850627863a0f914b2c452d08e66a160e3fb6d735f4acb9cde5"
+    },
+    {
+      "illustration_id": "GH02-P14-V02",
+      "source_id": "GH-02",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH02-T031"
+      ],
+      "title": "Official extracted visual — GH-02 p.14 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p14_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        63.6,
+        345.84,
+        266.16,
+        502.32
+      ],
+      "embedded_width": 844,
+      "embedded_height": 652,
+      "sha256": "2b70cf07a095113afbe6b0ab9b273fb4c4f162db3a9df8432e91200fed030952"
+    },
+    {
+      "illustration_id": "GH02-P14-V03",
+      "source_id": "GH-02",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH02-T031"
+      ],
+      "title": "Official extracted visual — GH-02 p.14 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p14_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        59.76,
+        136.56,
+        262.32,
+        251.28
+      ],
+      "embedded_width": 844,
+      "embedded_height": 478,
+      "sha256": "76b6d72691157f5cbbf8be4a3276fc0cefd771873a4372f4a1b034e78ee614ac"
+    },
+    {
+      "illustration_id": "GH02-P15-V01",
+      "source_id": "GH-02",
+      "physical_page": 15,
+      "topic_ids": [
+        "GH02-T033",
+        "GH02-T034"
+      ],
+      "title": "Official extracted visual — GH-02 p.15 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p15_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        63.6,
+        274.56,
+        266.16,
+        390.96
+      ],
+      "embedded_width": 844,
+      "embedded_height": 485,
+      "sha256": "1ae611e932b08145c0fb3461f7c6f0399cfcde047740bf5313cfe96815228185"
+    },
+    {
+      "illustration_id": "GH02-P15-V02",
+      "source_id": "GH-02",
+      "physical_page": 15,
+      "topic_ids": [
+        "GH02-T033",
+        "GH02-T034"
+      ],
+      "title": "Official extracted visual — GH-02 p.15 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p15_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        63.6,
+        121.68,
+        266.16,
+        234.0
+      ],
+      "embedded_width": 844,
+      "embedded_height": 468,
+      "sha256": "69f5aedf1ce708e788902e2bda6ecd1f442d19db719f56a7a58b601262a80184"
+    },
+    {
+      "illustration_id": "GH02-P17-V01",
+      "source_id": "GH-02",
+      "physical_page": 17,
+      "topic_ids": [
+        "GH02-T031",
+        "GH02-T035"
+      ],
+      "title": "Official extracted visual — GH-02 p.17 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p17_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        284.4,
+        303.36,
+        544.8,
+        438.96
+      ],
+      "embedded_width": 1085,
+      "embedded_height": 565,
+      "sha256": "09bd3b17bf2d70ddf18c9f3d329f00a785b04f05d2b8d3879807bf5c8d1e6655"
+    },
+    {
+      "illustration_id": "GH02-P18-V01",
+      "source_id": "GH-02",
+      "physical_page": 18,
+      "topic_ids": [
+        "GH02-T035"
+      ],
+      "title": "Official extracted visual — GH-02 p.18 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p18_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        327.12,
+        257.52,
+        565.68,
+        415.92
+      ],
+      "embedded_width": 994,
+      "embedded_height": 660,
+      "sha256": "78af6f0b20408ffab545e6ae95fdd38a888c7a87b10dbb7e262163be82cea344"
+    },
+    {
+      "illustration_id": "GH02-P21-V01",
+      "source_id": "GH-02",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH02-T040",
+        "GH02-T041",
+        "GH02-T042"
+      ],
+      "title": "Official extracted visual — GH-02 p.21 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p21_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        362.88,
+        118.08,
+        528.0,
+        286.8
+      ],
+      "embedded_width": 688,
+      "embedded_height": 703,
+      "sha256": "46424d5c3a8cb327b34f3cd93b0ad2f8010667c77251e53a0fa7a0244c6f80db"
+    },
+    {
+      "illustration_id": "GH02-P21-V02",
+      "source_id": "GH-02",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH02-T040",
+        "GH02-T041",
+        "GH02-T042"
+      ],
+      "title": "Official extracted visual — GH-02 p.21 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p21_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        336.24,
+        507.84,
+        535.44,
+        646.08
+      ],
+      "embedded_width": 830,
+      "embedded_height": 576,
+      "sha256": "1ab79c13542404c839bb208ee4a6b0a725e6b7537758f744e1aa3b2385197ede"
+    },
+    {
+      "illustration_id": "GH02-P21-V03",
+      "source_id": "GH-02",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH02-T040",
+        "GH02-T041",
+        "GH02-T042"
+      ],
+      "title": "Official extracted visual — GH-02 p.21 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p21_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        338.16,
+        648.96,
+        533.28,
+        769.44
+      ],
+      "embedded_width": 813,
+      "embedded_height": 502,
+      "sha256": "4d6cecdc6608317fcba69c7ca67deec68e500a26d5f20facfb6d715c4499b6c1"
+    },
+    {
+      "illustration_id": "GH02-P22-V01",
+      "source_id": "GH-02",
+      "physical_page": 22,
+      "topic_ids": [
+        "GH02-T040"
+      ],
+      "title": "Official extracted visual — GH-02 p.22 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p22_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        335.52,
+        521.76,
+        534.48,
+        660.96
+      ],
+      "embedded_width": 829,
+      "embedded_height": 580,
+      "sha256": "7b32b43e8fb3dc435f1e9b8fabc1b5718bd9b199bf599995b12550c54664e549"
+    },
+    {
+      "illustration_id": "GH02-P23-V01",
+      "source_id": "GH-02",
+      "physical_page": 23,
+      "topic_ids": [
+        "GH02-T041",
+        "GH02-T042"
+      ],
+      "title": "Official extracted visual — GH-02 p.23 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p23_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        326.4,
+        229.2,
+        527.04,
+        353.04
+      ],
+      "embedded_width": 836,
+      "embedded_height": 516,
+      "sha256": "1f913eb4b9d75d46a8706d29b3f4a31c14feafd39e55412390ade3ef8715c49b"
+    },
+    {
+      "illustration_id": "GH02-P24-V01",
+      "source_id": "GH-02",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH02-T043",
+        "GH02-T044"
+      ],
+      "title": "Official extracted visual — GH-02 p.24 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p24_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        333.84,
+        125.76,
+        534.72,
+        282.72
+      ],
+      "embedded_width": 837,
+      "embedded_height": 654,
+      "sha256": "7f8f4d03d3df4a4838278436901da4f539f22824a9c1852e67df073eccfbac0f"
+    },
+    {
+      "illustration_id": "GH02-P24-V02",
+      "source_id": "GH-02",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH02-T043",
+        "GH02-T044"
+      ],
+      "title": "Official extracted visual — GH-02 p.24 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p24_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        331.92,
+        600.0,
+        532.8,
+        740.16
+      ],
+      "embedded_width": 837,
+      "embedded_height": 584,
+      "sha256": "ef3748ca53fcb52325f93c92c002b2d553393d16bf4c7b3be974a2273679334d"
+    },
+    {
+      "illustration_id": "GH02-P25-V01",
+      "source_id": "GH-02",
+      "physical_page": 25,
+      "topic_ids": [
+        "GH02-T045"
+      ],
+      "title": "Official extracted visual — GH-02 p.25 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p25_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        349.44,
+        408.24,
+        538.32,
+        555.12
+      ],
+      "embedded_width": 787,
+      "embedded_height": 612,
+      "sha256": "680db0fd5a2d8234681d8102bea03fcb2084497ee0f6beb779eb98d11337ee63"
+    },
+    {
+      "illustration_id": "GH02-P26-V01",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ],
+      "title": "Official extracted visual — GH-02 p.26 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p26_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        361.2,
+        239.28,
+        485.28,
+        330.48
+      ],
+      "embedded_width": 517,
+      "embedded_height": 380,
+      "sha256": "dc401c7d19ffbbedf71438e1d9d617ea9c2472671faeef832ecfeaa458483b86"
+    },
+    {
+      "illustration_id": "GH02-P26-V02",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ],
+      "title": "Official extracted visual — GH-02 p.26 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p26_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        361.2,
+        347.76,
+        461.28,
+        438.96
+      ],
+      "embedded_width": 417,
+      "embedded_height": 380,
+      "sha256": "d22d243ba4a9cefcb8a72cda4f39512dcd6307ca500f2b374ba05b6fd683a0b6"
+    },
+    {
+      "illustration_id": "GH02-P26-V03",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ],
+      "title": "Official extracted visual — GH-02 p.26 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p26_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        361.2,
+        130.8,
+        453.6,
+        222.0
+      ],
+      "embedded_width": 385,
+      "embedded_height": 380,
+      "sha256": "cecfa909e9494f203ae4c7e035730983952f4b76ad93687be01d81a541f51e99"
+    },
+    {
+      "illustration_id": "GH02-P26-V04",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ],
+      "title": "Official extracted visual — GH-02 p.26 v04",
+      "asset_path": "assets/images/official/gh02/gh02_p26_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        361.2,
+        456.24,
+        451.68,
+        547.44
+      ],
+      "embedded_width": 377,
+      "embedded_height": 380,
+      "sha256": "2df0caa656a1d5694e9b5b795509d1b2dd691b81d6ff014e7dfdff089ed8df82"
+    },
+    {
+      "illustration_id": "GH02-P26-V05",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ],
+      "title": "Official extracted visual — GH-02 p.26 v05",
+      "asset_path": "assets/images/official/gh02/gh02_p26_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        361.44,
+        569.28,
+        463.56,
+        619.8
+      ],
+      "embedded_width": 312,
+      "embedded_height": 154,
+      "sha256": "b61dfc567069c2cc00d17ae9aadd45a927985e5ec12621f465532529ad6ae3c4"
+    },
+    {
+      "illustration_id": "GH02-P27-V01",
+      "source_id": "GH-02",
+      "physical_page": 27,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.27 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p27_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        327.6,
+        130.56,
+        528.48,
+        324.72
+      ],
+      "embedded_width": 837,
+      "embedded_height": 809,
+      "sha256": "75562dd013023d01066cb5ef69e1848157873b0bc99cd536ca4ec72a26a38c2b"
+    },
+    {
+      "illustration_id": "GH02-P27-V02",
+      "source_id": "GH-02",
+      "physical_page": 27,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.27 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p27_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        119.04,
+        595.44,
+        328.32,
+        752.64
+      ],
+      "embedded_width": 872,
+      "embedded_height": 655,
+      "sha256": "f8dada16099a50c9b17776a85b339dd8cd5e8f48a80c76597e751b9579727dd3"
+    },
+    {
+      "illustration_id": "GH02-P27-V03",
+      "source_id": "GH-02",
+      "physical_page": 27,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.27 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p27_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        428.28,
+        355.56,
+        534.0,
+        477.84
+      ],
+      "embedded_width": 323,
+      "embedded_height": 374,
+      "sha256": "607fa9c3a5e87c30a653b522ce3621ec4c0f642a8e6d80181885f064ccc937d2"
+    },
+    {
+      "illustration_id": "GH02-P28-V01",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.28 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p28_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        58.8,
+        556.56,
+        219.6,
+        753.6
+      ],
+      "embedded_width": 670,
+      "embedded_height": 821,
+      "sha256": "1fe620dea6e9baea8826aa9b3db038b33b94ae694efea56925109cc73a301cc5"
+    },
+    {
+      "illustration_id": "GH02-P28-V02",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.28 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p28_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        314.88,
+        258.96,
+        469.2,
+        328.32
+      ],
+      "embedded_width": 643,
+      "embedded_height": 289,
+      "sha256": "fce8d7899662609e5e63e03d2fc2ac0f13792b3c9015afdd152ba3b53d7557b2"
+    },
+    {
+      "illustration_id": "GH02-P28-V03",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.28 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p28_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        314.88,
+        434.4,
+        469.2,
+        503.76
+      ],
+      "embedded_width": 643,
+      "embedded_height": 289,
+      "sha256": "53688204c8f8f68413b03f3fc0a5ab0ebb1433c3313f7df3a5beb9f4a3912988"
+    },
+    {
+      "illustration_id": "GH02-P28-V04",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.28 v04",
+      "asset_path": "assets/images/official/gh02/gh02_p28_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        314.88,
+        346.8,
+        469.2,
+        415.92
+      ],
+      "embedded_width": 643,
+      "embedded_height": 288,
+      "sha256": "e7a2a7bccf137c01a7ddf429c1f49fd9bc4007bafdaa0225ba06c684a2894cb7"
+    },
+    {
+      "illustration_id": "GH02-P28-V05",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.28 v05",
+      "asset_path": "assets/images/official/gh02/gh02_p28_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        153.12,
+        264.48,
+        282.36,
+        322.08
+      ],
+      "embedded_width": 1077,
+      "embedded_height": 480,
+      "sha256": "569b413fe4a5de6ada5cc305f0554a0e2c630f9fab1e16d9745a264c49c9fd38"
+    },
+    {
+      "illustration_id": "GH02-P28-V06",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.28 v06",
+      "asset_path": "assets/images/official/gh02/gh02_p28_v06.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        181.08,
+        343.44,
+        254.4,
+        419.64
+      ],
+      "embedded_width": 224,
+      "embedded_height": 233,
+      "sha256": "cf8cbaad8e19a416245b9a3bf0f630ac334bc268d37e51a91037fe32b0200206"
+    },
+    {
+      "illustration_id": "GH02-P29-V01",
+      "source_id": "GH-02",
+      "physical_page": 29,
+      "topic_ids": [
+        "GH02-T039"
+      ],
+      "title": "Official extracted visual — GH-02 p.29 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p29_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        336.48,
+        120.72,
+        537.36,
+        282.0
+      ],
+      "embedded_width": 837,
+      "embedded_height": 672,
+      "sha256": "2b615781558be8ce97f3ed73ada32f4eebc58d8cf1ea02236e498641d51b4ad9"
+    },
+    {
+      "illustration_id": "GH02-P30-V01",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.30 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p30_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        139.2,
+        464.88,
+        321.12,
+        632.4
+      ],
+      "embedded_width": 758,
+      "embedded_height": 698,
+      "sha256": "3345bd3de32750798c7dee852a95615c3071cafb6a62871cd9891bf20712a4d2"
+    },
+    {
+      "illustration_id": "GH02-P30-V02",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.30 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p30_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        326.16,
+        120.96,
+        527.04,
+        245.04
+      ],
+      "embedded_width": 837,
+      "embedded_height": 517,
+      "sha256": "c068d903d0aa7ec97b24e145235a80f93d723cb74122f56c272e6745d97ba419"
+    },
+    {
+      "illustration_id": "GH02-P30-V03",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.30 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p30_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        334.08,
+        598.56,
+        454.08,
+        659.52
+      ],
+      "embedded_width": 500,
+      "embedded_height": 254,
+      "sha256": "035ff3d851fef538b99d1ade234cc8fbaa997ce30bf3145364f0024f94b66cd1"
+    },
+    {
+      "illustration_id": "GH02-P30-V04",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.30 v04",
+      "asset_path": "assets/images/official/gh02/gh02_p30_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        333.84,
+        503.76,
+        453.84,
+        558.0
+      ],
+      "embedded_width": 500,
+      "embedded_height": 226,
+      "sha256": "3cee55fb06c2430b19d15b1b57ed26682495037f1ac6fe5290d499ca0bd9808f"
+    },
+    {
+      "illustration_id": "GH02-P31-V01",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        113.52,
+        240.0,
+        508.32,
+        324.48
+      ],
+      "embedded_width": 1645,
+      "embedded_height": 352,
+      "sha256": "7cdf3250742016e836f95cdd5206c66be07415b0409ebf17a0ddb0efd84bc98d"
+    },
+    {
+      "illustration_id": "GH02-P31-V02",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        113.28,
+        143.28,
+        508.32,
+        226.32
+      ],
+      "embedded_width": 1646,
+      "embedded_height": 346,
+      "sha256": "541263a437747077419630b1fc03707f30f8e71c52fd31469aea6b6017f8ee8c"
+    },
+    {
+      "illustration_id": "GH02-P31-V03",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v03",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v03.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        234.48,
+        540.96,
+        475.92,
+        598.8
+      ],
+      "embedded_width": 1006,
+      "embedded_height": 241,
+      "sha256": "9083799581544cb316ca7623fb7256c01e1c7408b44dd5b53ef73e37731a8c1a"
+    },
+    {
+      "illustration_id": "GH02-P31-V04",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v04",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v04.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        234.48,
+        462.24,
+        475.92,
+        520.08
+      ],
+      "embedded_width": 1006,
+      "embedded_height": 241,
+      "sha256": "93c85f33b25e5515029bf1197ad0ae3e09aa944ec0c5e70d407f2d466db8ba72"
+    },
+    {
+      "illustration_id": "GH02-P31-V05",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v05",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v05.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        234.48,
+        382.8,
+        475.92,
+        440.4
+      ],
+      "embedded_width": 1006,
+      "embedded_height": 240,
+      "sha256": "50aae511c69cd08ffe1b03228c773433f5202f903561de21f46df211e21b059d"
+    },
+    {
+      "illustration_id": "GH02-P31-V06",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v06",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v06.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        234.48,
+        620.64,
+        475.92,
+        678.24
+      ],
+      "embedded_width": 1006,
+      "embedded_height": 240,
+      "sha256": "fba2c48cf9920c03b01948b439541c68418c1d2eec1c5f761408a8ac9833282e"
+    },
+    {
+      "illustration_id": "GH02-P31-V07",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v07",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v07.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        234.48,
+        700.08,
+        475.92,
+        757.68
+      ],
+      "embedded_width": 1006,
+      "embedded_height": 240,
+      "sha256": "fab141a6be433950d7ed0a422fab4121f7e6ff1a563733a17d6974fc9f7e9da7"
+    },
+    {
+      "illustration_id": "GH02-P31-V08",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v08",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v08.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        144.84,
+        142.44,
+        234.0,
+        227.28
+      ],
+      "embedded_width": 272,
+      "embedded_height": 259,
+      "sha256": "86c4e1962c5016df969b67ee5dafe252141ac6a35ad69f1708d645020274e802"
+    },
+    {
+      "illustration_id": "GH02-P31-V09",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ],
+      "title": "Official extracted visual — GH-02 p.31 v09",
+      "asset_path": "assets/images/official/gh02/gh02_p31_v09.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        152.28,
+        241.44,
+        229.56,
+        320.4
+      ],
+      "embedded_width": 236,
+      "embedded_height": 241,
+      "sha256": "f9ba203436d1a24b9439dd061e2c892d75229f2ec540c250b135b12d002ba025"
+    },
+    {
+      "illustration_id": "GH02-P32-V01",
+      "source_id": "GH-02",
+      "physical_page": 32,
+      "topic_ids": [
+        "GH02-T038"
+      ],
+      "title": "Official extracted visual — GH-02 p.32 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p32_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        315.6,
+        116.4,
+        530.64,
+        253.92
+      ],
+      "embedded_width": 896,
+      "embedded_height": 573,
+      "sha256": "b397497638cf2f82d40a1c4e991d50544afafbbe08880ceea472a899fa5b6752"
+    },
+    {
+      "illustration_id": "GH02-P33-V01",
+      "source_id": "GH-02",
+      "physical_page": 33,
+      "topic_ids": [
+        "GH02-T040"
+      ],
+      "title": "Official extracted visual — GH-02 p.33 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p33_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        338.64,
+        195.12,
+        539.52,
+        393.84
+      ],
+      "embedded_width": 837,
+      "embedded_height": 828,
+      "sha256": "ef5bf95c3594735baac4cf23bb1ec3c1de842000867db0f93f1417e31beb3d5f"
+    },
+    {
+      "illustration_id": "GH02-P33-V02",
+      "source_id": "GH-02",
+      "physical_page": 33,
+      "topic_ids": [
+        "GH02-T040"
+      ],
+      "title": "Official extracted visual — GH-02 p.33 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p33_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        329.76,
+        481.68,
+        530.64,
+        623.28
+      ],
+      "embedded_width": 837,
+      "embedded_height": 590,
+      "sha256": "8beabf6b2c610275504f478bcb90a8e06688e90cc774bb6c9ebab66af66d7d42"
+    },
+    {
+      "illustration_id": "GH02-P34-V01",
+      "source_id": "GH-02",
+      "physical_page": 34,
+      "topic_ids": [
+        "GH02-T040"
+      ],
+      "title": "Official extracted visual — GH-02 p.34 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p34_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        327.84,
+        112.32,
+        528.72,
+        301.44
+      ],
+      "embedded_width": 837,
+      "embedded_height": 788,
+      "sha256": "907d2707772815ebfed5bc02f402bb308819903042d9f6004dc31b24414304e2"
+    },
+    {
+      "illustration_id": "GH02-P34-V02",
+      "source_id": "GH-02",
+      "physical_page": 34,
+      "topic_ids": [
+        "GH02-T040"
+      ],
+      "title": "Official extracted visual — GH-02 p.34 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p34_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        366.24,
+        364.8,
+        544.56,
+        556.08
+      ],
+      "embedded_width": 743,
+      "embedded_height": 797,
+      "sha256": "5b4309f446b9bb7aa5ab80f88f756b3c649d3080108c2813bf9c45270a28c8cf"
+    },
+    {
+      "illustration_id": "GH02-P36-V01",
+      "source_id": "GH-02",
+      "physical_page": 36,
+      "topic_ids": [
+        "GH02-T041",
+        "GH02-T042"
+      ],
+      "title": "Official extracted visual — GH-02 p.36 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p36_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        360.48,
+        280.56,
+        538.08,
+        627.36
+      ],
+      "embedded_width": 740,
+      "embedded_height": 1445,
+      "sha256": "076bd5f7ef601189338904c730d179b813275f78849f92052da26c73abbf0c70"
+    },
+    {
+      "illustration_id": "GH02-P37-V01",
+      "source_id": "GH-02",
+      "physical_page": 37,
+      "topic_ids": [
+        "GH02-T042",
+        "GH02-T043"
+      ],
+      "title": "Official extracted visual — GH-02 p.37 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p37_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        394.08,
+        503.04,
+        529.2,
+        623.76
+      ],
+      "embedded_width": 563,
+      "embedded_height": 503,
+      "sha256": "8627e8967e66d187deb47cba5083f343e52a31c579a39f74f7e11549138657f3"
+    },
+    {
+      "illustration_id": "GH02-P37-V02",
+      "source_id": "GH-02",
+      "physical_page": 37,
+      "topic_ids": [
+        "GH02-T042",
+        "GH02-T043"
+      ],
+      "title": "Official extracted visual — GH-02 p.37 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p37_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        384.72,
+        643.44,
+        529.2,
+        754.08
+      ],
+      "embedded_width": 602,
+      "embedded_height": 461,
+      "sha256": "d25eca0ca8063d4f51eea64ed4144d540a0ed090f7f36fc2063ced25a3efd301"
+    },
+    {
+      "illustration_id": "GH02-P38-V01",
+      "source_id": "GH-02",
+      "physical_page": 38,
+      "topic_ids": [
+        "GH02-T044"
+      ],
+      "title": "Official extracted visual — GH-02 p.38 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p38_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        372.0,
+        114.0,
+        526.32,
+        259.92
+      ],
+      "embedded_width": 643,
+      "embedded_height": 608,
+      "sha256": "463e1f2475535bd43bd467359412d8087af1977620692b76ebd98d5d39f869b1"
+    },
+    {
+      "illustration_id": "GH02-P39-V01",
+      "source_id": "GH-02",
+      "physical_page": 39,
+      "topic_ids": [
+        "GH02-T045"
+      ],
+      "title": "Official extracted visual — GH-02 p.39 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p39_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        343.2,
+        246.96,
+        520.8,
+        456.72
+      ],
+      "embedded_width": 740,
+      "embedded_height": 874,
+      "sha256": "377ae1313c65254fbdc1db3844b462a7e67fd709a8451eea56e7d3df2460e9ee"
+    },
+    {
+      "illustration_id": "GH02-P41-V01",
+      "source_id": "GH-02",
+      "physical_page": 41,
+      "topic_ids": [
+        "GH02-T046",
+        "GH02-T047"
+      ],
+      "title": "Official extracted visual — GH-02 p.41 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p41_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        366.96,
+        366.6,
+        535.32,
+        498.96
+      ],
+      "embedded_width": 514,
+      "embedded_height": 404,
+      "sha256": "e0b5215962bdef732f6697a743216933bf9742f197381bc22c7626dd239e7fbc"
+    },
+    {
+      "illustration_id": "GH02-P42-V01",
+      "source_id": "GH-02",
+      "physical_page": 42,
+      "topic_ids": [
+        "GH02-T048"
+      ],
+      "title": "Official extracted visual — GH-02 p.42 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p42_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        388.8,
+        250.32,
+        535.32,
+        373.2
+      ],
+      "embedded_width": 448,
+      "embedded_height": 376,
+      "sha256": "163981428aebd50be40be6dd9186b0292f6dffc53f60887409fe35d9bc808951"
+    },
+    {
+      "illustration_id": "GH02-P43-V01",
+      "source_id": "GH-02",
+      "physical_page": 43,
+      "topic_ids": [
+        "GH02-T048"
+      ],
+      "title": "Official extracted visual — GH-02 p.43 v01",
+      "asset_path": "assets/images/official/gh02/gh02_p43_v01.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        426.84,
+        97.8,
+        516.72,
+        186.36
+      ],
+      "embedded_width": 274,
+      "embedded_height": 271,
+      "sha256": "7a201b9fbb91df6699b3a465fa128e520c1c3ea3ced0b46cf792e2a078fd4b19"
+    },
+    {
+      "illustration_id": "GH02-P43-V02",
+      "source_id": "GH-02",
+      "physical_page": 43,
+      "topic_ids": [
+        "GH02-T048"
+      ],
+      "title": "Official extracted visual — GH-02 p.43 v02",
+      "asset_path": "assets/images/official/gh02/gh02_p43_v02.png",
+      "status": "EXTRACTED_OFFICIAL",
+      "relationship_status": "VERIFIED",
+      "bbox": [
+        429.24,
+        195.36,
+        516.6,
+        278.4
+      ],
+      "embedded_width": 267,
+      "embedded_height": 254,
+      "sha256": "dc56d4aa424bc8ae153c103f53f31a12cb23e9344cc4de57f14680e13ec3d43d"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "build": "BUILD-16",
+  "platform": "GitHub Pages",
+  "deployment_method": "GitHub Actions",
+  "branch": "main",
+  "artifact_path": ".",
+  "workflow": ".github/workflows/pages.yml",
+  "expected_project_pages_pattern": "https://<github-username>.github.io/SSW-AIRPORT-GROUND-HANDLING-PWA/",
+  "path_strategy": "relative",
+  "service_worker": "./sw.js",
+  "source_asset_strategy": "official external resources remain online-first; no large source duplication",
+  "live_deployment_verified": false,
+  "reason": "Repository push and GitHub Actions execution are required for live verification."
+}

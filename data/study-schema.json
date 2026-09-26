@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "0.1.0",
+  "record_shape": {
+    "study_id": "string",
+    "fact_id": "string",
+    "track": "GROUND_HANDLING | AIRCRAFT_MAINTENANCE",
+    "source_id": "registered source_id",
+    "physical_page": "positive integer",
+    "printed_page": "positive integer | null",
+    "chapter_id": "registered chapter_id",
+    "topic_id": "registered topic_id",
+    "subtopic_id": "string | null",
+    "original": {
+      "title": "source-preserved title",
+      "content": "source-preserved content"
+    },
+    "content": {
+      "core_knowledge": "string",
+      "definition": "string",
+      "procedure": [
+        {
+          "step": "integer",
+          "text": "string"
+        }
+      ],
+      "safety": "string",
+      "equipment": [
+        "string"
+      ],
+      "warning": "string",
+      "distinction": "string",
+      "example": "string",
+      "exam_point": "string"
+    },
+    "terminology": [
+      {
+        "term_id": "string",
+        "japanese": "source-supported term",
+        "furigana": "source-provided furigana | empty",
+        "english": "meaning/source terminology",
+        "sinhala": "accurate explanation",
+        "status": "VERIFIED | PENDING"
+      }
+    ],
+    "illustration_ids": [
+      "verified visual_id"
+    ],
+    "audio_block_ids": [
+      "audio_block_id | empty until BUILD-08"
+    ],
+    "question_ids": [
+      "question_id | empty until question population"
+    ],
+    "status": "VERIFIED | DRAFT | REVIEW_REQUIRED | TRANSLATION_REVIEW | TERM_REVIEW | SOURCE_REVIEW | PENDING | BLOCKED"
+  }
+}

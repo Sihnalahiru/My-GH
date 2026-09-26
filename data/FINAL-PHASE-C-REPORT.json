@@ -1,0 +1,14 @@
+{
+  "phase": "FINAL-PHASE-C",
+  "status": "VERIFIED_SOURCE_BACKED_AUDIO_INTEGRATION",
+  "study_audio_blocks": 39,
+  "language_variants": 117,
+  "verified_recordings": 0,
+  "pending_recording_variants": 117,
+  "browser_fallback": true,
+  "human_recordings_required": true,
+  "fabricated_audio_urls": 0,
+  "errors": [],
+  "warnings_count": 117,
+  "note": "All audio blocks are source-backed. Human/native recordings are intentionally still PENDING_AUDIO; browser SpeechSynthesis is fallback only."
+}

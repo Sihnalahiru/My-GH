@@ -1,0 +1,1078 @@
+{
+  "schema_version": "1.0.0",
+  "status": "VERIFIED_ASSETS",
+  "assets": [
+    {
+      "illustration_id": "GH01-P01-V01",
+      "path": "assets/images/official/gh01/gh01_p01_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 1,
+      "topic_ids": [
+        "GH01-T001",
+        "GH01-T002"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P06-V01",
+      "path": "assets/images/official/gh01/gh01_p06_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 6,
+      "topic_ids": [
+        "GH01-T001",
+        "GH01-T002"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P08-V01",
+      "path": "assets/images/official/gh01/gh01_p08_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 8,
+      "topic_ids": [
+        "GH01-T003"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P08-V02",
+      "path": "assets/images/official/gh01/gh01_p08_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 8,
+      "topic_ids": [
+        "GH01-T003"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P09-V01",
+      "path": "assets/images/official/gh01/gh01_p09_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 9,
+      "topic_ids": [
+        "GH01-T003"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P11-V01",
+      "path": "assets/images/official/gh01/gh01_p11_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH01-T006"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P12-V01",
+      "path": "assets/images/official/gh01/gh01_p12_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 12,
+      "topic_ids": [
+        "GH01-T007"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P13-V01",
+      "path": "assets/images/official/gh01/gh01_p13_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH01-T008",
+        "GH01-T009",
+        "GH01-T010"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P13-V02",
+      "path": "assets/images/official/gh01/gh01_p13_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH01-T008",
+        "GH01-T009",
+        "GH01-T010"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P13-V03",
+      "path": "assets/images/official/gh01/gh01_p13_v03.png",
+      "source_id": "GH-01",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH01-T008",
+        "GH01-T009",
+        "GH01-T010"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P14-V01",
+      "path": "assets/images/official/gh01/gh01_p14_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH01-T010",
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P14-V02",
+      "path": "assets/images/official/gh01/gh01_p14_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH01-T010",
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P15-V01",
+      "path": "assets/images/official/gh01/gh01_p15_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 15,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V01",
+      "path": "assets/images/official/gh01/gh01_p16_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V02",
+      "path": "assets/images/official/gh01/gh01_p16_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V03",
+      "path": "assets/images/official/gh01/gh01_p16_v03.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V04",
+      "path": "assets/images/official/gh01/gh01_p16_v04.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V05",
+      "path": "assets/images/official/gh01/gh01_p16_v05.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V06",
+      "path": "assets/images/official/gh01/gh01_p16_v06.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V07",
+      "path": "assets/images/official/gh01/gh01_p16_v07.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V08",
+      "path": "assets/images/official/gh01/gh01_p16_v08.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V09",
+      "path": "assets/images/official/gh01/gh01_p16_v09.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P16-V10",
+      "path": "assets/images/official/gh01/gh01_p16_v10.png",
+      "source_id": "GH-01",
+      "physical_page": 16,
+      "topic_ids": [
+        "GH01-T011"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P17-V01",
+      "path": "assets/images/official/gh01/gh01_p17_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 17,
+      "topic_ids": [
+        "GH01-T012"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P18-V01",
+      "path": "assets/images/official/gh01/gh01_p18_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 18,
+      "topic_ids": [
+        "GH01-T013"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P19-V01",
+      "path": "assets/images/official/gh01/gh01_p19_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 19,
+      "topic_ids": [
+        "GH01-T014",
+        "GH01-T015"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P19-V02",
+      "path": "assets/images/official/gh01/gh01_p19_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 19,
+      "topic_ids": [
+        "GH01-T014",
+        "GH01-T015"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P20-V01",
+      "path": "assets/images/official/gh01/gh01_p20_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P20-V02",
+      "path": "assets/images/official/gh01/gh01_p20_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P20-V03",
+      "path": "assets/images/official/gh01/gh01_p20_v03.png",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P20-V04",
+      "path": "assets/images/official/gh01/gh01_p20_v04.png",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P20-V05",
+      "path": "assets/images/official/gh01/gh01_p20_v05.png",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P20-V06",
+      "path": "assets/images/official/gh01/gh01_p20_v06.png",
+      "source_id": "GH-01",
+      "physical_page": 20,
+      "topic_ids": [
+        "GH01-T016"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P21-V01",
+      "path": "assets/images/official/gh01/gh01_p21_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P21-V02",
+      "path": "assets/images/official/gh01/gh01_p21_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P21-V03",
+      "path": "assets/images/official/gh01/gh01_p21_v03.png",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P21-V04",
+      "path": "assets/images/official/gh01/gh01_p21_v04.png",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P21-V05",
+      "path": "assets/images/official/gh01/gh01_p21_v05.png",
+      "source_id": "GH-01",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH01-T017"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P22-V01",
+      "path": "assets/images/official/gh01/gh01_p22_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 22,
+      "topic_ids": [
+        "GH01-T020"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P24-V01",
+      "path": "assets/images/official/gh01/gh01_p24_v01.png",
+      "source_id": "GH-01",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH01-T019"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P24-V02",
+      "path": "assets/images/official/gh01/gh01_p24_v02.png",
+      "source_id": "GH-01",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH01-T019"
+      ]
+    },
+    {
+      "illustration_id": "GH01-P24-V03",
+      "path": "assets/images/official/gh01/gh01_p24_v03.png",
+      "source_id": "GH-01",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH01-T019"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P01-V01",
+      "path": "assets/images/official/gh02/gh02_p01_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 1,
+      "topic_ids": [
+        "GH02-T021"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P08-V01",
+      "path": "assets/images/official/gh02/gh02_p08_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 8,
+      "topic_ids": [
+        "GH02-T021",
+        "GH02-T022"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P09-V01",
+      "path": "assets/images/official/gh02/gh02_p09_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 9,
+      "topic_ids": [
+        "GH02-T024"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V01",
+      "path": "assets/images/official/gh02/gh02_p11_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V02",
+      "path": "assets/images/official/gh02/gh02_p11_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V03",
+      "path": "assets/images/official/gh02/gh02_p11_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V04",
+      "path": "assets/images/official/gh02/gh02_p11_v04.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V05",
+      "path": "assets/images/official/gh02/gh02_p11_v05.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V06",
+      "path": "assets/images/official/gh02/gh02_p11_v06.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V07",
+      "path": "assets/images/official/gh02/gh02_p11_v07.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V08",
+      "path": "assets/images/official/gh02/gh02_p11_v08.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P11-V09",
+      "path": "assets/images/official/gh02/gh02_p11_v09.png",
+      "source_id": "GH-02",
+      "physical_page": 11,
+      "topic_ids": [
+        "GH02-T027",
+        "GH02-T028"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P12-V01",
+      "path": "assets/images/official/gh02/gh02_p12_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 12,
+      "topic_ids": [
+        "GH02-T029",
+        "GH02-T030"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P13-V01",
+      "path": "assets/images/official/gh02/gh02_p13_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH02-T030"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P13-V02",
+      "path": "assets/images/official/gh02/gh02_p13_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 13,
+      "topic_ids": [
+        "GH02-T030"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P14-V01",
+      "path": "assets/images/official/gh02/gh02_p14_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH02-T031"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P14-V02",
+      "path": "assets/images/official/gh02/gh02_p14_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH02-T031"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P14-V03",
+      "path": "assets/images/official/gh02/gh02_p14_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 14,
+      "topic_ids": [
+        "GH02-T031"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P15-V01",
+      "path": "assets/images/official/gh02/gh02_p15_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 15,
+      "topic_ids": [
+        "GH02-T033",
+        "GH02-T034"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P15-V02",
+      "path": "assets/images/official/gh02/gh02_p15_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 15,
+      "topic_ids": [
+        "GH02-T033",
+        "GH02-T034"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P17-V01",
+      "path": "assets/images/official/gh02/gh02_p17_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 17,
+      "topic_ids": [
+        "GH02-T031",
+        "GH02-T035"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P18-V01",
+      "path": "assets/images/official/gh02/gh02_p18_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 18,
+      "topic_ids": [
+        "GH02-T035"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P21-V01",
+      "path": "assets/images/official/gh02/gh02_p21_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH02-T040",
+        "GH02-T041",
+        "GH02-T042"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P21-V02",
+      "path": "assets/images/official/gh02/gh02_p21_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH02-T040",
+        "GH02-T041",
+        "GH02-T042"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P21-V03",
+      "path": "assets/images/official/gh02/gh02_p21_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 21,
+      "topic_ids": [
+        "GH02-T040",
+        "GH02-T041",
+        "GH02-T042"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P22-V01",
+      "path": "assets/images/official/gh02/gh02_p22_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 22,
+      "topic_ids": [
+        "GH02-T040"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P23-V01",
+      "path": "assets/images/official/gh02/gh02_p23_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 23,
+      "topic_ids": [
+        "GH02-T041",
+        "GH02-T042"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P24-V01",
+      "path": "assets/images/official/gh02/gh02_p24_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH02-T043",
+        "GH02-T044"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P24-V02",
+      "path": "assets/images/official/gh02/gh02_p24_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 24,
+      "topic_ids": [
+        "GH02-T043",
+        "GH02-T044"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P25-V01",
+      "path": "assets/images/official/gh02/gh02_p25_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 25,
+      "topic_ids": [
+        "GH02-T045"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P26-V01",
+      "path": "assets/images/official/gh02/gh02_p26_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P26-V02",
+      "path": "assets/images/official/gh02/gh02_p26_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P26-V03",
+      "path": "assets/images/official/gh02/gh02_p26_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P26-V04",
+      "path": "assets/images/official/gh02/gh02_p26_v04.png",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P26-V05",
+      "path": "assets/images/official/gh02/gh02_p26_v05.png",
+      "source_id": "GH-02",
+      "physical_page": 26,
+      "topic_ids": [
+        "GH02-T046"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P27-V01",
+      "path": "assets/images/official/gh02/gh02_p27_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 27,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P27-V02",
+      "path": "assets/images/official/gh02/gh02_p27_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 27,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P27-V03",
+      "path": "assets/images/official/gh02/gh02_p27_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 27,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P28-V01",
+      "path": "assets/images/official/gh02/gh02_p28_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P28-V02",
+      "path": "assets/images/official/gh02/gh02_p28_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P28-V03",
+      "path": "assets/images/official/gh02/gh02_p28_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P28-V04",
+      "path": "assets/images/official/gh02/gh02_p28_v04.png",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P28-V05",
+      "path": "assets/images/official/gh02/gh02_p28_v05.png",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P28-V06",
+      "path": "assets/images/official/gh02/gh02_p28_v06.png",
+      "source_id": "GH-02",
+      "physical_page": 28,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P29-V01",
+      "path": "assets/images/official/gh02/gh02_p29_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 29,
+      "topic_ids": [
+        "GH02-T039"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P30-V01",
+      "path": "assets/images/official/gh02/gh02_p30_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P30-V02",
+      "path": "assets/images/official/gh02/gh02_p30_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P30-V03",
+      "path": "assets/images/official/gh02/gh02_p30_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P30-V04",
+      "path": "assets/images/official/gh02/gh02_p30_v04.png",
+      "source_id": "GH-02",
+      "physical_page": 30,
+      "topic_ids": [
+        "GH02-T036",
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V01",
+      "path": "assets/images/official/gh02/gh02_p31_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V02",
+      "path": "assets/images/official/gh02/gh02_p31_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V03",
+      "path": "assets/images/official/gh02/gh02_p31_v03.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V04",
+      "path": "assets/images/official/gh02/gh02_p31_v04.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V05",
+      "path": "assets/images/official/gh02/gh02_p31_v05.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V06",
+      "path": "assets/images/official/gh02/gh02_p31_v06.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V07",
+      "path": "assets/images/official/gh02/gh02_p31_v07.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V08",
+      "path": "assets/images/official/gh02/gh02_p31_v08.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P31-V09",
+      "path": "assets/images/official/gh02/gh02_p31_v09.png",
+      "source_id": "GH-02",
+      "physical_page": 31,
+      "topic_ids": [
+        "GH02-T037"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P32-V01",
+      "path": "assets/images/official/gh02/gh02_p32_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 32,
+      "topic_ids": [
+        "GH02-T038"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P33-V01",
+      "path": "assets/images/official/gh02/gh02_p33_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 33,
+      "topic_ids": [
+        "GH02-T040"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P33-V02",
+      "path": "assets/images/official/gh02/gh02_p33_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 33,
+      "topic_ids": [
+        "GH02-T040"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P34-V01",
+      "path": "assets/images/official/gh02/gh02_p34_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 34,
+      "topic_ids": [
+        "GH02-T040"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P34-V02",
+      "path": "assets/images/official/gh02/gh02_p34_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 34,
+      "topic_ids": [
+        "GH02-T040"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P36-V01",
+      "path": "assets/images/official/gh02/gh02_p36_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 36,
+      "topic_ids": [
+        "GH02-T041",
+        "GH02-T042"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P37-V01",
+      "path": "assets/images/official/gh02/gh02_p37_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 37,
+      "topic_ids": [
+        "GH02-T042",
+        "GH02-T043"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P37-V02",
+      "path": "assets/images/official/gh02/gh02_p37_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 37,
+      "topic_ids": [
+        "GH02-T042",
+        "GH02-T043"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P38-V01",
+      "path": "assets/images/official/gh02/gh02_p38_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 38,
+      "topic_ids": [
+        "GH02-T044"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P39-V01",
+      "path": "assets/images/official/gh02/gh02_p39_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 39,
+      "topic_ids": [
+        "GH02-T045"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P41-V01",
+      "path": "assets/images/official/gh02/gh02_p41_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 41,
+      "topic_ids": [
+        "GH02-T046",
+        "GH02-T047"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P42-V01",
+      "path": "assets/images/official/gh02/gh02_p42_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 42,
+      "topic_ids": [
+        "GH02-T048"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P43-V01",
+      "path": "assets/images/official/gh02/gh02_p43_v01.png",
+      "source_id": "GH-02",
+      "physical_page": 43,
+      "topic_ids": [
+        "GH02-T048"
+      ]
+    },
+    {
+      "illustration_id": "GH02-P43-V02",
+      "path": "assets/images/official/gh02/gh02_p43_v02.png",
+      "source_id": "GH-02",
+      "physical_page": 43,
+      "topic_ids": [
+        "GH02-T048"
+      ]
+    }
+  ]
+}

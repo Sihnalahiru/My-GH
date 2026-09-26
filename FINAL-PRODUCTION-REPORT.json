@@ -1,0 +1,44 @@
+{
+  "build": "FINAL-PRODUCTION",
+  "title": "SSW Airport Ground Handling — Master Study PWA",
+  "status": "PRODUCTION_CANDIDATE",
+  "target": "Safari-first mobile portrait PWA",
+  "features": {
+    "portrait_manifest": true,
+    "portrait_orientation_guard": true,
+    "safe_area_support": true,
+    "dark_mode": true,
+    "comfort_view": true,
+    "reduced_motion": true,
+    "premium_dashboard": true,
+    "audio_controls_unified": true,
+    "progress_exam_analytics_unified": true,
+    "safari_add_to_home_screen_guidance": true,
+    "offline_service_worker": true
+  },
+  "source_counts": {
+    "study_blocks": 104,
+    "questions": 110,
+    "visuals": 114,
+    "audio_blocks": 104,
+    "glossary_terms": 56
+  },
+  "qa": {
+    "javascript_syntax": "PASS",
+    "json_parse": "PASS",
+    "unified_progress": "PASS",
+    "unified_exam_integration": "PASS",
+    "pwa_static_validation": "PASS",
+    "deployment_architecture": "PASS",
+    "physical_iphone_safari": "PENDING_DEVICE_TEST",
+    "physical_android_chrome": "PENDING_DEVICE_TEST",
+    "github_pages_live": "PENDING_REPOSITORY_PUSH",
+    "human_native_audio_312_variants": "PENDING_AUDIO_BY_DESIGN"
+  },
+  "safari_notes": [
+    "Use Safari Share → Add to Home Screen for installed web-app mode.",
+    "Portrait-first layout is enforced by manifest for installed mode; browser orientation cannot be forcibly locked by ordinary web code.",
+    "A landscape guard appears on small screens to guide the user back to portrait.",
+    "Audio playback should be initiated by a user gesture when Safari blocks automatic media playback."
+  ]
+}

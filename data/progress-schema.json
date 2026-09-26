@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SSW Airport Ground Handling Learner Progress State",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "events",
+    "sessions"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/session"
+      }
+    },
+    "settings": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "required": [
+        "event_id",
+        "type",
+        "occurred_at"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "occurred_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "track": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "physical_page": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "chapter_id": {
+          "type": "string"
+        },
+        "topic_id": {
+          "type": "string"
+        },
+        "fact_id": {
+          "type": "string"
+        },
+        "study_id": {
+          "type": "string"
+        },
+        "question_id": {
+          "type": "string"
+        },
+        "visual_id": {
+          "type": "string"
+        },
+        "term_id": {
+          "type": "string"
+        },
+        "correct": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "result": {
+          "type": "string"
+        },
+        "duration_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "metadata": {
+          "type": "object"
+        }
+      }
+    },
+    "session": {
+      "type": "object",
+      "required": [
+        "session_id",
+        "session_type"
+      ],
+      "properties": {
+        "session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "session_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "started_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "completed_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "answered": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "correct": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "incorrect": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "score_percent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "source_type": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "status": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

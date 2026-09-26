@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SSW Ground Handling">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="./assets/icons/icon-192.png">
+<title>SSW Airport Ground Handling — Master Command</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="orientation-guard" id="orientationGuard" aria-live="polite"><div class="orientation-card"><div class="orientation-icon">↻</div><h2>Portrait mode</h2><p>Rotate your device to portrait for the best study layout.</p></div></div>
+<div class="app-shell">
+<header class="topbar"><button class="brand" data-route="home" aria-label="Home"><span class="brand-mark">✈</span><span><strong>SSW GROUND HANDLING</strong><small>MASTER COMMAND</small></span></button><div class="top-actions"><button class="icon-btn" data-route="search" title="Search">⌕</button><button class="icon-btn" data-route="settings" title="Settings">⚙</button></div></header>
+<main id="app" aria-live="polite"></main>
+<nav class="bottom-nav" aria-label="Primary navigation"><button data-route="home">⌂<span>Home</span></button><button data-route="study">▣<span>Study</span></button><button data-route="mcq">✓<span>MCQ</span></button><button data-route="glossary">文<span>Terms</span></button><button data-route="progress">◴<span>Progress</span></button></nav>
+</div>
+<script src="./app/provenance.js" defer></script>
+<script src="./app/study.js" defer></script>
+<script src="./app/study-mode.js" defer></script>
+<script src="./app/questions.js" defer></script>
+<script src="./app/visual.js" defer></script>
+<script src="./app/glossary.js" defer></script>
+<script src="./app/audio.js" defer></script>
+<script src="./app/dashboard.js" defer></script>
+<script src="./app/progress.js" defer></script>
+<script src="./app/exam.js" defer></script>
+<script src="./app.js" defer></script>
+</body>
+</html>

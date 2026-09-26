@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "study_mode": {
+    "study_block": "source-linked study record",
+    "presentation": {
+      "sections": [
+        "core_knowledge",
+        "definition",
+        "procedure",
+        "safety",
+        "equipment",
+        "warning",
+        "distinction",
+        "example",
+        "exam_point"
+      ],
+      "terminology": "verified glossary records",
+      "illustrations": "verified visual records",
+      "audio": "linked audio blocks",
+      "questions": "linked question records"
+    },
+    "progress": "optional StudyProgress-compatible store",
+    "session": "open/current/complete/reset"
+  }
+}

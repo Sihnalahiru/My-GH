@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "exam_mode": {
+    "mode": "REAL_EXAM",
+    "title": "SSW Airport Ground Handling Exam",
+    "written": {
+      "duration_minutes": 45,
+      "approximate_questions": 30
+    },
+    "practical": {
+      "duration_minutes": 30,
+      "approximate_questions": 15
+    },
+    "sections_required_individually": true,
+    "pass_threshold_percent": 65,
+    "listening_section": false,
+    "exam_language": "ja",
+    "explanations_during_exam": false,
+    "hints_during_exam": false,
+    "answer_reveal_during_exam": false
+  },
+  "session": {
+    "section": "WRITTEN | PRACTICAL",
+    "status": "READY | RUNNING | SUBMITTED | EXPIRED | ABANDONED",
+    "questions": "verified eligible question records",
+    "answers": "choice_id map",
+    "timer": "server-independent local countdown based on session timestamps",
+    "score": "section result"
+  }
+}

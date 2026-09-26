@@ -1,0 +1,10 @@
+{
+  "build": "BUILD-15",
+  "title": "Mobile QA",
+  "status": "VERIFIED",
+  "errors": [],
+  "warnings": [],
+  "static_gate": "PASS",
+  "real_device_gate": "PENDING_UI_INTEGRATION",
+  "rule": "Final mobile UI cannot be marked fully verified until the integrated UI is tested on Android Chrome and iPhone Safari."
+}

@@ -1,0 +1,26 @@
+{
+  "phase": "FINAL-PHASE-D-UI-QA",
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "ground_handling_topics": 55,
+    "study_records": 104,
+    "questions": 110,
+    "official_samples": 6,
+    "source_based_practice": 104,
+    "predicted_practice": 0,
+    "glossary_terms": 56,
+    "visuals": 114,
+    "audio_blocks": 104,
+    "pending_audio_variants": 312
+  },
+  "checks": {
+    "all_json_parse": true,
+    "ground_handling_isolated": true,
+    "study_topic_coverage": true,
+    "visual_files_exist": true,
+    "question_integrity": true,
+    "audio_provenance": true
+  }
+}
