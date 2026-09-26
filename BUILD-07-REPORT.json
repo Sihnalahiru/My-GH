@@ -1,0 +1,29 @@
+{
+  "build_step": "BUILD-07",
+  "status": "COMPLETE",
+  "files": [
+    "app/questions.js",
+    "tools/validate-questions.js",
+    "data/question-schema.json",
+    "BUILD-07-README.md"
+  ],
+  "question_population_status": "ENGINE_READY_DATA_POPULATION_PENDING",
+  "source_types": [
+    "OFFICIAL_SAMPLE",
+    "SOURCE_BASED_PRACTICE",
+    "PREDICTED_PRACTICE"
+  ],
+  "question_types": [
+    "DIRECT",
+    "NUMERICAL",
+    "TRUE_FALSE",
+    "SCENARIO",
+    "PROCEDURE",
+    "VISUAL",
+    "TERMINOLOGY",
+    "DISTINCTION",
+    "EXCEPTION",
+    "MATCHING"
+  ],
+  "note": "No unsupported questions were fabricated. Official sample records remain immutable and generated practice is source-gated."
+}

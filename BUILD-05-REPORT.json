@@ -1,0 +1,13 @@
+{
+  "build_step": "BUILD-05",
+  "status": "COMPLETE",
+  "files": [
+    "app/visual.js",
+    "tools/validate-visual.js",
+    "data/illustration-schema.json",
+    "BUILD-05-README.md"
+  ],
+  "visual_records_in_master_data": 59,
+  "verified_question_policy": "Explicit visual_question_eligible plus verified source/topic relationship required.",
+  "asset_extraction_status": "Not yet populated; source relationships remain preserved."
+}

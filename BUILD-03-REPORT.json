@@ -1,0 +1,15 @@
+{
+  "build_step": "BUILD-03",
+  "status": "COMPLETE",
+  "engine": "app/provenance.js",
+  "validator": "tools/validate-provenance.js",
+  "rules": [
+    "source_id required",
+    "physical_page required",
+    "source must be registered",
+    "track/source isolation enforced",
+    "VERIFIED promotion is source-gated",
+    "pending/blocked records cannot be silently promoted",
+    "no unsupported source content is invented"
+  ]
+}

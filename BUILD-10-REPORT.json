@@ -1,0 +1,21 @@
+{
+  "build_step": "BUILD-10",
+  "status": "COMPLETE",
+  "files": [
+    "app/exam.js",
+    "tools/validate-exam.js",
+    "data/exam-schema.json",
+    "BUILD-10-README.md"
+  ],
+  "official_configuration": {
+    "written_minutes": 45,
+    "written_approx_questions": 30,
+    "practical_minutes": 30,
+    "practical_approx_questions": 15,
+    "individual_section_pass": true,
+    "pass_threshold_percent": 65,
+    "listening_section": false
+  },
+  "question_population_status": "VERIFIED_QUESTION_DATA_PENDING",
+  "note": "Real Exam Mode engine is ready but cannot run a real populated exam until verified question records exist."
+}

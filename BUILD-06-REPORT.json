@@ -1,0 +1,13 @@
+{
+  "build_step": "BUILD-06",
+  "status": "COMPLETE",
+  "files": [
+    "app/glossary.js",
+    "tools/validate-glossary.js",
+    "data/glossary-schema.json",
+    "BUILD-06-README.md"
+  ],
+  "term_population_status": "STRUCTURE_READY",
+  "current_verified_terms": 0,
+  "note": "The existing glossary is intentionally empty until source-supported term records are populated. No Japanese terminology has been invented."
+}

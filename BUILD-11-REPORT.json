@@ -1,0 +1,23 @@
+{
+  "build_step": "BUILD-11",
+  "status": "COMPLETE",
+  "files": [
+    "app/study-mode.js",
+    "tools/validate-study-mode.js",
+    "data/study-mode-schema.json",
+    "BUILD-11-README.md"
+  ],
+  "study_population_status": "VERIFIED_FACT_DATA_PENDING",
+  "supported_sections": [
+    "core_knowledge",
+    "definition",
+    "procedure",
+    "safety",
+    "equipment",
+    "warning",
+    "distinction",
+    "example",
+    "exam_point"
+  ],
+  "note": "Study Mode presentation/session engine is ready. It consumes verified study blocks and does not invent source content."
+}

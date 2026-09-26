@@ -1,0 +1,44 @@
+{
+  "build": "BUILD-12",
+  "component": "Progress / Analytics",
+  "status": "VERIFIED",
+  "created_files": [
+    "app/progress.js",
+    "data/progress-schema.json",
+    "tools/validate-progress.js",
+    "BUILD-12-README.md",
+    "BUILD-12-REPORT.json"
+  ],
+  "features": [
+    "separate learner-state storage",
+    "study activity tracking",
+    "MCQ correctness tracking",
+    "session tracking",
+    "daily activity analytics",
+    "weekly activity analytics",
+    "streak calculation",
+    "topic accuracy",
+    "chapter accuracy",
+    "weak-area detection",
+    "visual/glossary/audio activity counts",
+    "safe progress reset",
+    "source-data isolation"
+  ],
+  "event_types": [
+    "STUDY_OPEN",
+    "STUDY_COMPLETE",
+    "MCQ_ANSWER",
+    "EXAM_COMPLETE",
+    "VISUAL_VIEW",
+    "GLOSSARY_VIEW",
+    "AUDIO_PLAY"
+  ],
+  "data_population": {
+    "learner_history_bundled": false,
+    "reason": "Progress is user runtime state and must not be invented or mixed into source data."
+  },
+  "validation": {
+    "command": "node tools/validate-progress.js",
+    "expected_status": "VERIFIED"
+  }
+}
