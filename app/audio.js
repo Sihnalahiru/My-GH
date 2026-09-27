@@ -3,6 +3,10 @@
  * Source content remains authoritative. Audio is a presentation layer.
  * The current master data uses `variants` as the canonical per-voice field.
  * Human/official recordings are preferred; browser SpeechSynthesis is fallback only.
+ *
+ * This version adds strict single-session playback control so only one language block
+ * is spoken at a time, with pause/resume and stop support. It prevents the noisy
+ * "all channels playing nonstop" behavior when multiple language toggles are enabled.
  */
 (function () {
   "use strict";
@@ -12,6 +16,7 @@
     RECORDED:"RECORDED", REVIEW_REQUIRED:"REVIEW_REQUIRED", VERIFIED:"VERIFIED", BLOCKED:"BLOCKED"
   });
   const LANG_KEYS = Object.freeze(["ja","en","si"]);
+  const LANG_NAMES = Object.freeze({ja:"日本語",en:"English",si:"සිංහල"});
   const AUDIO_TYPES = Object.freeze([
     "DEFINITION","CORE_KNOWLEDGE","SAFETY","PROCEDURE","WARNING","EXAMPLE",
     "DISTINCTION","TERM","EXAM_RECOGNITION","QUESTION","EXPLANATION","VISUAL_EXPLANATION","VISUAL","NUMERICAL"
@@ -22,9 +27,10 @@
     channels:{ja:true,en:true,si:true},
     autoPlay:false,
     autoQueue:false,
-    volume:1,
-    rate:0.92,
-    fallbackAllowed:true
+    volume:0.8,
+    rate:0.95,
+    fallbackAllowed:true,
+    pitch:1.0
   });
 
   function cloneDefaults(){
@@ -42,9 +48,10 @@
         channels:{ja:raw.channels?.ja!==false,en:raw.channels?.en!==false,si:raw.channels?.si!==false},
         autoPlay:raw.autoPlay===true,
         autoQueue:raw.autoQueue===true,
-        volume:Number.isFinite(Number(raw.volume))?Math.max(0,Math.min(1,Number(raw.volume))):1,
-        rate:Number.isFinite(Number(raw.rate))?Math.max(.5,Math.min(1.75,Number(raw.rate))):.92,
-        fallbackAllowed:raw.fallbackAllowed!==false
+        volume:Number.isFinite(Number(raw.volume))?Math.max(0,Math.min(1,Number(raw.volume))):0.8,
+        rate:Number.isFinite(Number(raw.rate))?Math.max(.5,Math.min(1.75,Number(raw.rate))):0.95,
+        fallbackAllowed:raw.fallbackAllowed!==false,
+        pitch:Number.isFinite(Number(raw.pitch))?Math.max(0.5,Math.min(2,Number(raw.pitch))):1.0
       };
     }catch(_){ return cloneDefaults(); }
   }
@@ -145,122 +152,147 @@
 
   class AudioController{
     constructor(){
-      this.currentAudio=null; this.currentSpeech=null; this.queue=[]; this.currentIndex=0;
-      this.speechActive=false; this.listeners=new Set(); this.settings=loadSettings();
-      this._speechReady = false;
+      this.currentAudio=null;
+      this.currentSpeech=null;
+      this.queue=[];
+      this.currentIndex=0;
+      this.speechActive=false;
+      this.isPlaying=false;
+      this.isPaused=false;
+      this.listeners=new Set();
+      this.settings=loadSettings();
+      this._speechReady=false;
+      this._queueInProgress=false;
+      this._lastSession=null;
       this._speechInit();
     }
 
     _speechInit(){
-      if (!("speechSynthesis" in window)) return;
-      try {
-        speechSynthesis.cancel();
-        this._speechReady = true;
-      } catch (_) {
-        this._speechReady = false;
-      }
+      if(!("speechSynthesis" in window))return;
+      try{ speechSynthesis.cancel(); this._speechReady=true; }catch(_){ this._speechReady=false; }
+    }
+
+    _clearSession(){
+      this.isPlaying=false;
+      this.isPaused=false;
+      this.currentAudio=null;
+      this.currentSpeech=null;
+      this.speechActive=false;
+      this._lastSession=null;
     }
 
     on(event,cb){this.listeners.add(cb);return()=>this.listeners.delete(cb)}
     emit(event,payload){for(const cb of this.listeners){try{cb(event,payload)}catch(_){}}}
-    getSettings(){return { ...this.settings, channels:{...this.settings.channels} }}
+    getSettings(){return{...this.settings,channels:{...this.settings.channels}}}
     setSettings(patch={}){
       this.settings={
         ...this.settings,
         ...patch,
         channels:{...this.settings.channels,...(patch.channels||{})}
       };
-      this.settings.volume=Math.max(0,Math.min(1,Number(this.settings.volume)||0));
-      this.settings.rate=Math.max(.5,Math.min(1.75,Number(this.settings.rate)||.92));
-      saveSettings(this.settings); this.emit("settings",this.getSettings()); return this.getSettings();
+      this.settings.volume=Math.max(0,Math.min(1,Number(this.settings.volume)||0.8));
+      this.settings.rate=Math.max(.5,Math.min(1.75,Number(this.settings.rate)||0.95));
+      this.settings.pitch=Math.max(0.5,Math.min(2,Number(this.settings.pitch)||1.0));
+      saveSettings(this.settings);this.emit("settings",this.getSettings());return this.getSettings();
     }
     toggle(key){return this.setSettings({[key]:!this.settings[key]})}
     toggleChannel(lang){if(!LANG_KEYS.includes(lang))return this.getSettings();return this.setSettings({channels:{[lang]:!this.settings.channels[lang]}})}
+
     stop(){
-      if(this.currentAudio){try{this.currentAudio.pause();this.currentAudio.currentTime=0}catch(_){} }
+      this._clearSession();
+      if(this.currentAudio){try{this.currentAudio.pause();this.currentAudio.currentTime=0}catch(_){}}
       this.currentAudio=null;
-      if("speechSynthesis" in window){try{speechSynthesis.cancel()}catch(_){} }
-      this.currentSpeech=null; this.speechActive=false; this.queue=[]; this.currentIndex=0; this.emit("stop");
+      if("speechSynthesis" in window){try{speechSynthesis.cancel()}catch(_){}}
+      this.queue=[];this.currentIndex=0;this._queueInProgress=false;this.emit("stop");
     }
+
+    pause(){
+      if(!this.isPlaying)return false;
+      this.isPaused=true;
+      if(this.currentAudio){try{this.currentAudio.pause()}catch(_){}}
+      if(this.currentSpeech && "speechSynthesis" in window){try{speechSynthesis.pause()}catch(_){}}
+      this.emit("pause");
+      return true;
+    }
+
+    resume(){
+      if(!this.isPaused)return false;
+      this.isPaused=false;
+      if(this.currentAudio){try{this.currentAudio.play().catch(_=>{})}catch(_){}}
+      if(this.currentSpeech && "speechSynthesis" in window){try{speechSynthesis.resume()}catch(_){}}
+      this.emit("resume");
+      return true;
+    }
+
     canPlay(lang){return this.settings.masterEnabled && this.settings.channels?.[lang]!==false}
 
     async playUrl(url,metadata={}){
-      if(!url){
-        this.emit("error",{code:"AUD-008",message:"Audio URL is missing.",metadata});
-        return false;
-      }
-      if(this.currentAudio){try{this.currentAudio.pause();this.currentAudio.currentTime=0}catch(_){} }
-      if("speechSynthesis" in window){try{speechSynthesis.cancel()}catch(_){} }
+      if(!url){this.emit("error",{code:"AUD-008",message:"Audio URL is missing.",metadata});return false}
+      this.stop();
+      return new Promise((resolve)=>{
+        const a=new Audio(url);
+        this.currentAudio=a;
+        this.isPlaying=true;
+        this._lastSession={type:"audio",meta:metadata};
+        a.volume=this.settings.volume;
+        a.playbackRate=this.settings.rate;
 
-      return new Promise((resolve) => {
-        const a = new Audio(url);
-        this.currentAudio = a;
-        a.volume = this.settings.volume;
-        a.playbackRate = this.settings.rate;
-
-        const done = (event, payload) => {
-          this.currentAudio = null;
-          this.emit(event, payload);
-          this.currentIndex++;
-          this.playNext();
+        const done=(event,payload)=>{
+          this.currentAudio=null;
+          this.emit(event,payload);
+          if(!this.isPaused){this.currentIndex++;this.playNext();}
           resolve(true);
         };
 
-        a.addEventListener("ended", () => done("ended", { ...metadata, source: "AUDIO_URL" }), { once: true });
-        a.addEventListener("error", () => done("error", { code:"AUD-008", message:"Audio playback failed.", ...metadata }), { once: true });
+        a.addEventListener("ended",()=>done("ended",{...metadata,source:"AUDIO_URL"}),{once:true});
+        a.addEventListener("error",()=>done("error",{code:"AUD-008",message:"Audio playback failed.",...metadata}),{once:true});
 
-        a.play().then(() => {
-          this.emit("play", { ...metadata, source: "AUDIO_URL" });
-        }).catch((e) => {
-          this.currentAudio = null;
-          this.emit("error", { code:"AUD-008", message:e?.message || "Playback blocked.", ...metadata });
+        a.play().then(()=>{
+          this.emit("play",{...metadata,source:"AUDIO_URL"});
+        }).catch((e)=>{
+          this.currentAudio=null;
+          this.emit("error",{code:"AUD-008",message:e?.message||"Playback blocked.",...metadata});
           resolve(false);
         });
       });
     }
 
-    speechLocale(lang){return {ja:"ja-JP",en:"en-US",si:"si-LK"}[lang]||lang}
+    speechLocale(lang){return{ja:"ja-JP",en:"en-US",si:"si-LK"}[lang]||lang}
 
     async playSpeech(text,lang,metadata={}){
-      if(!text){
-        this.emit("error",{code:"AUD-009",message:"No source-backed text is available.",metadata});
-        return false;
-      }
-      if(!("speechSynthesis" in window)){
-        this.emit("error",{code:"AUD-009",message:"Browser voice is unavailable.",metadata});
-        return false;
-      }
+      if(!text){this.emit("error",{code:"AUD-009",message:"No source-backed text is available.",metadata});return false}
+      if(!("speechSynthesis" in window)){this.emit("error",{code:"AUD-009",message:"Browser voice is unavailable.",metadata});return false}
 
-      try{speechSynthesis.cancel();}catch(_){ }
+      this.stop();
 
-      return new Promise((resolve) => {
-        const u = new SpeechSynthesisUtterance(text);
-        this.currentSpeech = u;
-        u.lang = this.speechLocale(lang);
-        u.rate = this.settings.rate;
-        u.pitch = 1;
-        u.volume = this.settings.volume;
+      return new Promise((resolve)=>{
+        const u=new SpeechSynthesisUtterance(text);
+        this.currentSpeech=u;
+        this.isPlaying=true;
+        this._lastSession={type:"speech",meta:{...metadata,language:lang}};
+        u.lang=this.speechLocale(lang);
+        u.rate=this.settings.rate;
+        u.pitch=this.settings.pitch;
+        u.volume=this.settings.volume;
 
-        u.onstart = () => {
-          this.speechActive = true;
-          this.emit("play", { ...metadata, fallback:"BROWSER_SPEECH_FALLBACK" });
+        u.onstart=()=>{
+          this.speechActive=true;
+          this.emit("play",{...metadata,fallback:"BROWSER_SPEECH_FALLBACK",language:lang,langName:LANG_NAMES[lang]});
         };
 
-        u.onend = () => {
-          this.speechActive = false;
-          this.currentSpeech = null;
-          this.emit("ended", { ...metadata, fallback:"BROWSER_SPEECH_FALLBACK" });
-          this.currentIndex++;
-          this.playNext();
+        u.onend=()=>{
+          this.speechActive=false;
+          this.currentSpeech=null;
+          this.emit("ended",{...metadata,fallback:"BROWSER_SPEECH_FALLBACK",language:lang});
+          if(!this.isPaused){this.currentIndex++;this.playNext();}
           resolve(true);
         };
 
-        u.onerror = (e) => {
-          this.speechActive = false;
-          this.currentSpeech = null;
-          this.emit("error", { code:"AUD-010", message:e?.error || "Browser voice failed.", ...metadata });
-          this.currentIndex++;
-          this.playNext();
+        u.onerror=(e)=>{
+          this.speechActive=false;
+          this.currentSpeech=null;
+          this.emit("error",{code:"AUD-010",message:e?.error||"Browser voice failed.",...metadata});
+          if(!this.isPaused){this.currentIndex++;this.playNext();}
           resolve(false);
         };
 
@@ -269,28 +301,19 @@
     }
 
     async playBlock(block,lang){
-      if(!block||!LANG_KEYS.includes(lang)){
-        this.emit("error",{code:"AUD-001",message:"Requested audio block is unavailable.",language:lang});
-        return false;
-      }
-      if(!this.canPlay(lang)){
-        this.emit("blocked",{reason:"CHANNEL_DISABLED",language:lang});
-        return false;
-      }
+      if(!block||!LANG_KEYS.includes(lang)){this.emit("error",{code:"AUD-001",message:"Requested audio block is unavailable.",language:lang});return false}
+      if(!this.canPlay(lang)){this.emit("blocked",{reason:"CHANNEL_DISABLED",language:lang});return false}
 
       const v=block.variants?.[lang];
-      if(!v){
-        this.emit("error",{code:"AUD-001",message:"Requested voice variant is unavailable.",audio_block_id:block.audio_block_id,language:lang});
-        return false;
-      }
+      if(!v){this.emit("error",{code:"AUD-001",message:"Requested voice variant is unavailable.",audio_block_id:block.audio_block_id,language:lang});return false}
 
       if(v.audio_url){
-        return this.playUrl(v.audio_url,{audio_block_id:block.audio_block_id,language:lang,fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
+        return this.playUrl(v.audio_url,{audio_block_id:block.audio_block_id,language:lang,langName:LANG_NAMES[lang],fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
       }
 
-      const fallback = block.playback?.fallback_allowed !== false && this.settings.fallbackAllowed;
+      const fallback = block.playback?.fallback_allowed!==false && this.settings.fallbackAllowed;
       if(fallback && v.text){
-        return this.playSpeech(v.text, lang, {audio_block_id:block.audio_block_id,language:lang,fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
+        return this.playSpeech(v.text,lang,{audio_block_id:block.audio_block_id,language:lang,langName:LANG_NAMES[lang],fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
       }
 
       this.emit("error",{code:"AUD-001",message:"Recorded audio is pending for this block.",audio_block_id:block.audio_block_id,language:lang});
@@ -302,23 +325,38 @@
     async playQueue(items=null){
       this.stop();
       if(Array.isArray(items))this.queue=items.filter(x=>x?.block&&LANG_KEYS.includes(x?.language)&&this.canPlay(x.language));
-      this.currentIndex=0; if(!this.queue.length)return false; return this.playNext();
+      this.currentIndex=0; if(!this.queue.length)return false; this._queueInProgress=true; return this.playNext();
     }
 
     async playNext(){
-      if(this.currentIndex>=this.queue.length){this.queue=[];this.currentIndex=0;this.emit("queueEnd");return false}
+      if(this.isPaused)return false;
+      if(this.currentIndex>=this.queue.length){this.queue=[];this.currentIndex=0;this._queueInProgress=false;this.isPlaying=false;this.emit("queueEnd");return false}
       const item=this.queue[this.currentIndex]; const v=item.block?.variants?.[item.language];
       if(!this.canPlay(item.language)){this.currentIndex++;return this.playNext();}
       if(v?.audio_url){
-        return this.playUrl(v.audio_url,{audio_block_id:item.block.audio_block_id,language:item.language,fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
+        return this.playUrl(v.audio_url,{audio_block_id:item.block.audio_block_id,language:item.language,langName:LANG_NAMES[item.language],fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
       }
       const fallback=item.block?.playback?.fallback_allowed!==false && this.settings.fallbackAllowed;
       if(fallback&&v?.text){
-        return this.playSpeech(v.text,item.language,{audio_block_id:item.block.audio_block_id,language:item.language,fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
+        return this.playSpeech(v.text,item.language,{audio_block_id:item.block.audio_block_id,language:item.language,langName:LANG_NAMES[item.language],fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
       }
-      this.currentIndex++; return this.playNext();
+      this.currentIndex++;return this.playNext();
+    }
+
+    getStatus(){
+      return {
+        isPlaying:this.isPlaying,
+        isPaused:this.isPaused,
+        queueLength:this.queue.length,
+        currentIndex:this.currentIndex,
+        currentLang:this.queue[this.currentIndex]?.language||null,
+        settings:this.getSettings()
+      };
     }
   }
 
-  window.SSWAudio={AUDIO_STATUS,AUDIO_TYPES,LANG_KEYS,SETTINGS_KEY,AudioStore,AudioController,validateAudioBlock};
+  window.SSWAudio={
+    AUDIO_STATUS,AUDIO_TYPES,LANG_KEYS,LANG_NAMES,SETTINGS_KEY,
+    AudioStore,AudioController,validateAudioBlock
+  };
 })();
