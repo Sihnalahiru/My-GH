@@ -33,6 +33,7 @@
       channels:{...DEFAULT_SETTINGS.channels}
     };
   }
+
   function loadSettings(){
     try{
       const raw=JSON.parse(localStorage.getItem(SETTINGS_KEY)||"{}");
@@ -47,6 +48,7 @@
       };
     }catch(_){ return cloneDefaults(); }
   }
+
   function saveSettings(settings){
     try{localStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));}catch(_){ }
   }
@@ -145,7 +147,20 @@
     constructor(){
       this.currentAudio=null; this.currentSpeech=null; this.queue=[]; this.currentIndex=0;
       this.speechActive=false; this.listeners=new Set(); this.settings=loadSettings();
+      this._speechReady = false;
+      this._speechInit();
     }
+
+    _speechInit(){
+      if (!("speechSynthesis" in window)) return;
+      try {
+        speechSynthesis.cancel();
+        this._speechReady = true;
+      } catch (_) {
+        this._speechReady = false;
+      }
+    }
+
     on(event,cb){this.listeners.add(cb);return()=>this.listeners.delete(cb)}
     emit(event,payload){for(const cb of this.listeners){try{cb(event,payload)}catch(_){}}}
     getSettings(){return { ...this.settings, channels:{...this.settings.channels} }}
@@ -168,52 +183,140 @@
       this.currentSpeech=null; this.speechActive=false; this.queue=[]; this.currentIndex=0; this.emit("stop");
     }
     canPlay(lang){return this.settings.masterEnabled && this.settings.channels?.[lang]!==false}
+
     async playUrl(url,metadata={}){
-      if(!url){this.emit("error",{code:"AUD-008",message:"Audio URL is missing.",metadata});return false}
+      if(!url){
+        this.emit("error",{code:"AUD-008",message:"Audio URL is missing.",metadata});
+        return false;
+      }
       if(this.currentAudio){try{this.currentAudio.pause();this.currentAudio.currentTime=0}catch(_){} }
       if("speechSynthesis" in window){try{speechSynthesis.cancel()}catch(_){} }
-      const a=new Audio(url); this.currentAudio=a; a.volume=this.settings.volume;
-      a.playbackRate=this.settings.rate;
-      a.addEventListener("ended",()=>{this.currentAudio=null;this.emit("ended",metadata);this.currentIndex++;this.playNext()},{once:true});
-      a.addEventListener("error",()=>{this.currentAudio=null;this.emit("error",{code:"AUD-008",message:"Audio playback failed.",metadata});this.currentIndex++ ;this.playNext()},{once:true});
-      try{await a.play();this.emit("play",metadata);return true}catch(e){this.currentAudio=null;this.emit("error",{code:"AUD-008",message:e?.message||"Playback blocked.",metadata});return false}
+
+      return new Promise((resolve) => {
+        const a = new Audio(url);
+        this.currentAudio = a;
+        a.volume = this.settings.volume;
+        a.playbackRate = this.settings.rate;
+
+        const done = (event, payload) => {
+          this.currentAudio = null;
+          this.emit(event, payload);
+          this.currentIndex++;
+          this.playNext();
+          resolve(true);
+        };
+
+        a.addEventListener("ended", () => done("ended", { ...metadata, source: "AUDIO_URL" }), { once: true });
+        a.addEventListener("error", () => done("error", { code:"AUD-008", message:"Audio playback failed.", ...metadata }), { once: true });
+
+        a.play().then(() => {
+          this.emit("play", { ...metadata, source: "AUDIO_URL" });
+        }).catch((e) => {
+          this.currentAudio = null;
+          this.emit("error", { code:"AUD-008", message:e?.message || "Playback blocked.", ...metadata });
+          resolve(false);
+        });
+      });
     }
+
     speechLocale(lang){return {ja:"ja-JP",en:"en-US",si:"si-LK"}[lang]||lang}
+
     async playSpeech(text,lang,metadata={}){
-      if(!text){this.emit("error",{code:"AUD-009",message:"No source-backed text is available.",metadata});return false}
-      if(!("speechSynthesis" in window)){this.emit("error",{code:"AUD-009",message:"Browser voice is unavailable.",metadata});return false}
-      try{speechSynthesis.cancel()}catch(_){}
-      this.currentSpeech=new SpeechSynthesisUtterance(text); const u=this.currentSpeech;
-      u.lang=this.speechLocale(lang); u.rate=this.settings.rate; u.pitch=1; u.volume=this.settings.volume;
-      u.onstart=()=>{this.speechActive=true;this.emit("play",{...metadata,fallback:"BROWSER_SPEECH_FALLBACK"})};
-      u.onend=()=>{this.speechActive=false;this.currentSpeech=null;this.emit("ended",{...metadata,fallback:"BROWSER_SPEECH_FALLBACK"});this.currentIndex++;this.playNext()};
-      u.onerror=e=>{this.speechActive=false;this.currentSpeech=null;this.emit("error",{code:"AUD-010",message:e?.error||"Browser voice failed.",metadata});this.currentIndex++;this.playNext()};
-      speechSynthesis.speak(u); return true;
+      if(!text){
+        this.emit("error",{code:"AUD-009",message:"No source-backed text is available.",metadata});
+        return false;
+      }
+      if(!("speechSynthesis" in window)){
+        this.emit("error",{code:"AUD-009",message:"Browser voice is unavailable.",metadata});
+        return false;
+      }
+
+      try{speechSynthesis.cancel();}catch(_){ }
+
+      return new Promise((resolve) => {
+        const u = new SpeechSynthesisUtterance(text);
+        this.currentSpeech = u;
+        u.lang = this.speechLocale(lang);
+        u.rate = this.settings.rate;
+        u.pitch = 1;
+        u.volume = this.settings.volume;
+
+        u.onstart = () => {
+          this.speechActive = true;
+          this.emit("play", { ...metadata, fallback:"BROWSER_SPEECH_FALLBACK" });
+        };
+
+        u.onend = () => {
+          this.speechActive = false;
+          this.currentSpeech = null;
+          this.emit("ended", { ...metadata, fallback:"BROWSER_SPEECH_FALLBACK" });
+          this.currentIndex++;
+          this.playNext();
+          resolve(true);
+        };
+
+        u.onerror = (e) => {
+          this.speechActive = false;
+          this.currentSpeech = null;
+          this.emit("error", { code:"AUD-010", message:e?.error || "Browser voice failed.", ...metadata });
+          this.currentIndex++;
+          this.playNext();
+          resolve(false);
+        };
+
+        speechSynthesis.speak(u);
+      });
     }
+
     async playBlock(block,lang){
-      if(!block||!LANG_KEYS.includes(lang)){this.emit("error",{code:"AUD-001",message:"Requested audio block is unavailable.",language:lang});return false}
-      if(!this.canPlay(lang)){this.emit("blocked",{reason:"CHANNEL_DISABLED",language:lang});return false}
+      if(!block||!LANG_KEYS.includes(lang)){
+        this.emit("error",{code:"AUD-001",message:"Requested audio block is unavailable.",language:lang});
+        return false;
+      }
+      if(!this.canPlay(lang)){
+        this.emit("blocked",{reason:"CHANNEL_DISABLED",language:lang});
+        return false;
+      }
+
       const v=block.variants?.[lang];
-      if(!v){this.emit("error",{code:"AUD-001",message:"Requested voice variant is unavailable.",audio_block_id:block.audio_block_id,language:lang});return false}
-      if(v.audio_url)return this.playUrl(v.audio_url,{audio_block_id:block.audio_block_id,language:lang,fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
-      const fallback=block.playback?.fallback_allowed!==false && this.settings.fallbackAllowed;
-      if(fallback&&v.text)return this.playSpeech(v.text,lang,{audio_block_id:block.audio_block_id,language:lang,fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
-      this.emit("error",{code:"AUD-001",message:"Recorded audio is pending for this block.",audio_block_id:block.audio_block_id,language:lang});return false;
+      if(!v){
+        this.emit("error",{code:"AUD-001",message:"Requested voice variant is unavailable.",audio_block_id:block.audio_block_id,language:lang});
+        return false;
+      }
+
+      if(v.audio_url){
+        return this.playUrl(v.audio_url,{audio_block_id:block.audio_block_id,language:lang,fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
+      }
+
+      const fallback = block.playback?.fallback_allowed !== false && this.settings.fallbackAllowed;
+      if(fallback && v.text){
+        return this.playSpeech(v.text, lang, {audio_block_id:block.audio_block_id,language:lang,fact_id:block.fact_id,source_id:block.source_id,source_page:block.source_page});
+      }
+
+      this.emit("error",{code:"AUD-001",message:"Recorded audio is pending for this block.",audio_block_id:block.audio_block_id,language:lang});
+      return false;
     }
+
     enqueue(block,lang){if(block&&LANG_KEYS.includes(lang)&&this.canPlay(lang))this.queue.push({block,language:lang});return true}
+
     async playQueue(items=null){
       this.stop();
       if(Array.isArray(items))this.queue=items.filter(x=>x?.block&&LANG_KEYS.includes(x?.language)&&this.canPlay(x.language));
       this.currentIndex=0; if(!this.queue.length)return false; return this.playNext();
     }
+
     async playNext(){
       if(this.currentIndex>=this.queue.length){this.queue=[];this.currentIndex=0;this.emit("queueEnd");return false}
       const item=this.queue[this.currentIndex]; const v=item.block?.variants?.[item.language];
-      if(!this.canPlay(item.language)){this.currentIndex++;return this.playNext()}
-      if(v?.audio_url)return this.playUrl(v.audio_url,{audio_block_id:item.block.audio_block_id,language:item.language,fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
+      if(!this.canPlay(item.language)){this.currentIndex++;return this.playNext();}
+      if(v?.audio_url){
+        return this.playUrl(v.audio_url,{audio_block_id:item.block.audio_block_id,language:item.language,fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
+      }
       const fallback=item.block?.playback?.fallback_allowed!==false && this.settings.fallbackAllowed;
-      if(fallback&&v?.text)return this.playSpeech(v.text,item.language,{audio_block_id:item.block.audio_block_id,language:item.language,fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
-      this.currentIndex++;return this.playNext();
+      if(fallback&&v?.text){
+        return this.playSpeech(v.text,item.language,{audio_block_id:item.block.audio_block_id,language:item.language,fact_id:item.block.fact_id,source_id:item.block.source_id,source_page:item.block.source_page});
+      }
+      this.currentIndex++; return this.playNext();
     }
   }
 
