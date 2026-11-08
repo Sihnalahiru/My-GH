@@ -6,7 +6,7 @@
     route: location.hash.slice(1) || "home",
     study: [], questions: [], glossary: [], topics: [], visuals: [], audio: null, sources: null,
     audioStore: null, audioController: null, progressStore: null, analytics: null, examSession: null, examTick: null, examPersistedSessionId: null,
-    search: "", mcqIndex: 0, mcqLocked: false
+    search: "", mcqIndex: 0, mcqLocked: false, aircraftMaintenance: [], amBookId: null, amView: "pdf"
   };
 
   const $ = (s, root = document) => root.querySelector(s);
@@ -26,16 +26,16 @@
   async function init() {
     applyUISettings();
     try {
-      const [study, questions, glossary, topics, visuals, audio, sources] = await Promise.all([
+      const [study, questions, glossary, topics, visuals, audio, sources, aircraftMaintenance] = await Promise.all([
         load("./data/study.json"), load("./data/questions.json"), load("./data/glossary.json"),
-        load("./data/topics.json"), load("./data/visual-assets.json"), load("./data/audio.json"), load("./data/sources.json")
+        load("./data/topics.json"), load("./data/visual-assets.json"), load("./data/audio.json"), load("./data/sources.json"), load("./data/aircraft-maintenance.json")
       ]);
       state.study = study.records || [];
       state.questions = questions.questions || [];
       state.glossary = glossary.terms || [];
       state.topics = topics.topics || [];
       state.visuals = visuals.assets || [];
-      state.audio = audio; state.sources = sources;
+      state.audio = audio; state.sources = sources; state.aircraftMaintenance = aircraftMaintenance.books || [];
       if (window.SSWGHProgress) {
         state.progressStore = new window.SSWGHProgress.ProgressStore({});
         refreshAnalytics();
@@ -76,17 +76,35 @@
       <div class="hero-grid"><div><div class="eyebrow">JAPAN SSW • AIRPORT OPERATIONS</div><h1>Ground Handling<br><span>Master Command</span></h1>
       <p>Source-traceable study built from the audited official JAEA Ground Handling materials. Study, practice, visuals, terminology and exam simulation in one cockpit-style workspace.</p>
       <div class="hero-actions"><button class="primary" data-route="study">▶ Continue Study</button><button class="secondary" data-route="mcq">MCQ Practice</button><button class="ghost" data-route="real-exam">Timed Exam</button></div></div>
-      <div class="cockpit-card"><div class="radar"><span>✈</span><i></i></div><div class="cockpit-line"><span>CONTENT</span><b>${state.study.length}</b></div><div class="cockpit-line"><span>PRACTICE</span><b>${state.questions.length}</b></div><div class="cockpit-line"><span>VISUALS</span><b>${state.visuals.length}</b></div><div class="cockpit-line"><span>STREAK</span><b>${streak}d</b></div></div></div>
+      <div class="cockpit-card"><div class="radar dashboard-lottie"><dotlottie-player src="./assets/animations/Airplane arrival at airport.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player></div><div class="cockpit-line"><span>CONTENT</span><b>${state.study.length}</b></div><div class="cockpit-line"><span>PRACTICE</span><b>${state.questions.length}</b></div><div class="cockpit-line"><span>VISUALS</span><b>${state.visuals.length}</b></div><div class="cockpit-line"><span>STREAK</span><b>${streak}d</b></div></div></div>
       <div class="dashboard-strip"><div><small>READINESS</small><b>${pct()}%</b><span>MCQ accuracy</span></div><div><small>STUDY</small><b>${seen}/${state.study.length}</b><span>blocks opened</span></div><div><small>EXAMS</small><b>${examSessions}</b><span>${examPassed} passed</span></div><div><small>TIME</small><b>${a?.totals?.study_minutes||0}m</b><span>logged study</span></div></div>
     </section>
     <section class="stats-grid">${statCard(state.study.length,"Verified study blocks","▣")}${statCard(state.questions.length,"Practice questions","✓")}${statCard(state.glossary.length,"Technical terms","文")}${statCard(official,"Official samples","★")}${statCard(examSessions,"Exam sessions","⏱")}${statCard(examPassed,"Exam passes","✓")}</section>
     <section class="section-title"><div><span class="eyebrow">MISSION CONTROL</span><h2>Quick Start</h2></div></section>
-    <section class="quick-grid"><button class="feature-card" data-route="study"><span>▣</span><b>Study Deck</b><small>Verified facts with source traceability</small></button><button class="feature-card" data-route="mcq"><span>✓</span><b>MCQ Practice</b><small>Official samples + source-based practice</small></button><button class="feature-card" data-route="visual-library"><span>◉</span><b>Visual Library</b><small>Official extracted illustrations</small></button><button class="feature-card" data-route="real-exam"><span>⏱</span><b>Real Exam Mode</b><small>Japanese-focused timed simulation</small></button></section>
+    <section class="quick-grid"><button class="feature-card" data-route="study"><span>▣</span><b>Study Deck</b><small>Verified facts with source traceability</small></button><button class="feature-card" data-route="mcq"><span>✓</span><b>MCQ Practice</b><small>Official samples + source-based practice</small></button><button class="feature-card" data-route="visual-library"><span>◉</span><b>Visual Library</b><small>Official extracted illustrations</small></button><button class="feature-card" data-route="real-exam"><span>⏱</span><b>Real Exam Mode</b><small>Japanese-focused timed simulation</small></button><button class="feature-card am-feature" data-route="aircraft-maintenance"><span>✈</span><b>Aircraft Maintenance</b><small>3 audited source books • 196 images</small></button></section>
+    <section class="dashboard-grid animation-dashboard"><article class="card animation-card"><div><span class="eyebrow">ACHIEVEMENTS</span><h3>Earn your next milestone</h3><p class="muted">Your study activity and exam progress are tracked in this workspace.</p><button class="secondary small" data-route="progress">View achievements</button></div><dotlottie-player src="./assets/animations/Trophy.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player></article><article class="card animation-card"><div><span class="eyebrow">TRAVEL PROFILE</span><h3>Ready for your next step</h3><p class="muted">Keep your study journey and readiness in one place.</p><button class="secondary small" data-route="settings">Profile & settings</button></div><dotlottie-player src="./assets/animations/Passports in pink and blue.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player></article></section>
     <section class="dashboard-grid">
       <article class="card progress-card"><div class="row-between"><div><span class="eyebrow">LOCAL LEARNING LOG</span><h3>Your progress</h3></div><strong>${pct()}%</strong></div>${progressBar(pct())}<small>${seen} study blocks opened • ${a?.totals?.mcq_answered || 0} MCQs answered</small></article>
       <article class="card"><span class="eyebrow">WEAK AREAS</span><h3>Focus next</h3>${weak.length?weak.map(w=>`<div class="focus-row"><span>${esc(w.key)}</span><b>${w.accuracy_percent}%</b></div>`).join(""):`<p class="muted">Complete a few practice questions to generate source-linked focus areas.</p>`}</article>
       <article class="card"><span class="eyebrow">LATEST EXAM</span><h3>Session history</h3>${lastExam?`<div class="exam-mini"><b>${esc(lastExam.section||"REAL EXAM")}</b><strong>${lastExam.score_percent}%</strong><small>${esc(lastExam.status||"")} • ${esc(lastExam.answered)}/${esc(lastExam.total)} answered</small></div>`:`<p class="muted">No real exam session recorded yet.</p>`}<button class="secondary small" data-route="progress">Open analytics</button></article>
     </section>`);
+  }
+
+  function aircraftMaintenance() {
+    const books = state.aircraftMaintenance || [];
+    const selected = books.find(b => b.id === state.amBookId);
+    if (!selected) {
+      shell(`<div class="section-title"><div><span class="eyebrow">EXTRA SYLLABUS • AIRCRAFT MAINTENANCE</span><h2>Aircraft Maintenance Library</h2></div><span class="tag">3 source books</span></div>
+        <p class="muted">Original PDFs and extracted images are served from the separately audited SSW-ReadyToFly source repository. Each book remains independent.</p>
+        <section class="am-book-grid">${books.map(b => `<article class="card am-book-card"><div class="am-book-art"><span>✈</span><small>${esc(b.id)}</small></div><div class="eyebrow">EXTRA SYLLABUS</div><h3>${esc(b.title)}</h3><div class="am-book-stats"><span>${esc(b.pdf_pages)} PDF pages</span><span>${esc(b.image_count)} images</span></div><div class="am-audit-line"><b>${esc(b.image_audit.exact_pixel_matches)}</b> exact <span>•</span> <b>${esc(b.image_audit.near_pixel_equivalent)}</b> near</div><button class="primary block" data-am-book="${esc(b.id)}">Open Book →</button><a class="am-source-link" href="${esc(b.pdf_url)}" target="_blank" rel="noopener">Open original PDF</a></article>`).join("")}</section>
+        <article class="card am-master-card"><div><span class="eyebrow">MASTER SOURCE AUDIT</span><h3>All 3 books reconciled</h3><p>196 source images • 188 exact • 8 near-equivalent • 0 missing</p><a href="${esc(books[0]?.image_audit?.audit_url||'#')}" target="_blank" rel="noopener">View Book 1 image audit</a></div><span class="am-master-icon">✓</span></article>`);
+      return;
+    }
+    const gallery = (selected.images || []).map(img => `<figure class="am-image-card"><img src="${esc(img.url)}" alt="${esc(selected.title)} source image ${esc(img.filename)}" loading="lazy"><figcaption>${esc(img.filename)}</figcaption></figure>`).join("");
+    shell(`<button class="ghost back-btn" data-am-back>← All Aircraft Maintenance Books</button><div class="section-title"><div><span class="eyebrow">${esc(selected.id)} • EXTRA SYLLABUS</span><h2>${esc(selected.title)}</h2></div><span class="tag">${esc(selected.image_count)} images</span></div>
+      <div class="am-toolbar"><button class="${state.amView==='pdf'?'primary':'secondary'}" data-am-view="pdf">Source PDF</button><button class="${state.amView==='images'?'primary':'secondary'}" data-am-view="images">Image Library (${esc(selected.image_count)})</button><a class="secondary am-download-link" href="${esc(selected.pdf_url)}" target="_blank" rel="noopener">Open PDF ↗</a></div>
+      ${state.amView==='pdf'?`<section class="card am-pdf-viewer"><iframe src="${esc(selected.pdf_url)}#view=FitH" title="${esc(selected.title)} original PDF" loading="lazy"></iframe></section>`:`<section class="am-image-grid">${gallery}</section>`}
+      <article class="card am-book-footer"><span class="eyebrow">SOURCE INTEGRITY</span><p>Original filenames preserved. Image presence is verified against the source PDF; semantic topic relationships remain pending unless independently confirmed.</p><a href="${esc(selected.image_audit.audit_url)}" target="_blank" rel="noopener">Open this book's image audit ↗</a></article>`,{top:true});
   }
 
   function study() {
@@ -272,7 +290,7 @@
   }
 
   function render(){
-    if (state.route === "study") study(); else if (state.route === "mcq") mcq(); else if (state.route === "official-samples") officialSamples(); else if (state.route === "visual-library") visualLibrary(); else if (state.route === "glossary") glossary(); else if (state.route === "search") searchPage(); else if (state.route === "progress") progress(); else if (state.route === "real-exam") realExam(); else if (state.route === "settings") settings(); else home();
+    if (state.route === "study") study(); else if (state.route === "aircraft-maintenance") aircraftMaintenance(); else if (state.route === "mcq") mcq(); else if (state.route === "official-samples") officialSamples(); else if (state.route === "visual-library") visualLibrary(); else if (state.route === "glossary") glossary(); else if (state.route === "search") searchPage(); else if (state.route === "progress") progress(); else if (state.route === "real-exam") realExam(); else if (state.route === "settings") settings(); else home();
     $$("[data-route]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.route)));
   }
   function playStudyAudio(factId,lang){const block=state.audioStore?.forFact(factId)?.[0]; if(block&&state.audioController) state.audioController.playBlock(block,lang);}
@@ -284,6 +302,9 @@
   function stopStudyAudio(){state.audioController?.stop();}
 
   document.addEventListener("click", e=>{
+    const amBook=e.target.closest("[data-am-book]"); if(amBook){state.amBookId=amBook.dataset.amBook;state.amView="pdf";aircraftMaintenance();return;}
+    if(e.target.closest("[data-am-back]")){state.amBookId=null;aircraftMaintenance();return;}
+    const amView=e.target.closest("[data-am-view]"); if(amView){state.amView=amView.dataset.amView;aircraftMaintenance();return;}
     const ab=e.target.closest("[data-audio]"); if(ab){playStudyAudio(ab.dataset.audio,ab.dataset.lang);return;}
     if(e.target.closest(".audio-stop")){stopStudyAudio();return;}
     const aq=e.target.closest("[data-queue]"); if(aq){queueStudyAudio(aq.dataset.queue);return;}
