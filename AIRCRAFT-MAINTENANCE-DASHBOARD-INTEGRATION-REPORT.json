@@ -2,7 +2,7 @@
   "title": "SSW ReadyToFly – Aircraft Maintenance + Dashboard Integration",
   "repository": "Sihnalahiru/My-GH",
   "branch": "main",
-  "status": "APP CODE AND SOURCE DATA CONNECTED; LOTTIE BINARY ASSET DROP-IN PENDING",
+  "status": "INTEGRATED IN MAIN APP; LOTTIE ASSETS LINKED TO VERIFIED SOURCE REPOSITORY; PROFILE PROGRESS IS DEVICE-LOCAL",
   "app_updates": [
     {
       "path": "index.html",
@@ -76,31 +76,42 @@
     "source_note": "Source PDFs and image assets are referenced from the audited source repository; they have not been copied or renamed in the source repository."
   },
   "lottie_assets": {
-    "expected_paths": [
-      "assets/animations/Airplane arrival at airport.lottie",
-      "assets/animations/Trophy.lottie",
-      "assets/animations/Passports in pink and blue.lottie"
+    "source_repository": "Sihnalahiru/SSW-ReadyToFly",
+    "source_directory": "assets/animations",
+    "verified_files": [
+      {
+        "name": "Airplane arrival at airport.lottie",
+        "size_bytes": 19030,
+        "sha": "3e90eda1f1bc42367cc675f24723244de400897d",
+        "usage": "Welcome / learner profile selection"
+      },
+      {
+        "name": "Passports in pink and blue.lottie",
+        "size_bytes": 18814,
+        "sha": "848371465675be266917cb09167f13fdb2e2b931",
+        "usage": "Section transition loading"
+      },
+      {
+        "name": "Trophy.lottie",
+        "size_bytes": 21113,
+        "sha": "b60b21ce42c910dc9676c9b4acf83bb93bf364e0",
+        "usage": "Dashboard achievement decoration"
+      }
     ],
-    "references_added_to_dashboard": true,
-    "optional_service_worker_cache_added": true,
-    "files_present_in_target_repository": false,
-    "delivery": "My-GH_Lottie_Assets.zip",
-    "next_action": "Extract the supplied Lottie asset ZIP into the My-GH repository root so all three expected paths are populated."
+    "app_strategy": "Loaded from raw.githubusercontent.com source URLs; binary files remain in the source repository and are not duplicated in My-GH.",
+    "references_verified": true
   },
   "validation": {
-    "source_manifest_fetched_and_parsed": true,
-    "book_image_counts_verified": [
-      42,
-      45,
-      109
-    ],
-    "dashboard_route_added": true,
-    "pdf_viewer_added": true,
-    "image_gallery_added": true,
-    "pwa_optional_lottie_cache_added": true,
-    "live_deployment_test": "PENDING",
-    "browser_runtime_test": "PENDING",
-    "lottie_render_test": "PENDING_ASSET_UPLOAD"
+    "source_animation_directory_verified": true,
+    "animation_file_names_and_sizes_verified": true,
+    "animation_urls_added": true,
+    "profile_gate_connected": true,
+    "profile_switch_connected": true,
+    "separate_local_progress_store": true,
+    "javascript_syntax": "CHECKED",
+    "live_cloudflare_deployment": "NOT VERIFIED",
+    "browser_animation_render": "NOT VERIFIED",
+    "d1_multi_user_isolation": "NOT IMPLEMENTED"
   },
   "preservation": [
     "Existing Ground Handling source data and app modules were not replaced.",
@@ -108,5 +119,17 @@
     "Original image filenames are preserved.",
     "Source audit statuses are displayed without treating near matches as exact matches.",
     "No missing semantic/activity mapping was invented."
-  ]
+  ],
+  "profiles": {
+    "selector": [
+      "Male 1",
+      "Male 2",
+      "Female 1"
+    ],
+    "progress_storage": "Separate localStorage key per profile on each device",
+    "legacy_progress_migration": "Existing unscoped progress migrates to Male 1 on first selection if no Male 1 profile store exists",
+    "authentication": "NOT IMPLEMENTED",
+    "cross_device_sync": "NOT IMPLEMENTED",
+    "cloudflare_d1": "NOT CONFIGURED"
+  }
 }
