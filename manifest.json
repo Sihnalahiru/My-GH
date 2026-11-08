@@ -1,7 +1,7 @@
 {
-  "name": "SSW Airport Ground Handling — Master Command",
-  "short_name": "SSW Ground Handling",
-  "description": "Source-traceable Japan SSW Airport Ground Handling exam study PWA.",
+  "name": "SSW Airport Ground Handling & Aircraft Maintenance — Master Command",
+  "short_name": "SSW Master Command",
+  "description": "Source-traceable Japan SSW Airport Ground Handling and Aircraft Maintenance study PWA.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
