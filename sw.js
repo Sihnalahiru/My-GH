@@ -1,4 +1,4 @@
-const CACHE="ssw-gh-master-command-profiles-v3";
+const CACHE="ssw-gh-master-command-profiles-v4";
 const CORE=[
   "./",
   "./index.html",
@@ -150,9 +150,9 @@ const CORE=[
   "./assets/images/official/gh02/gh02_p43_v02.png"
 ];
 const OPTIONAL=[
-  "./assets/animations/Airplane arrival at airport.lottie",
-  "./assets/animations/Trophy.lottie",
-  "./assets/animations/Passports in pink and blue.lottie"
+  "https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/main/assets/animations/Airplane%20arrival%20at%20airport.lottie",
+  "https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/main/assets/animations/Trophy.lottie",
+  "https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/main/assets/animations/Passports%20in%20pink%20and%20blue.lottie"
 ];
 self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE).then(async cache=>{
   await cache.addAll(CORE);
