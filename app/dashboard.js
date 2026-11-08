@@ -16,7 +16,8 @@
     SEARCH: "search",
     PROGRESS: "progress",
     REAL_EXAM: "real-exam",
-    SETTINGS: "settings"
+    SETTINGS: "settings",
+    AIRCRAFT_MAINTENANCE: "aircraft-maintenance"
   });
 
   const NAV_ITEMS = Object.freeze([
@@ -25,6 +26,13 @@
       route: ROUTES.HOME,
       title: "Ground Handling Exam",
       icon: "home",
+      priority: "primary"
+    },
+    {
+      id: "aircraft-maintenance",
+      route: ROUTES.AIRCRAFT_MAINTENANCE,
+      title: "Aircraft Maintenance",
+      icon: "plane",
       priority: "primary"
     },
     {
@@ -296,7 +304,8 @@
       [ROUTES.SEARCH]: "Search",
       [ROUTES.PROGRESS]: "Progress",
       [ROUTES.REAL_EXAM]: "Real Exam Mode",
-      [ROUTES.SETTINGS]: "Settings"
+      [ROUTES.SETTINGS]: "Settings",
+      [ROUTES.AIRCRAFT_MAINTENANCE]: "Aircraft Maintenance"
     };
 
     return {
