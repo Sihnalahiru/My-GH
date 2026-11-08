@@ -6,7 +6,7 @@
     route: location.hash.slice(1) || "home",
     study: [], questions: [], glossary: [], topics: [], visuals: [], audio: null, sources: null,
     audioStore: null, audioController: null, progressStore: null, analytics: null, examSession: null, examTick: null, examPersistedSessionId: null,
-    search: "", mcqIndex: 0, mcqLocked: false, aircraftMaintenance: [], amBookId: null, amView: "pdf"
+    search: "", mcqIndex: 0, mcqLocked: false, aircraftMaintenance: [], amBookId: null, amView: "pdf", activeProfile: null, hasRendered: false
   };
 
   const $ = (s, root = document) => root.querySelector(s);
@@ -16,6 +16,39 @@
   const pct = () => Math.round(analytics()?.totals?.mcq_accuracy_percent || 0);
   function refreshAnalytics(){ state.analytics = state.progressStore && window.SSWGHProgress ? window.SSWGHProgress.buildAnalytics(state.progressStore) : null; return state.analytics; }
   const UI_SETTINGS_KEY = "ssw-gh-ui-settings-v1";
+  const ACTIVE_PROFILE_KEY = "ssw-gh-active-profile-v1";
+  const PROFILES = [
+    { id: "male-1", name: "Male 1", subtitle: "Learner Profile 01", avatar: "👨🏻‍✈️" },
+    { id: "male-2", name: "Male 2", subtitle: "Learner Profile 02", avatar: "👨🏽‍✈️" },
+    { id: "female-1", name: "Female 1", subtitle: "Learner Profile 03", avatar: "👩🏻‍✈️" }
+  ];
+  function getSavedProfile(){ try { const id=localStorage.getItem(ACTIVE_PROFILE_KEY); return PROFILES.find(p=>p.id===id)||null; } catch(_) { return null; } }
+  function activateProfile(profile){
+    if(!profile)return;
+    const oldKey="ssw-gh-progress-v1", profileKey="ssw-gh-progress-v1:"+profile.id;
+    try {
+      if(profile.id==="male-1" && !localStorage.getItem(profileKey)){
+        const legacy=localStorage.getItem(oldKey);
+        if(legacy)localStorage.setItem(profileKey,legacy);
+      }
+      localStorage.setItem(ACTIVE_PROFILE_KEY,profile.id);
+    } catch(_){}
+    state.activeProfile=profile;
+    state.progressStore=window.SSWGHProgress ? new window.SSWGHProgress.ProgressStore({storageKey:profileKey}) : null;
+    refreshAnalytics();
+    render();
+  }
+  function profileGate(){
+    const cards=PROFILES.map(p=>`<button class="profile-choice" data-profile="${p.id}"><span class="profile-avatar">${p.avatar}</span><b>${p.name}</b><small>${p.subtitle}</small><span class="profile-enter">Continue →</span></button>`).join("");
+    $("#app").innerHTML=`<section class="welcome-screen"><div class="welcome-visual"><dotlottie-player src="./assets/animations/Airplane arrival at airport.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player></div><div class="welcome-copy"><span class="eyebrow">JAPAN SSW • AIRPORT OPERATIONS</span><h1>Welcome aboard<br><span>ReadyToFly</span></h1><p>Select your learner profile to enter the Master Command study workspace.</p></div><div class="profile-panel"><div class="profile-panel-heading"><div><span class="eyebrow">LEARNER ACCESS</span><h2>Who is studying today?</h2></div><span class="profile-count">3 PROFILES</span></div><div class="profile-grid">${cards}</div><small class="profile-note">Profiles keep study progress and exam history separate on this device. This is a local profile selector, not password-protected account security.</small></div></section>`;
+    $("[data-profile]").forEach(b=>b.addEventListener("click",()=>{const p=PROFILES.find(x=>x.id===b.dataset.profile);activateProfile(p);}));
+  }
+  function profileSwitch(){
+    const cards=PROFILES.map(p=>`<button class="profile-choice compact ${state.activeProfile?.id===p.id?"selected":""}" data-profile="${p.id}"><span class="profile-avatar">${p.avatar}</span><b>${p.name}</b><small>${p.subtitle}</small></button>`).join("");
+    $("#app").innerHTML=`<section class="profile-switch-screen"><div class="section-title"><div><span class="eyebrow">LEARNER ACCESS</span><h2>Switch Profile</h2></div></div><div class="profile-grid">${cards}</div><button class="secondary" id="cancelProfileSwitch">Cancel</button></section>`;
+    $("[data-profile]").forEach(b=>b.addEventListener("click",()=>{const p=PROFILES.find(x=>x.id===b.dataset.profile);activateProfile(p);}));
+    $("#cancelProfileSwitch").onclick=()=>render();
+  }
   function loadUISettings(){ try { const raw=JSON.parse(localStorage.getItem(UI_SETTINGS_KEY)||"{}"); return { darkMode:raw.darkMode!==false, comfortMode:raw.comfortMode===true, reducedMotion:raw.reducedMotion===true }; } catch(_) { return {darkMode:true,comfortMode:false,reducedMotion:false}; } }
   function saveUISettings(patch){ const next={...loadUISettings(),...patch}; try{localStorage.setItem(UI_SETTINGS_KEY,JSON.stringify(next));}catch(_){} applyUISettings(next); return next; }
   function applyUISettings(s=loadUISettings()){ document.documentElement.classList.toggle("light-mode",!s.darkMode); document.documentElement.classList.toggle("comfort-mode",s.comfortMode); document.documentElement.classList.toggle("reduced-motion",s.reducedMotion); const meta=document.querySelector('meta[name="theme-color"]'); if(meta) meta.setAttribute("content",s.darkMode?"#07111f":"#f4f7fa"); }
@@ -55,6 +88,15 @@
   function shell(content, opts = {}) {
     applyUISettings();
     $("#app").innerHTML = `<div class="page-enter">${content}</div>`;
+    if(state.hasRendered && state.activeProfile){
+      const loader=document.createElement("div");
+      loader.className="section-loading";
+      loader.innerHTML='<dotlottie-player src="./assets/animations/Passports in pink and blue.lottie" background="transparent" speed="1" autoplay></dotlottie-player><span>Loading section…</span>';
+      $("#app").appendChild(loader);
+      setTimeout(()=>loader.classList.add("leaving"),420);
+      setTimeout(()=>loader.remove(),680);
+    }
+    state.hasRendered=true;
     $$("[data-route]").forEach(b => b.classList.toggle("active", b.dataset.route === state.route));
     if (opts.top) window.scrollTo({ top: 0, behavior: "instant" });
   }
