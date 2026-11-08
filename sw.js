@@ -1,4 +1,4 @@
-const CACHE="ssw-gh-final-production-v1";
+const CACHE="ssw-gh-master-command-am-v2";
 const CORE=[
   "./",
   "./index.html",
@@ -16,6 +16,7 @@ const CORE=[
   "./app/progress.js",
   "./app/exam.js",
   "./data/sources.json",
+  "./data/aircraft-maintenance.json",
   "./data/curriculum.json",
   "./data/chapters.json",
   "./data/topics.json",
