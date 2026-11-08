@@ -1,4 +1,4 @@
-const CACHE="ssw-gh-master-command-am-v2";
+const CACHE="ssw-gh-master-command-profiles-v3";
 const CORE=[
   "./",
   "./index.html",
