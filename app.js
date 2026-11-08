@@ -69,8 +69,14 @@
       state.topics = topics.topics || [];
       state.visuals = visuals.assets || [];
       state.audio = audio; state.sources = sources; state.aircraftMaintenance = aircraftMaintenance.books || [];
-      if (window.SSWGHProgress) {
-        state.progressStore = new window.SSWGHProgress.ProgressStore({});
+      state.activeProfile = getSavedProfile();
+      if (state.activeProfile && window.SSWGHProgress) {
+        const profileKey = "ssw-gh-progress-v1:" + state.activeProfile.id;
+        if (state.activeProfile.id === "male-1" && !localStorage.getItem(profileKey)) {
+          const legacy = localStorage.getItem("ssw-gh-progress-v1");
+          if (legacy) localStorage.setItem(profileKey, legacy);
+        }
+        state.progressStore = new window.SSWGHProgress.ProgressStore({ storageKey: profileKey });
         refreshAnalytics();
       }
       if (window.SSWAudio) {
@@ -78,7 +84,7 @@
         state.audioController = new SSWAudio.AudioController();
         state.audioController.on("play", meta => { state.progressStore?.recordAudioPlay({ track:"GROUND_HANDLING", source_id:meta?.source_id||"", fact_id:meta?.fact_id||"", source:"AUDIO", metadata:meta||{} }); refreshAnalytics(); });
       }
-      render();
+      if (state.activeProfile) render(); else profileGate();
     } catch (e) {
       console.error(e);
       $("#app").innerHTML = `<section class="error-screen"><div class="error-icon">⚠</div><h2>Master data could not be loaded</h2><p>Check the application files, service-worker cache, or network connection.</p><button class="primary" onclick="location.reload()">Retry</button></section>`;
@@ -332,6 +338,7 @@
   }
 
   function render(){
+    if (!state.activeProfile) { profileGate(); return; }
     if (state.route === "study") study(); else if (state.route === "aircraft-maintenance") aircraftMaintenance(); else if (state.route === "mcq") mcq(); else if (state.route === "official-samples") officialSamples(); else if (state.route === "visual-library") visualLibrary(); else if (state.route === "glossary") glossary(); else if (state.route === "search") searchPage(); else if (state.route === "progress") progress(); else if (state.route === "real-exam") realExam(); else if (state.route === "settings") settings(); else home();
     $$("[data-route]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.route)));
   }
@@ -344,6 +351,7 @@
   function stopStudyAudio(){state.audioController?.stop();}
 
   document.addEventListener("click", e=>{
+    if(e.target.closest("[data-profile-switch]")){profileSwitch();return;}
     const amBook=e.target.closest("[data-am-book]"); if(amBook){state.amBookId=amBook.dataset.amBook;state.amView="pdf";aircraftMaintenance();return;}
     if(e.target.closest("[data-am-back]")){state.amBookId=null;aircraftMaintenance();return;}
     const amView=e.target.closest("[data-am-view]"); if(amView){state.amView=amView.dataset.amView;aircraftMaintenance();return;}
