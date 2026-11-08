@@ -1,0 +1,112 @@
+{
+  "title": "SSW ReadyToFly – Aircraft Maintenance + Dashboard Integration",
+  "repository": "Sihnalahiru/My-GH",
+  "branch": "main",
+  "status": "APP CODE AND SOURCE DATA CONNECTED; LOTTIE BINARY ASSET DROP-IN PENDING",
+  "app_updates": [
+    {
+      "path": "index.html",
+      "status": "UPDATED",
+      "details": "Added dotLottie player module and Aircraft Maintenance bottom navigation route."
+    },
+    {
+      "path": "app.js",
+      "status": "UPDATED",
+      "details": "Loads data/aircraft-maintenance.json; adds Aircraft Maintenance book library route with original PDF viewer and per-book image gallery; dashboard now displays combined ReadyToFly identity, Aircraft Maintenance book/image counts, and three Lottie player references."
+    },
+    {
+      "path": "app/dashboard.js",
+      "status": "UPDATED",
+      "details": "Adds Aircraft Maintenance route to shared dashboard navigation model."
+    },
+    {
+      "path": "styles.css",
+      "status": "UPDATED",
+      "details": "Adds responsive AM book cards, PDF viewer, image gallery, Lottie dashboard layout and six-item mobile navigation."
+    },
+    {
+      "path": "manifest.json",
+      "status": "UPDATED",
+      "details": "Combined Ground Handling + Aircraft Maintenance app identity."
+    },
+    {
+      "path": "sw.js",
+      "status": "UPDATED",
+      "details": "New cache version; caches Aircraft Maintenance manifest; optional caching for the three Lottie paths without failing installation when assets are not yet present."
+    },
+    {
+      "path": "data/aircraft-maintenance.json",
+      "status": "CREATED",
+      "details": "Exact source PDF URLs and 196 exact image file URLs from SSW-ReadyToFly source repository, separated into AM Books 1, 2 and 3."
+    }
+  ],
+  "aircraft_maintenance_sources": {
+    "repository": "Sihnalahiru/SSW-ReadyToFly",
+    "books": [
+      {
+        "id": "AM1",
+        "title": "Basic Skills",
+        "pdf_pages": 26,
+        "images": 42,
+        "exact": 42,
+        "near": 0
+      },
+      {
+        "id": "AM2",
+        "title": "Occupational Safety and Maintenance Quality",
+        "pdf_pages": 20,
+        "images": 45,
+        "exact": 38,
+        "near": 7
+      },
+      {
+        "id": "AM3",
+        "title": "Airplane General",
+        "pdf_pages": 24,
+        "images": 109,
+        "exact": 108,
+        "near": 1
+      }
+    ],
+    "total_images": 196,
+    "exact_pixel_matches": 188,
+    "near_pixel_equivalent": 8,
+    "unmatched": 0,
+    "missing": 0,
+    "source_note": "Source PDFs and image assets are referenced from the audited source repository; they have not been copied or renamed in the source repository."
+  },
+  "lottie_assets": {
+    "expected_paths": [
+      "assets/animations/Airplane arrival at airport.lottie",
+      "assets/animations/Trophy.lottie",
+      "assets/animations/Passports in pink and blue.lottie"
+    ],
+    "references_added_to_dashboard": true,
+    "optional_service_worker_cache_added": true,
+    "files_present_in_target_repository": false,
+    "delivery": "My-GH_Lottie_Assets.zip",
+    "next_action": "Extract the supplied Lottie asset ZIP into the My-GH repository root so all three expected paths are populated."
+  },
+  "validation": {
+    "source_manifest_fetched_and_parsed": true,
+    "book_image_counts_verified": [
+      42,
+      45,
+      109
+    ],
+    "dashboard_route_added": true,
+    "pdf_viewer_added": true,
+    "image_gallery_added": true,
+    "pwa_optional_lottie_cache_added": true,
+    "live_deployment_test": "PENDING",
+    "browser_runtime_test": "PENDING",
+    "lottie_render_test": "PENDING_ASSET_UPLOAD"
+  },
+  "preservation": [
+    "Existing Ground Handling source data and app modules were not replaced.",
+    "AM Books 1–3 remain separate books with independent PDFs and image folders.",
+    "Original image filenames are preserved.",
+    "Source audit statuses are displayed without treating near matches as exact matches.",
+    "No missing semantic/activity mapping was invented."
+  ]
+}
